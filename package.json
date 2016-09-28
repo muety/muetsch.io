@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "markdown-it": "^8.0.0",
+    "node-watch": "^0.4.0",
     "pug": "^2.0.0-beta6"
   }
 }
