@@ -22,6 +22,19 @@ a svg {
     width: 32px;
 }
 
+.icon-container-lg {
+    width: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+/* TODO: Don't make this hard-coded width */
+.icon-container-lg-outer {
+    margin: auto;
+    width: 312px;
+}
+
 .smaller-text {
     font-size: 0.8em;
 }
@@ -31,8 +44,7 @@ a svg {
     border-radius: 100px;
 }
 
-.vertical-center {
-    min-height: 80vh;
-    display: flex;
+.vertical-top-space {
+    margin-top: 100px;
     align-items: center;
 }
