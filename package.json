@@ -9,6 +9,7 @@
   "author": "Ferdinand Mütsch <mail@ferdinand-muetsch.de>",
   "license": "ISC",
   "devDependencies": {
+    "markdown-it": "^8.0.0",
     "pug": "^2.0.0-beta6"
   }
 }
