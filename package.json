@@ -9,8 +9,10 @@
   "author": "Ferdinand Mütsch <mail@ferdinand-muetsch.de>",
   "license": "ISC",
   "devDependencies": {
+    "connect": "^3.5.0",
     "markdown-it": "^8.0.0",
     "node-watch": "^0.4.0",
-    "pug": "^2.0.0-beta6"
+    "pug": "^2.0.0-beta6",
+    "serve-static": "^1.11.1"
   }
 }

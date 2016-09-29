@@ -37,4 +37,7 @@ const run = (devMode) => {
 
 run();
 
-module.exports = run;
+module.exports = {
+    run: run,
+    OUT_DIR: OUT_DIR
+};
