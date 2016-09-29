@@ -1,3 +1,5 @@
+'use strict';
+
 const pug = require('pug')
     , MarkdownIt = require('markdown-it')
     , md = new MarkdownIt()
@@ -10,22 +12,22 @@ const PAGES_DIR = './src/pages'
 const run = (devMode) => {
     console.log('Compiling...');
 
-    var pugOptions = {
+    let pugOptions = {
         pretty: devMode || false
     };
 
-    var pages = fs.readdirSync('./src/pages');
+    let pages = fs.readdirSync('./src/pages');
 
     pages.forEach((page) => {
-        var page = page.replace('.pug', '');
+        page = page.replace('.pug', '');
 
         /* Compile pug template */
-        var compiledTemplate = pug.renderFile(`${PAGES_DIR}/${page}.pug`, pugOptions);
+        let compiledTemplate = pug.renderFile(`${PAGES_DIR}/${page}.pug`, pugOptions);
 
         try {
             /* Compile related markdown to HTML and replace placeholder in compiled template HTML */
-            var markdown = fs.readFileSync(`${CONTENT_DIR}/${page}.md`, 'utf-8');
-            var compiledMarkdown = md.render(markdown);
+            let markdown = fs.readFileSync(`${CONTENT_DIR}/${page}.md`, 'utf-8');
+            let compiledMarkdown = md.render(markdown);
             compiledTemplate = compiledTemplate.replace('$markdown$', compiledMarkdown);
         }
         catch (e) { }
