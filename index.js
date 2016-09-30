@@ -10,10 +10,12 @@ const pug = require('pug')
     , md = new MarkdownIt()
     , removeMd = require('remove-markdown')
     , fs = require('fs')
+    , utils = require('./utils')
     , _ = require('lodash');
 
 const PAGES_DIR = './src/pages'
-    , OUT_DIR = './dist/src'
+    , ASSETS_DIR = './src/assets'
+    , OUT_DIR = './dist'
     , CONTENT_DIR = './src/content'
     , BLOG_CONTENT_DIR = './src/articles'
     , LAYOUTS_DIR = './src/layouts'
@@ -30,19 +32,25 @@ const run = (devMode) => {
     let articlesFiles = fs.readdirSync(BLOG_CONTENT_DIR);
     let articles = {};
 
+    /* Clear dist dir */
+    utils.deleteFolderRecursiveSync(OUT_DIR);
+    fs.mkdirSync(OUT_DIR, '0755');
+
     /* Compile articles' markdown and build array. */
+    /* Article with lowest prefix (e.g. 0_foo.md) appears on top */
     articlesFiles.forEach((file) => {
         file = file.replace('.md', '');
         let markdown = fs.readFileSync(`${BLOG_CONTENT_DIR}/${file}.md`, 'utf-8');
         let compiledMarkdown = md.render(markdown);
 
-        let title = markdown.substr(0, markdown.indexOf('\n')).replaceAll('#', '');
+        let title = markdown.substr(0, markdown.indexOf('\n')).replaceAll('#', '').trim();
         let snippet = removeMd(markdown.substr(markdown.indexOf('\n') + 1, SNIPPET_LENGTH));
+        let filename = title.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/[ ]/g, '-').replaceAll('--', '-');
 
         let compiledTemplate = pug.renderFile(`${LAYOUTS_DIR}/article.pug`, pugOptions);
         compiledTemplate = compiledTemplate.replace('$markdown$', compiledMarkdown);
-        fs.writeFileSync(`${OUT_DIR}/${file}.html`, compiledTemplate);
-        articles[title] = {link: `${file}.html`, snippet: snippet};
+        fs.writeFileSync(`${OUT_DIR}/${filename}.html`, compiledTemplate);
+        articles[title] = { link: `${filename}.html`, snippet: snippet };
     });
 
     /* Build pages */
@@ -51,7 +59,7 @@ const run = (devMode) => {
         let compiledTemplate;
 
         /* Compile pug template */
-        let opts = page === 'blog' ? _.assign(pugOptions, {articles: articles}) : pugOptions;
+        let opts = page === 'blog' ? _.assign(pugOptions, { articles: articles }) : pugOptions;
         compiledTemplate = pug.renderFile(`${PAGES_DIR}/${page}.pug`, opts);
 
         try {
@@ -65,6 +73,9 @@ const run = (devMode) => {
         /* Write output file */
         fs.writeFileSync(`${OUT_DIR}/${page}.html`, compiledTemplate);
     });
+
+    /* Copy assets */
+    utils.copyFolderRecursiveSync(ASSETS_DIR, OUT_DIR);
 };
 
 run();

@@ -2,8 +2,8 @@ extends ./../layouts/content.pug
 
 block inner-content
     h2 Blog
-    div(class='blog-article-preview')
-        each article, title in articles
+    each article, title in articles
+        div(class='blog-article-preview')
             a(href=article.link)
                 h3= title
             p= article.snippet

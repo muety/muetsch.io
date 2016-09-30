@@ -49,6 +49,10 @@ a svg {
     align-items: center;
 }
 
+.blog-article-preview {
+    margin-bottom: 25px;
+}
+
 .blog-article-preview h3 {
     color: #0275d8;
     margin: 0;
