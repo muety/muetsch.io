@@ -19,7 +19,7 @@ const PAGES_DIR = './src/pages'
     , CONTENT_DIR = './src/content'
     , BLOG_CONTENT_DIR = './src/articles'
     , LAYOUTS_DIR = './src/layouts'
-    , SNIPPET_LENGTH = 200;
+    , SNIPPET_WORD_LENGTH = 30;
 
 const run = (devMode) => {
     console.log('Compiling...');
@@ -44,7 +44,7 @@ const run = (devMode) => {
         let compiledMarkdown = md.render(markdown);
 
         let title = markdown.substr(0, markdown.indexOf('\n')).replaceAll('#', '').trim();
-        let snippet = removeMd(markdown.substr(markdown.indexOf('\n') + 1, SNIPPET_LENGTH));
+        let snippet = removeMd(markdown.substr(markdown.indexOf('\n') + 1).split(' ').slice(0, SNIPPET_WORD_LENGTH).join(' '));
         let filename = title.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/[ ]/g, '-').replaceAll('--', '-');
 
         let compiledTemplate = pug.renderFile(`${LAYOUTS_DIR}/article.pug`, pugOptions);
