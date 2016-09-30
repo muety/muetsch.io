@@ -52,8 +52,22 @@ var deleteFolderRecursiveSync = function(path) {
     }
 };
 
+function formatCodeSnippet(htmlStr) {
+    let outStr = '';
+    let startIndex = htmlStr.indexOf('<code>');
+    let endIndex = htmlStr.indexOf('</code>');
+    if (startIndex === -1) return htmlStr;
+
+    outStr += htmlStr.substr(0, startIndex);
+    let sub = htmlStr.substr(startIndex, (endIndex - startIndex) + 7);
+    outStr += sub.replace(/\n/g, '<br>\n').replace(/ /g, '&nbsp;');
+    outStr += formatCodeSnippet(htmlStr.substr(endIndex + 7));
+    return outStr;
+}
+
 module.exports = {
     copyFileSync: copyFileSync,
     copyFolderRecursiveSync: copyFolderRecursiveSync,
-    deleteFolderRecursiveSync: deleteFolderRecursiveSync
+    deleteFolderRecursiveSync: deleteFolderRecursiveSync,
+    formatCodeSnippet: formatCodeSnippet
 }

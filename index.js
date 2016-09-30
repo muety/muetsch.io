@@ -6,12 +6,11 @@ String.prototype.replaceAll = function(search, replacement) {
 };
 
 const pug = require('pug')
-    , MarkdownIt = require('markdown-it')
-    , md = new MarkdownIt()
     , removeMd = require('remove-markdown')
     , fs = require('fs')
     , utils = require('./utils')
-    , _ = require('lodash');
+    , _ = require('lodash')
+    , md = require('markdown-it')();
 
 const PAGES_DIR = './src/pages'
     , ASSETS_DIR = './src/assets'
@@ -42,6 +41,7 @@ const run = (devMode) => {
         file = file.replace('.md', '');
         let markdown = fs.readFileSync(`${BLOG_CONTENT_DIR}/${file}.md`, 'utf-8');
         let compiledMarkdown = md.render(markdown);
+        compiledMarkdown = utils.formatCodeSnippet(compiledMarkdown);
 
         let title = markdown.substr(0, markdown.indexOf('\n')).replaceAll('#', '').trim();
         let snippet = removeMd(markdown.substr(markdown.indexOf('\n') + 1).split(' ').slice(0, SNIPPET_WORD_LENGTH).join(' '));

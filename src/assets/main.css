@@ -71,6 +71,8 @@ ol {
 
 pre {
     white-space: inherit;
+    text-align: left;
+    word-wrap: break-word;
 }
 
 code {
