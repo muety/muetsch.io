@@ -48,3 +48,13 @@ a svg {
     margin-top: 100px;
     align-items: center;
 }
+
+.blog-article-preview h3 {
+    color: #0275d8;
+    margin: 0;
+}
+
+.blog-article-preview p {
+    padding: 0;
+    margin: 0;
+}

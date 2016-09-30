@@ -1,0 +1,10 @@
+extends ./../layouts/content.pug
+
+block inner-content
+    h2 Blog
+    div(class='blog-article-preview')
+        each article, title in articles
+            a(href=article.link)
+                h3= title
+            p= article.snippet
+                a(href=article.link)  [...]
