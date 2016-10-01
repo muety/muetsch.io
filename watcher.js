@@ -1,3 +1,5 @@
+'use strict';
+
 const watch = require('node-watch')
     , build = require('./index')
     , connect = require('connect')
