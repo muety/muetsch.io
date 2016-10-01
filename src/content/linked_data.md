@@ -1,0 +1,1 @@
+This page is just a work in progress, where I'm experimenting with annotating my website with semantic data using the [schema.org vocabulary](httpa://schema.org).

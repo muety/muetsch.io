@@ -10,6 +10,6 @@ JavaScript, ECMAScript 2015, [TypeScript](https://www.typescriptlang.org/), [Nod
 ), [Angular2](http://angular.io), [Ionic](http://ionicframework.com/
 ), [Cordova](https://cordova.apache.org/
 ), [Selenium](http://www.seleniumhq.org/), [Protractor](http://www.protractortest.org/
-), Java, JUnit, [Spring Boot](http://projects.spring.io/spring-boot/), Android, PHP, PHPUnit, [Slim MVC Framework](http://www.slimframework.com/), [Go](http://golang.org), [Docker](http://docker.com/), MongoDB, SQL, SPARQL, Linked Data, Semantic Web
+), Java, JUnit, [Spring Boot](http://projects.spring.io/spring-boot/), Android, PHP, PHPUnit, [Slim MVC Framework](http://www.slimframework.com/), [Go](http://golang.org), [Docker](http://docker.com/), MongoDB, SQL, SPARQL, [Linked Data](linked_data.html), Semantic Web
 
 If you’re interested in some of my private software projects, check out the [Projects section](/projects.html) or take a look at [my profile on GitHub](https://github.com/n1try). Please also take a look at my [Xing profile](https://www.xing.com/profile/Ferdinand_Muetsch).

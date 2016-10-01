@@ -7,5 +7,9 @@ html(lang='de')
     body
         include ./../includes/navigation.pug
         block content
-        div(class='footer-label')
+        div(class='footer-label-right')
             a(href='imprint.html') imprint
+        
+        div(class='footer-label-left')
+            a(href='assets/foaf.ttl' target='_blank')
+                img(src='assets/img/foaf.svg' width='30px' title='FOAF' alt='friend of a friend')

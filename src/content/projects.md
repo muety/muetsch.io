@@ -2,15 +2,15 @@
 This website is built completely from scratch and focuses on simplicity and efficiency. Consequently it doesn't contain scripts. The entire page is optimized to be as small as possible. It doesn't rely on a backend or database. Instead, I've set up a custom build system using Node.js and NPM scripts to compile, process and bundle, Pug templates and Markdown files down to static HTML. The source code is available on [GitHub](https://github.com/n1try/ferdinand-muetsch.de). 
 
 ### [Webdevlist.net](https://webdevlist.net)
-Webdevlist is a collection of links for (not only web-) developers. You can find cool programming libraries and frameworks, software applications, webservices and *aaS providers as well as learning resources, guides and tutorials all in one place. Users can submit new links if they discover something amazing while recursively browsing the web on a late sunday evening. The project is realized using LoopbackJS in the backend and Angular2 in the Frontend. For further information, see [this blog post](#) or the [GitHub repository](https://github.com/n1try/webdevlist.net).
+Webdevlist is a collection of links for (not only web-) developers. You can find cool programming libraries and frameworks, software applications, webservices and *aaS providers as well as learning resources, guides and tutorials all in one place. Users can submit new links if they discover something amazing while recursively browsing the web on a late sunday evening. The project is realized using LoopbackJS in the backend and Angular2 in the Frontend. For further information, see [this blog post](webdevlistnet-the-developers-resource-collection.html) or the [GitHub repository](https://github.com/n1try/webdevlist.net).
 
 ### [Anchr.io](https://anchr.io)
 Anchr provides users with kind of a toolbox for tiny tasks on the internet. Currently they can upload and share pictures, shorten links for easier sharing and create link collections, which are like a bookmark list that is accessible from everywhere. Awesome features like a message board, a notes book, a poll service and many more are about to come. Additionally there's also a Chrome extension. The project was realized with ExpressJS in the backend and AngularJS in the frontend.
 
-### [Telegram ExpenseBot](#)
+### [Telegram ExpenseBot](telegram-expensebot-doodlerbot.html)
 This bot’s purpose is to help people manage their daily expenses and keep track of their financial situation. Users can add expenses from wherever they are using a few simple commands from within the chat and have an eye on how much they have spent in a month or a day. This obviates the need for confusing Excel spreadsheets or paper notes. You can reach the bot by sending a Message to [@ExpenseBot](https://telegram.me/ExpenseBot) in Telegram.
 
-### [Telegram DoodlerBot](#)
+### [Telegram DoodlerBot](telegram-expensebot-doodlerbot.html)
 My second bot helps users coordinate a group of people and find the right date for a common appointment, just like you might know from doodle.com (even though it doesn’t have anything to do with that commercial service, except for fulfilling the same need). Open a new doodle and let your mates in the group chat vote for their preferred date to finally make the best decision for everyone. You can reach the bot by sending a Message to [@DoodlerBot](https://telegram.me/DoodlerBot) in Telegram. Both the ExpenseBot as well as the DoodlerBot are realized with Node.js and a small, custom-written framework and hosted on my private server.
 
 ### [Platypus expense manager for Android](https://play.google.com/store/apps/details?id=eu.fstln.platypus)

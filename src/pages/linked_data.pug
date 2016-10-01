@@ -1,0 +1,28 @@
+extends ./../layouts/content.pug
+
+block inner-content
+    h2 Linked Data
+    | $markdown$
+
+    div(itemscope itemtype='https://schema.org/Blog')
+        div(itemprop='about' itemscope itemtype='https://schema.org/ComputerLanguage')
+        div(itemprop='inLanguage') en_US
+        div(itemprop='https://schema.org/ComputerLanguage')
+        div(itemprop='author' itemscope itemtype='https://schema.org/Person')
+            div(itemprop='familyName') Mütsch
+            div(itemprop='givenName') Ferdinand
+            div(itemprop='birthDate') 1994-05-02
+            div(itemprop='email') mail@ferdinand-muetsch.de
+            div(itemprop='gender') Male
+            div(itemprop='jobTitle') Student
+            div(itemprop='adress') Vorholzstraße 11, 76137 Karlsruhe, Germany
+            div(itemprop='workLocation' itemscope itemtype='https://schema.org/Place')
+                div(itemprop='address') Karlsruhe
+            div(itemprop='worksFor' itemscope itemtype='https://schema.org/Organization')
+                div(itemprop='name') Inovex GmbH
+                div(itemprop='text') Karlsruhe
+                div(itemprop='url') http://inovex.de
+            div(itemprop='memberOf' itemscope itemtype='https://schema.org/Organization')
+                div(itemprop='name') Karlsruhe Institure Of Technology
+                div(itemprop='text') Karlsruhe
+                div(itemprop='url') http://kit.edu
