@@ -15,7 +15,7 @@ Let’s now assume that you want to migrate mails from your old server with ip *
 
 To perform the migration now, run the following command:
 
-```
+```bash
 ./imapsync --host1 12.34.45.78 --user1 foo@example.org --password1 suchsecret --authmech1 PLAIN --tls1 --host2 98.76.54.32 --user2 foo@example.org --password2 ssshhhhh --authmech2 PLAIN --tls2
 ```
 

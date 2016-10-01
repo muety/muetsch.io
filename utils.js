@@ -60,7 +60,7 @@ function formatCodeSnippet(htmlStr) {
 
     outStr += htmlStr.substr(0, startIndex);
     let sub = htmlStr.substr(startIndex, (endIndex - startIndex) + 7);
-    outStr += sub.replace(/\n/g, '<br>\n').replace(/ /g, '&nbsp;');
+    outStr += sub.replace(/\n/g, '<br>\n').replace(/    /g, '&emsp;');
     outStr += formatCodeSnippet(htmlStr.substr(endIndex + 7));
     return outStr;
 }

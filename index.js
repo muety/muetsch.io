@@ -10,7 +10,21 @@ const pug = require('pug')
     , fs = require('fs')
     , utils = require('./utils')
     , _ = require('lodash')
-    , md = require('markdown-it')();
+    , hljs = require('highlight.js')
+    , md = require('markdown-it')({
+        langPrefix: 'language-html',
+        highlight: function(str, lang) {
+            if (lang && hljs.getLanguage(lang)) {
+                try {
+                    return '<pre class="hljs"><code>' +
+                        hljs.highlight(lang, str, true).value +
+                        '</code></pre>';
+                } catch (__) { }
+            }
+
+            return '<pre class="hljs"><code>' + md.utils.escapeHtml(str) + '</code></pre>';
+        }
+    });
 
 const PAGES_DIR = './src/pages'
     , ASSETS_DIR = './src/assets'
