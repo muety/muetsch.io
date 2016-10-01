@@ -64,9 +64,25 @@ function formatCodeSnippet(htmlStr) {
     return outStr;
 }
 
+function findImageUrlFromMarkdown(mdStr, defaultVal) {
+    let initialIndex = mdStr.indexOf('![');
+    if (initialIndex === -1) return defaultVal;
+
+    let startIndex = mdStr.substr(initialIndex).indexOf('(');
+    let endIndex = mdStr.substr(initialIndex).indexOf(')');
+
+    return mdStr.substr(initialIndex).substr(startIndex + 1, (endIndex - startIndex - 1));
+}
+
+function toTitleCase(str) {
+    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+}
+
 module.exports = {
     copyFileSync: copyFileSync,
     copyFolderRecursiveSync: copyFolderRecursiveSync,
     deleteFolderRecursiveSync: deleteFolderRecursiveSync,
-    formatCodeSnippet: formatCodeSnippet
+    formatCodeSnippet: formatCodeSnippet,
+    findImageUrlFromMarkdown: findImageUrlFromMarkdown,
+    toTitleCase: toTitleCase
 }

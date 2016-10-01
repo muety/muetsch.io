@@ -1,5 +1,8 @@
 extends layout.pug
 
+block head 
+    include ./../includes/head_article.pug
+
 block content
     div(class='box article')
         | $markdown$

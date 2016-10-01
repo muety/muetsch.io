@@ -33,6 +33,9 @@ const PAGES_DIR = './src/pages'
     , CONTENT_DIR = './src/content'
     , BLOG_CONTENT_DIR = './src/articles'
     , LAYOUTS_DIR = './src/layouts'
+    , BASE_URL = 'https://ferdinand-muetsch.de/'
+    , BASE_TITLE = 'Ferdinand Mütsch'
+    , PLACEHOLDER_IMG = 'https://placehold.it/350x150'
     , SNIPPET_WORD_LENGTH = 30;
 
 const run = (devMode) => {
@@ -55,18 +58,33 @@ const run = (devMode) => {
     articlesFiles.forEach((file) => {
         file = file.replace('.md', '');
         let markdown = fs.readFileSync(`${BLOG_CONTENT_DIR}/${file}.md`, 'utf-8');
+        
+        let imageUrl = utils.findImageUrlFromMarkdown(markdown, PLACEHOLDER_IMG);
+        if (imageUrl.indexOf('http://') !== 0) imageUrl = BASE_URL + imageUrl;
+
         let compiledMarkdown = md.render(markdown);
         compiledMarkdown = utils.formatCodeSnippet(compiledMarkdown);
 
         let title = markdown.split('\n')[0].replaceAll('#', '').trim(); // first line
+        let rawDate = moment(markdown.split('\n')[1]).format();
         let date = moment(markdown.split('\n')[1]).format('MMMM DD, YYYY'); // second line
         let snippet = removeMd(markdown.split('\n').slice(2).join('\n').split(' ').slice(0, SNIPPET_WORD_LENGTH).join(' '));
         let filename = title.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/[ ]/g, '-').replaceAll('--', '-');
 
-        let compiledTemplate = pug.renderFile(`${LAYOUTS_DIR}/article.pug`, pugOptions);
+        let article = {
+            link: `${filename}.html`,
+            snippet: snippet,
+            date: date,
+            rawDate: rawDate,
+            title: title,
+            url: BASE_URL + `${filename}.html`,
+            imgUrl: imageUrl
+        };
+
+        let compiledTemplate = pug.renderFile(`${LAYOUTS_DIR}/article.pug`, _.assign(pugOptions, { article: article }));
         compiledTemplate = compiledTemplate.replace('$markdown$', compiledMarkdown);
         fs.writeFileSync(`${OUT_DIR}/${filename}.html`, compiledTemplate);
-        articles[title] = { link: `${filename}.html`, snippet: snippet, date: date};
+        articles[title] = article;
     });
 
     /* Build pages */
@@ -75,7 +93,8 @@ const run = (devMode) => {
         let compiledTemplate;
 
         /* Compile pug template */
-        let opts = page === 'blog' ? _.assign(pugOptions, { articles: articles }) : pugOptions;
+        let meta = { title: `${BASE_TITLE} - ${utils.toTitleCase(page)}`, url: `${BASE_URL}${page}.html` };
+        let opts = page === 'blog' ? _.assign(pugOptions, { articles: articles }) : _.assign(pugOptions, meta);
         compiledTemplate = pug.renderFile(`${PAGES_DIR}/${page}.pug`, opts);
 
         try {
