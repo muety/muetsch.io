@@ -4,7 +4,9 @@ const http = require('http')
     , run = build.run;
 
 http.createServer(function(req, res) {
+    console.log('Got webhook request.');
     if (req.headers['x-github-event'] === 'push') {
+        console.log('Received GitHub push event');
         git.pull('github', 'master', (err) => {
             if (!err) run();
             else console.log(err);

@@ -21,6 +21,7 @@
     "node-watch": "^0.4.0"
   },
   "dependencies": {
+    "highlight.js": "^9.7.0",
     "lodash": "^4.16.2",
     "markdown-it": "^8.0.0",
     "moment": "^2.15.1",
