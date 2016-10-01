@@ -80,6 +80,7 @@ const run = (devMode) => {
             /* Compile related markdown to HTML and replace placeholder in compiled template HTML */
             let markdown = fs.readFileSync(`${CONTENT_DIR}/${page}.md`, 'utf-8');
             let compiledMarkdown = md.render(markdown);
+            compiledMarkdown = utils.formatCodeSnippet(compiledMarkdown);
             compiledTemplate = compiledTemplate.replace('$markdown$', compiledMarkdown);
         }
         catch (e) { }
