@@ -8,11 +8,12 @@ http.createServer(function(req, res) {
     if (req.headers['x-github-event'] === 'push') {
         console.log('Received GitHub push event');
         git.pull('origin', 'master', (err) => {
-            if (!err) run();
-            else console.log(err);
+            if (err) return console.log(err);
+            console.log('Pulled from remote.');
+            run();
+            console.log('Ran build script.');
         });
     }
-
     res.writeHead(200);
     res.end();
 }).listen(3009);
