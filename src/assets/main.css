@@ -69,6 +69,17 @@ ol {
     line-height: 1.8;
 }
 
+ul {
+    font-size: 1.125rem;
+    font-weight: 200;
+    line-height: 1.8;
+}
+
+li {
+    line-height: 1.8;
+    list-style-position: inside;
+}
+
 pre {
     white-space: inherit;
     text-align: left;
