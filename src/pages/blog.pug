@@ -6,5 +6,6 @@ block inner-content
         div(class='blog-article-preview')
             a(href=article.link)
                 h3= title
+            div(class='date-label')= article.date
             p= article.snippet
                 a(href=article.link)  [...]

@@ -23,6 +23,7 @@
   "dependencies": {
     "lodash": "^4.16.2",
     "markdown-it": "^8.0.0",
+    "moment": "^2.15.1",
     "pug": "^2.0.0-beta6",
     "remove-markdown": "^0.1.0"
   }

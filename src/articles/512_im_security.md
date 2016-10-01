@@ -1,4 +1,5 @@
 ## Instant messenger security / encryption overview
+February 01, 2016
 
 I found a very nice page showing an overview of the security features of almost any instant messenger available. Nowadays where digital privacy observation is on everyones lips it is really interesting to see in how far the messengers we use every day are actually secure and who can potentially read or messages or not.
 

@@ -1,4 +1,5 @@
 ## Linux – Cache information bash script
+February 27, 2015
 
 This is a little bash script to get the CPU cache ratios on Ubuntu.
 

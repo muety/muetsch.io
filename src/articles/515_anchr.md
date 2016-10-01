@@ -1,4 +1,5 @@
 ## Anchr.io – Image uploads, bookmarks and shortlink service
+December 01, 2015
 
 I want to present my latest project called [Anchr.io](https://anchr.io). It claims to be a useful little helper or toolbox or the like for common tasks on the internet. The idea arised when someday I considered it useful to have a collection of web links or bookmarks – like those you have in Chrome or Firefox – accessible from everywhere without needing to synchronize your browser profile. Just like if you’re anywhere on an other PC, find a useful article on the internet and want to save it quickly for later at home. This is what Anchr’s **collections** feature does. It saves links – with an optional description for easier search and separated into seperate categories / collections.
 

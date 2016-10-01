@@ -1,4 +1,5 @@
 ## Anchr.io Screencloud script for Windows
+December 14, 2015
 
 Some of you might already use [Screencloud](https://screencloud.net/). For the others, Screencloud is a very nice multi-platform screenshot tool which allows you to capture a selection of your screen and instantly save it to a file or upload it to Dropbox, an FTP server or few other services.  
 I use this tool daily and from now on I can also use it in combination with [Anchr](https://anchr.io). I didn’t want to take the time to write a full Screencloud plugin in Python. Instead I wrote a batch script which can be used with the built-in “Shell script” plugin. To set it up do the following:

@@ -1,4 +1,5 @@
 ## Blank page in Firefox using nginx with SSL
+June 26, 2016
 
 Recently I got the following problem. I have a web application running on my server and an nginx sitting in front of that to handle incoming requests as a reverse proxy. Additionally I configured my nginx to enforce HTTPS by sending a _301 Moved Permanently_ for all requests on port 80, pointing to the HTTPS URL. The config roughly looked like this:
 

@@ -1,4 +1,5 @@
 ## Docker Beta for Windows: Docker.Backend.HyperVException
+May 23, 2016
 
 Docker has recently released a beta version of a new Docker for Windows and Mac. It replaces Docker Machine and basically doesn’t use VirtualBox anymore, but *Hyper-V* or *xhyve* and should therefore be more performant and efficient.
 

@@ -1,4 +1,5 @@
 ## Telegram: ExpenseBot & DoodlerBot
+May 08, 2016
 
 In 2015, the [Telegram](https://telegram.org) messenger announced their [Bots](https://core.telegram.org/bots). Basically they are pieces of software that act like a normal chat user in many ways. They could have any functionality, from being helpful at daily tasks to even simple games or trivias – all within an ordinary Telegram chat. You send them message, they give answers – some more and some less intelligent. Recently, also other companies – like [Facebook](http://techcrunch.com/2016/04/07/facebook-chatbots/) or [Microsoft](https://dev.botframework.com/) – announced such bots for their messaging apps. Sometimes bots are even considered kind of the next step after native (web-) applications in the future.
 

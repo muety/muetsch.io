@@ -1,4 +1,5 @@
 ## How do WhatsApp’s end-to-end encrypted group chats work?
+April 07, 2016
 
 ![WhatsApp_Logo](assets/img/whatsapp_logo.png)
 

@@ -1,4 +1,5 @@
 ## How to make Telegram Bots
+June 28, 2015
 
 Recently [Telegram](http://telegram.org "Telegram") has introduced a new feature, the bots. Basically the bots enable human Telegram users to talk to machines, i.e. customly written little programs. A bot could be a daily helper, be it a bot that you can ask for the current temperature, one that googles something for you, one to manage your todo’s or even a little text based game – everything within the Telegram chat. The nice thing about them is that they’re really simple to create. You can read more about the bots in general here: [https://telegram.org/blog/bot-revolution](https://telegram.org/blog/bot-revolution)
 

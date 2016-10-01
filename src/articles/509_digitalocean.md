@@ -1,4 +1,5 @@
 ## Digitalocean – My preferred Cloud Hosting Provider
+April 06, 2016
 
 ![](assets/img/do.png)
 [DigitalOcean.com](https://digitalocean.com) is a service that offers you on-demand virtual server instances that you can use to host any server application, be it a simple webpage, a Node.js written backend, any Docker container or anything else.

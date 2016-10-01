@@ -10,6 +10,7 @@ const pug = require('pug')
     , fs = require('fs')
     , utils = require('./utils')
     , _ = require('lodash')
+    , moment = require('moment')
     , hljs = require('highlight.js')
     , md = require('markdown-it')({
         langPrefix: 'language-html',
@@ -57,14 +58,15 @@ const run = (devMode) => {
         let compiledMarkdown = md.render(markdown);
         compiledMarkdown = utils.formatCodeSnippet(compiledMarkdown);
 
-        let title = markdown.substr(0, markdown.indexOf('\n')).replaceAll('#', '').trim();
-        let snippet = removeMd(markdown.substr(markdown.indexOf('\n') + 1).split(' ').slice(0, SNIPPET_WORD_LENGTH).join(' '));
+        let title = markdown.split('\n')[0].replaceAll('#', '').trim(); // first line
+        let date = moment(markdown.split('\n')[1]).format('MMMM DD, YYYY'); // second line
+        let snippet = removeMd(markdown.split('\n').slice(2).join('\n').split(' ').slice(0, SNIPPET_WORD_LENGTH).join(' '));
         let filename = title.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/[ ]/g, '-').replaceAll('--', '-');
 
         let compiledTemplate = pug.renderFile(`${LAYOUTS_DIR}/article.pug`, pugOptions);
         compiledTemplate = compiledTemplate.replace('$markdown$', compiledMarkdown);
         fs.writeFileSync(`${OUT_DIR}/${filename}.html`, compiledTemplate);
-        articles[title] = { link: `${filename}.html`, snippet: snippet };
+        articles[title] = { link: `${filename}.html`, snippet: snippet, date: date};
     });
 
     /* Build pages */

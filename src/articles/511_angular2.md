@@ -1,4 +1,5 @@
 ## Learning Angular2: What is new?
+February 17, 2016
 
 ![](assets/img/angular2_logo.png)
 

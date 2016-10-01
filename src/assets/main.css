@@ -97,3 +97,7 @@ code {
     bottom: 10px;
     right: 15px;
 }
+
+.date-label {
+    font-size: 10px;
+}
