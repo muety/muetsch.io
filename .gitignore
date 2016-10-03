@@ -2,3 +2,4 @@ node_modules
 **.html
 .vscode
 dist
+npm-debug.log

@@ -35,6 +35,7 @@ const PAGES_DIR = './src/pages'
     , LAYOUTS_DIR = './src/layouts'
     , BASE_URL = 'https://ferdinand-muetsch.de/'
     , BASE_TITLE = 'Ferdinand Mütsch'
+    , BASE_IMG = 'assets/img/avatar.jpg'
     , PLACEHOLDER_IMG = 'https://placehold.it/350x150'
     , SNIPPET_WORD_LENGTH = 30;
 
@@ -93,7 +94,7 @@ const run = (devMode) => {
         let compiledTemplate;
 
         /* Compile pug template */
-        let meta = { title: `${BASE_TITLE} - ${utils.toTitleCase(page)}`, url: `${BASE_URL}${page}.html` };
+        let meta = { title: `${BASE_TITLE} - ${utils.toTitleCase(page)}`, url: `${BASE_URL}${page}.html`, imgUrl: `${BASE_URL}${BASE_IMG}`};
         let opts = page === 'blog' ? _.assign(pugOptions, { articles: articles }) : _.assign(pugOptions, meta);
         compiledTemplate = pug.renderFile(`${PAGES_DIR}/${page}.pug`, opts);
 
