@@ -67,14 +67,12 @@ ol {
     font-size: 1.125rem;
     font-weight: 200;
     line-height: 1.8;
-    text-align: left;
 }
 
 ul {
     font-size: 1.125rem;
     font-weight: 200;
     line-height: 1.8;
-    text-align: left;
 }
 
 li {
@@ -93,7 +91,7 @@ pre {
 code {
     font-family: Courier;
     color: white;
-    background-color: #999;
+    background-color: #90CFEA;
     padding-left: 5px;
     padding-right: 5px; 
 }
