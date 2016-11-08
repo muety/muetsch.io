@@ -17,4 +17,6 @@ We've used general-purpose web technology, Linked Data techniques, semantic hype
 
 ![](assets/img/thesis_stack.png)
 
-If you got curious and are interested in more details, please just drop me a message, so I can answer your question or send you my work.
+My work is published at the [KITopen repository](https://publikationen.bibliothek.kit.edu/1000061764).
+If you got curious and are interested in more details or in case you have questions or criticism, please feel free to contact me!
+
