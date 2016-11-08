@@ -88,6 +88,10 @@ pre {
     margin-left: 10px;
 }
 
+pre code {
+    background-color: transparent;
+}
+
 code {
     font-family: Courier;
     color: white;
