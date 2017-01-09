@@ -11,7 +11,7 @@ nginx' first release was in 2004 and Apache2's roots even date back to 1995. Of 
 
 Personally I switched from Apache2 to nginx a few months ago mainly because of two reasons. The first one was that I had really been annoyed by [Apache2's extremely high memory overhead](https://help.dreamhost.com/hc/en-us/articles/215945987-Web-server-performance-comparison). The second reason was that Apache2 still didn't have HTTP/2.0 support in 2016.
 
-![Apache2 vs. nginx memory usage](https://objects-us-west-1.dream.io/kbimages/images/Webserver_requests_graph.jpg)
+![Apache2 vs. nginx memory usage](https://objects-us-west-1.dream.io/kbimages/images/Webserver_memory_graph.jpg)
 
 _Apache2 vs. nginx memory usage ([Source](https://help.dreamhost.com/hc/en-us/articles/215945987-Web-server-performance-comparison))_
 
