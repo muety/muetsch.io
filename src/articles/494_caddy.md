@@ -1,6 +1,8 @@
 ## Caddy - a modern web server (vs. nginx)
 January 09, 2017
 
+__Update:__ I'm glad to tell that this article made it to the front page of [Hacker News](https://news.ycombinator.com/news) only a few hours after publication 🤓.
+
 At the time of writing this article the web is effectively powered by three different major web server softwares. A web server, as covered in this article, basically has two purposes. One is to serve static (no dynamic functionality, no backend, no databse, ...) web sites, usually consisting of HTML, JavaScript and CSS plus images etc. The other is to act as a [reverse-proxy](https://en.wikipedia.org/wiki/Reverse_proxy) to web application backends. The three servers I just mentioned have a combined market share of 94.7 % (according to [this statistics](https://w3techs.com/technologies/overview/web_server/all)) and are named [Apache 2](https://httpd.apache.org/) (or _httpd_) (written in C), [nginx](https://www.nginx.com/solutions/web-server/) (say _"engine ex"_) (also written in C) and [Microsoft IIS](https://www.iis.net/) (written in C++). While the first two are platform independent and open-source, the latter is a proprietary, chargeable, Windows-only Microsoft product and therefore more interesting at enterprise level rather than for smaller indie projects. Consequently I won't cover IIS further in the following. 
 
 ![Most popular web servers on the internet](assets/img/webservers.png)
@@ -50,6 +52,10 @@ _Caddy vs. nginx performance comparison_
 
 As you can clearly see, nginx still performs ways better, at least in this very simple scenario. However, Caddy is much more easy to use, in my opinion. Seems like we are having a classical trade-off here. Anyway, you should really give Caddy a try (and I'm not getting paid for this 😉). Concerning memory usage: I didn't observe that in detail, but suprisingly I found that neither the Caddy process nor the sum of nginx worker processes exceeded 10 MB of RAM usage (may I have done something wrong?).
 
+Please note that I only measured one specific figure (concurrent req/s) in one specific scenario. One can think of other benchmark setups where results might be the complete opposite, potentially.
+
 By the way, Apache2 was not included to this benchmark, because I wanted to use HTTP/2.0. Actually in the meantime there is a `mod_http2` for Apache2, but it's not included in the majority of the builds, yet, and to be honest, I didn't want to make an own one. If you're interested in that, you can get a rough idea of Apache2 vs. nginx performance in [this article](https://help.dreamhost.com/hc/en-us/articles/215945987-Web-server-performance-comparison) (spoiler: it's pretty poor).
+
+So to conclude the discussion: Should you use Caddy in preference to nginx or Apache2? For private projects definitely yes, if you ask me. For more _serious_ projects you should probably wait until it's even a little more mature (e.g. when a 1.x.x version is out) and maybe also incorporating dynamic module loading. Until then I'd stick with nginx. Besides that I can't figure out a reason for preferring Apache2 over nginx, except for being too lazy to do the migration.
 
 Please let me know if you liked my article and also if you don't agree with some of my arguments and insights.
