@@ -8,6 +8,7 @@ String.prototype.replaceAll = function(search, replacement) {
 const pug = require('pug')
     , removeMd = require('remove-markdown')
     , fs = require('fs')
+    , path = require('path')
     , utils = require('./utils')
     , _ = require('lodash')
     , moment = require('moment')
@@ -27,12 +28,12 @@ const pug = require('pug')
         }
     });
 
-const PAGES_DIR = './src/pages'
-    , ASSETS_DIR = './src/assets'
-    , OUT_DIR = './dist'
-    , CONTENT_DIR = './src/content'
-    , BLOG_CONTENT_DIR = './src/articles'
-    , LAYOUTS_DIR = './src/layouts'
+const PAGES_DIR = path.normalize(__dirname + '/src/pages')
+    , ASSETS_DIR = path.normalize(__dirname + '/src/assets')
+    , OUT_DIR = path.normalize(__dirname + '/dist')
+    , CONTENT_DIR = path.normalize(__dirname + '/src/content')
+    , BLOG_CONTENT_DIR = path.normalize(__dirname + '/src/articles')
+    , LAYOUTS_DIR = path.normalize(__dirname + '/src/layouts')
     , BASE_URL = 'https://ferdinand-muetsch.de/'
     , BASE_TITLE = 'Ferdinand Mütsch'
     , BASE_IMG = 'assets/img/avatar.jpg'
