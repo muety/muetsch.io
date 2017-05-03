@@ -4,4 +4,4 @@ node_modules
 dist
 npm-debug.log
 public
-db.json
+./db.json
