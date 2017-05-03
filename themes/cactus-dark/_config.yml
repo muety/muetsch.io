@@ -1,0 +1,47 @@
+nav:
+  Home: /
+  About: /about/
+  Blog: /archives/
+  Imprint: /imprint/
+
+customize:
+    gravatar:
+        email: mail@ferdinand-muetsch.de
+    logo:
+        enabled: true
+        width: 50
+        height: 50
+        gravatar: true
+    favicon: 
+      # eg. generate with http://realfavicongenerator.net/
+      desktop:
+        url: /images/favicon-192x192.png
+        gravatar: false
+      android:
+        url: /images/favicon-192x192.png
+        gravator: false
+    social_links:
+        github: http://github.com/n1try
+        twitter: https://twitter.com/n2try
+        xing: https://www.xing.com/profile/Ferdinand_Muetsch
+        telegram: https://telegram.me/n1try
+        envelope-o: mailto:mail@ferdinand-muetsch.de
+    show_all_posts: false
+    post_count: 6
+    highlight: rainbow
+
+# RSS
+rss: false
+
+# Plugins
+plugins:
+    disqus_shortname: # Disqus Comments Shortname
+    google_analytics: UA-3922933-8 # enter the tracking ID for your Google Analytics
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id:
+        fb_admins:
+        twitter_id:
+        google_plus:
