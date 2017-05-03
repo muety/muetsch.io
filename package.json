@@ -1,32 +1,19 @@
 {
-  "name": "ferdinand-muetsch.de",
-  "version": "1.0.0",
-  "description": "My personal webpage and blog.",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "build": "node index.js",
-    "dev": "node watcher.js"
-  },
-  "homepage": "https://ferdinand-muetsch.de",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/n1try/ferdinand-muetsch.de.git"
-  },
-  "author": "Ferdinand Mütsch <mail@ferdinand-muetsch.de>",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "serve-static": "^1.11.1",
-    "connect": "^3.5.0",
-    "node-watch": "^0.4.0"
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "hexo": {
+    "version": "3.3.5"
   },
   "dependencies": {
-    "highlight.js": "^9.7.0",
-    "lodash": "^4.16.2",
-    "markdown-it": "^8.0.0",
-    "moment": "^2.15.1",
-    "pug": "^2.0.0-beta6",
-    "remove-markdown": "^0.1.0",
-    "simple-git": "^1.53.0"
+    "hexo": "^3.2.0",
+    "hexo-generator-archive": "^0.1.4",
+    "hexo-generator-category": "^0.1.3",
+    "hexo-generator-index": "^0.2.0",
+    "hexo-generator-tag": "^0.2.0",
+    "hexo-renderer-ejs": "^0.2.0",
+    "hexo-renderer-stylus": "^0.3.1",
+    "hexo-renderer-marked": "^0.2.10",
+    "hexo-server": "^0.2.0"
   }
 }
