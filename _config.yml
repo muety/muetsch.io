@@ -68,6 +68,6 @@ theme: cactus-dark
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
+  type: git
   repo: https://github.com/n1try/n1try.github.io
   branch: master
