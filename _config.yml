@@ -5,7 +5,7 @@
 # Site
 title: Ferdinand Mütsch
 subtitle: Passionate web developer
-description: Personal website and blog of Ferdinand Mütsch
+description: I'm a M.Sc. student, full-stack web developer and technology enthusiast from Karlsruhe in Germany. My personal webpage is the right place to find out about myself and my project as well as to read about softwre development, DevOps, some machine learning and technology in general.
 author: Ferdinand Mütsch
 language: english
 timezone:	Europe/Berlin
@@ -69,5 +69,5 @@ theme: cactus-dark
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/n1try/ferdinand-muetsch.de
-  branch: hexo
+  repo: https://github.com/n1try/n1try.github.io
+  branch: master

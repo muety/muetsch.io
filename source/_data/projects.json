@@ -1,0 +1,36 @@
+[{
+        "name": "Webdevlist.net",
+        "url": "https://github.com/n1try/webdevlist.net",
+        "desc": "A resource collection for developers containing programming libraries and frameworks, software applications, webservices and *aaS providers as well as learning resources, guides and tutorials all in one place."
+    },
+    {
+        "name": "Anchr.io",
+        "url": "https://github.com/n1try/anchr",
+        "desc": "A toolbox service for maintaining bookmark collections, shortening links and uploading and sharing images encryptedly."
+    },
+    {
+        "name": "express-request-limit",
+        "url": "https://github.com/n1try/express-request-limit",
+        "desc": "Express middleware to limit the request rate to specific routes, based on client IP address."
+    },
+    {
+        "name": "http2-serverpush-proxy",
+        "url": "https://github.com/n1try/http2-serverpush-proxy",
+        "desc": "A simple standalone reverse proxy that automatically enables server-push for assets related to a HTTP response."
+    },
+    {
+        "name": "Telegram ExpenseBot",
+        "url": "https://ferdinand-muetsch.de/telegram-expensebot-doodlerbot.html",
+        "desc": "A Telegram bot to manage your daily expenses and keep track of your financial situation."
+    },
+    {
+        "name": "Telegram DoodlerBot",
+        "url": "https://ferdinand-muetsch.de/telegram-expensebot-doodlerbot.html",
+        "desc": "A Telegram bot to coordinate group appointments written in Node.js"
+    },
+    {
+        "name": "Platypus Expense Manager for Android",
+        "url": "https://play.google.com/store/apps/details?id=eu.fstln.platypus",
+        "desc": "Platyus is an app that enables people to manage their daily expenses in a smart way as well as to share expenses among friends and keep full control of your finances."
+    }
+]
