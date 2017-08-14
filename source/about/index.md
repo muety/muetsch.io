@@ -9,12 +9,14 @@ My interests are – among others – software development, especially in a web-
 
 Currently I'm working as a student employee at [Inovex](http://inovex.de) in Karlsruhe, which is a great place to improve my skills and learn about new things literally every day.
 
-To drop some buzzword here are a few technologies I'm experienced at.
+__My topics__:
+Web Backend, Web Frontend, Machine Learning, Data Analysis, Linked Data / Semantic Web 
 
-JavaScript, ES6, [TypeScript](https://www.typescriptlang.org/), [Node.js](http://nodejs.org), [ExpressJS](http://expressjs.com/), [Pug](https://pugjs.org/api/getting-started.html), [LoopbackJS](http://loopback.io), [AngularJS](https://angularjs.org/
-), [Angular2](http://angular.io), [Ionic](http://ionicframework.com/
-), [Cordova](https://cordova.apache.org/
-), [Selenium](http://www.seleniumhq.org/), [Protractor](http://www.protractortest.org/
-), Java, JUnit, [Spring Boot](http://projects.spring.io/spring-boot/), Android, PHP, PHPUnit, [Slim MVC Framework](http://www.slimframework.com/), [Go](http://golang.org), [Docker](http://docker.com/), MongoDB, SQL, SPARQL, [Linked Data](linked_data.html), Semantic Web
+__My languages:__
+__Programming:__ JavaScript (++++), Java (+++), PHP (++), Go (++), Python (++)
+__Query Languages:__ SPARQL (+++), SQL (++++), GraphQL (++)
+
+__My technologies:__
+[TypeScript](https://www.typescriptlang.org/), [NodeJS](http://nodejs.org), [ExpressJS](http://expressjs.com/), [AngularJS](https://angularjs.org/), [Angular2](http://angular.io), [Ionic](http://ionicframework.com/), [Spring Boot](http://projects.spring.io/spring-boot/), Android SDK, JUnit, [Slim MVC Framework](http://www.slimframework.com/), PHPUnit, [GraphQL](http://graphql.org/) [Scikit-Learn](http://scikit-learn.org/), [Docker](http://docker.com/)
 
 If you’re interested in some of my private software projects, check out the [Projects section](/#projects) or take a look at [my profile on GitHub](https://github.com/n1try). Please also take a look at my [Xing profile](https://www.xing.com/profile/Ferdinand_Muetsch).
