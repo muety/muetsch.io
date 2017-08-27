@@ -1,5 +1,10 @@
 [{
-        "name": "Webdevlist.net",
+        "name": "telegram-middleman-bot",
+        "url": "https://github.com/n1try/telegram-middleman-bot",
+        "desc": "A Telegram bot which translates push messages sent as simple HTTP calls into Telegram messages you can subscribe to. Written in Go."
+    },
+    {
+        "name": "Webdevlist",
         "url": "https://github.com/n1try/webdevlist.net",
         "desc": "A resource collection for developers containing programming libraries and frameworks, software applications, webservices and *aaS providers as well as learning resources, guides and tutorials all in one place."
     },
