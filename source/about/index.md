@@ -3,6 +3,8 @@ title: about
 date: 2017-05-03 22:21:16
 ---
 
+# About
+
 Hey, welcome and thank you for visiting my webpage! My name is Ferdinand Mütsch, I’m 23 years young and currently living in Karlsruhe, Germany. I’m studying [information engineering and management](http://informationswirtschaft.org) which basically is a mixture of 40 % computer science, 40 % economics and 20 % law – at the [Karlsruhe Institute of Technology](http://kit.edu). I just finished my bachelor's thesis at [TECO](http://teco.edu) and now I'm in the first master semester. I’m about to graduate as a Master Of Science by the end of 2018.
 
 My interests are – among others – software development, especially in a web- and mobile context. Additionally I'm also interested in operations, because of which I'm running my own little virtual server to host my applications, webpages and e-mails. I consider myself pretty open-minded and I’m continuously interested in new technology. Currently I’m teaching myself the Golang as well as fundamentals of Machine Learning.
