@@ -16,7 +16,7 @@ Web Backend, Web Frontend, Machine Learning, Data Analysis, Linked Data / Semant
 
 __My languages:__
 __Programming:__ JavaScript (++++), Java (+++), PHP (++), Go (++), Python (++)
-__Query Languages:__ SPARQL (+++), SQL (++++), GraphQL (++)
+__Query Languages:__ SPARQL (++++), SQL (+++), GraphQL (++)
 
 __My technologies:__
 [TypeScript](https://www.typescriptlang.org/), [NodeJS](http://nodejs.org), [ExpressJS](http://expressjs.com/), [AngularJS](https://angularjs.org/), [Angular2](http://angular.io), [Ionic](http://ionicframework.com/), [Spring Boot](http://projects.spring.io/spring-boot/), Android SDK, JUnit, [Slim MVC Framework](http://www.slimframework.com/), PHPUnit, [GraphQL](http://graphql.org/) [Scikit-Learn](http://scikit-learn.org/), [Docker](http://docker.com/)
