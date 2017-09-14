@@ -19,6 +19,6 @@ __Programming:__ JavaScript (++++), Java (+++), PHP (++), Go (++), Python (++)
 __Query Languages:__ SPARQL (++++), SQL (+++), GraphQL (++)
 
 __My technologies:__
-[TypeScript](https://www.typescriptlang.org/), [NodeJS](http://nodejs.org), [ExpressJS](http://expressjs.com/), [AngularJS](https://angularjs.org/), [Angular2](http://angular.io), [Ionic](http://ionicframework.com/), [Spring Boot](http://projects.spring.io/spring-boot/), Android SDK, JUnit, [Slim MVC Framework](http://www.slimframework.com/), PHPUnit, [GraphQL](http://graphql.org/) [Scikit-Learn](http://scikit-learn.org/), [Docker](http://docker.com/)
+[TypeScript](https://www.typescriptlang.org/), [NodeJS](http://nodejs.org), [ExpressJS](http://expressjs.com/), [AngularJS](https://angularjs.org/), [Angular2](http://angular.io), [Ionic](http://ionicframework.com/), [Spring Boot](http://projects.spring.io/spring-boot/), Android SDK, JUnit, [Slim MVC Framework](http://www.slimframework.com/), PHPUnit, [GraphQL](http://graphql.org/), [Scikit-Learn](http://scikit-learn.org/), [Docker](http://docker.com/)
 
 If you’re interested in some of my private software projects, check out the [Projects section](/#projects) or take a look at [my profile on GitHub](https://github.com/n1try). Please also take a look at my [Xing profile](https://www.xing.com/profile/Ferdinand_Muetsch).
