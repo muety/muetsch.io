@@ -1,4 +1,10 @@
-[{
+[
+    {
+        "name": "MiniNote",
+        "url": "https://github.com/n1try/mininote",
+        "desc": "A simple, persistent, self-hosted Markdown note-taking app built with VueJS."
+    },
+    {
         "name": "telegram-middleman-bot",
         "url": "https://github.com/n1try/telegram-middleman-bot",
         "desc": "A Telegram bot which translates push messages sent as simple HTTP calls into Telegram messages you can subscribe to. Written in Go."
@@ -32,10 +38,5 @@
         "name": "Telegram DoodlerBot",
         "url": "https://ferdinand-muetsch.de/telegram-expensebot-doodlerbot.html",
         "desc": "A Telegram bot to coordinate group appointments written in Node.js"
-    },
-    {
-        "name": "Platypus Expense Manager for Android",
-        "url": "https://play.google.com/store/apps/details?id=eu.fstln.platypus",
-        "desc": "Platyus is an app that enables people to manage their daily expenses in a smart way as well as to share expenses among friends and keep full control of your finances."
     }
 ]
