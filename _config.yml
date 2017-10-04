@@ -9,6 +9,7 @@ description: I'm a M.Sc. student, full-stack web developer and technology enthus
 author: Ferdinand Mütsch
 language: english
 timezone:	Europe/Berlin
+pgp: 8026 43D5 EC1F 292A 69D2 8699 21B2 4C0F 6C75 F6CF
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
