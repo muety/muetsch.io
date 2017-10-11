@@ -72,3 +72,7 @@ deploy:
   type: git
   repo: https://github.com/n1try/n1try.github.io
   branch: master
+
+sitemap:
+  path: sitemap.xml
+  template: ./node_modules/hexo-generator-sitemap/sitemap.xml
