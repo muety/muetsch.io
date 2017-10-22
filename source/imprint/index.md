@@ -17,7 +17,7 @@ Germany
 
 ### Contact
 ```
-Telephone: +491629361314
+Telephone: 0️⃣1️⃣7️⃣6️⃣4️⃣5️⃣6️⃣4️⃣1️⃣9️⃣7️⃣4️⃣
 E-Mail: mail@ferdinand-muetsch.de
 Web: www.ferdinand-muetsch.de
 ```
