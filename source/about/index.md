@@ -9,7 +9,7 @@ Hey, welcome and thank you for visiting my webpage! My name is Ferdinand Mütsch
 
 My interests are – among others – software development, especially in a web- and mobile context. Additionally I'm also interested in operations, because of which I'm running my own little virtual server to host my applications, webpages and e-mails. I consider myself pretty open-minded and I’m continuously interested in new technology. Currently I’m teaching myself the Golang as well as fundamentals of Machine Learning.
 
-Currently I'm working as a student employee at [Inovex](http://inovex.de) in Karlsruhe, which is a great place to improve my skills and learn about new things literally every day.
+Currently I'm working as a student employee at [Inovex](http://inovex.de) in Karlsruhe. Additionally, I'm a self-employeed **Freelancer developer** and have participated in realizing software projects for small and mid-sized businesses in the context of Industry 4.0, customer data analytics, corporate intranet solutions and customer self-service platforms. If you're curious about my projects as a Freelancer or interested in working with me, feel free to contact me!
 
 __My topics__:
 Web Backend, Web Frontend, Machine Learning, Data Analysis, Linked Data / Semantic Web 
