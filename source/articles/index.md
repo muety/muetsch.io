@@ -22,7 +22,7 @@ This is a collection of articles, blog posts, scientific papers and other resour
  * [5 Reasons to Use Protocol Buffers Instead of JSON](http://blog.codeclimate.com/blog/2014/06/05/choose-protocol-buffers/)
  * [Understanding Reactive Programming and RxJS](https://auth0.com/blog/understanding-reactive-programming-and-rxjs)
  * [How We Moved Our API From Ruby to Go and Saved Our Sanity](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
- * [10 things I learned making the fastest site in the world](10 things I learned making the fastest site in the world)
+ * [10 things I learned making the fastest site in the world](https://hackernoon.com/10-things-i-learned-making-the-fastest-site-in-the-world-18a0e1cdf4a7#.syz3poebn)
 
 ## Operations & Other
  * [Why aren’t we using SSH for everything?](https://medium.com/@shazow/ssh-how-does-it-even-9e43586e4ffc)
