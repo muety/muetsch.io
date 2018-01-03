@@ -4,7 +4,7 @@ date: 2018-01-03 08:04:08
 tags:
 ---
 
-After having spent a considerable amount of time with it the last weekend, I wanted to make a short comment on [Halite.io](https://halite.io). Halite is a programming- and AI competition where people can write programs or train algorithms to control a bot that plays in a virtual 2D game environment. There is a leaderboard to track how your bot competes with other players' bots and you can watch a replay of every game your bot has played, which helps _debugging_ your bot as well as figuring out other people's strategies. Originally, I got aware of this challenge through a video by [one of my favorite](https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ) YouTube channels and became slightly addicted from that moment on. 
+After having spent a considerable amount of time with it last weekend, I wanted to make a short comment on [Halite.io](https://halite.io). Halite is a programming- and AI competition where people can write programs or train algorithms to control a bot that plays in a virtual 2D game environment. There is a leaderboard to track how your bot competes with other players' bots and you can watch a replay of every game your bot has played, which helps _debugging_ your bot as well as figuring out other people's strategies. Originally, I got aware of this challenge through a video by [one of my favorite](https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ) YouTube channels and became slightly addicted from that moment on. 
 
 ## The Game
 ![](images/halite_game.png)
