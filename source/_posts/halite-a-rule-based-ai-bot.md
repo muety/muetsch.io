@@ -28,6 +28,6 @@ In addition to this compromise-like strategy, I found that more extreme ones can
 Finally I built the __MiningStrategy__. Goal is to maxmimize mining rate right in the beginning. My three ships are immediately docking at the nearest and largest (in terms of how many ships can dock at it) free planet and dock at it. New ships will dock at the same planet until it's full. Doing so, I can quickly produce new ships which then, after the first planet is full, switch over to applying the __BalancedStrategy__. 
 
 ## Results
-Using the bot described above, the best rank I achieved in the leaderboard was __250 of ~ 4500__ (top 6 %) and I'm still ambitious to get even better 😃.
+Using the bot described above, the best rank I achieved in the leaderboard was __250 of ~ 4500__ (top 6 %) and I'm still ambitious to get even better 😃. My bot is playing as [n1try](https://halite.io/user/?user_id=7481).
 
 \>> [Source code on GitHub](https://github.com/n1try/halite-bot-java). 
