@@ -33,10 +33,5 @@
         "name": "Telegram ExpenseBot",
         "url": "https://ferdinand-muetsch.de/telegram-expensebot-doodlerbot.html",
         "desc": "A Telegram bot to manage your daily expenses and keep track of your financial situation."
-    },
-    {
-        "name": "Telegram DoodlerBot",
-        "url": "https://ferdinand-muetsch.de/telegram-expensebot-doodlerbot.html",
-        "desc": "A Telegram bot to coordinate group appointments written in Node.js"
     }
 ]
