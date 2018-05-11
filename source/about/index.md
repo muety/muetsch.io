@@ -15,7 +15,7 @@ __My topics__:
 Full-Stack Web, Mobile, Machine Learning, Data Mining
 
 __My programming languages:__
-JavaScript (++++), Java (+++), Pyhton (+++), TypeScript (++), Go (++), PHP (++), R (+)
+JavaScript (++++), Java (+++), Python (+++), TypeScript (++), Go (++), PHP (++), R (+)
 
 __My technologies:__
 [NodeJS](http://nodejs.org), [ExpressJS](http://expressjs.com/), [AngularJS](https://angularjs.org/), [Angular2](http://angular.io), [Ionic](http://ionicframework.com/), [Spring Boot](http://projects.spring.io/spring-boot/), Android SDK, [GraphQL](http://graphql.org/), [Scikit-Learn](http://scikit-learn.org/), [Docker](http://docker.com/) and many more...
