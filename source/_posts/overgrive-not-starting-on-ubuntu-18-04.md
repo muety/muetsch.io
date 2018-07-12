@@ -16,3 +16,5 @@ The solution was the following. I figured out that overGrive is by default insta
 If pip complains about further missing dependencies while installing one of the above packages, simply `pip install` them, too.
 
 Good luck! And again, thanks to [thefanclub](https://www.thefanclub.co.za/) for this Google Drive sync client.
+
+**EDIT:** After a few days I found that OverGrive did not work well at all, unfortunately. Syncs produced inconsistent states and the client "logged out" randomly after rebooting. Eventually, I set up a [NextCloud](https://nextcloud.com/) and migrated from Google Drive. I was already pleased with NextCloud a few months ago and only switched to GDrive because of Google Docs, but that's not worth the cr****y clients (the official Windows client is not quite better). NextCloud has a great web interface, sync clients for all major platform, a decent Android app and is open-source :-)
