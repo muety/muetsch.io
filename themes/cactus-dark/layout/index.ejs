@@ -51,3 +51,13 @@
   </ul>
 </section>
 <% } %>
+
+<% if (site.data.projects) { %>
+<section id="badges">
+  <div class="badge-container">
+    <% for(var obj in site.data.badges){ %>
+      <img src="<%= site.data.badges[obj] %>">
+    <% } %>
+  </div>
+</section>
+<% } %>
