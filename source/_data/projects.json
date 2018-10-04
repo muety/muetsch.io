@@ -1,5 +1,10 @@
 [
     {
+        "name": "gitcount",
+        "url": "https://github.com/n1try/gitcount",
+        "desc": "A command-line tool to estimate the time spent on a git project, based on a very simple heuristic."
+    },
+    {
         "name": "QuizNerd for Android",
         "url": "https://play.google.com/store/apps/details?id=com.github.n1try.quiznerd",
         "desc": "A multi-player trivia Android game made for developers and IT enthusiasts."
