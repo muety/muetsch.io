@@ -21,7 +21,14 @@ Although I only have a little more than basic knowledge in machine learning, esp
 Please don't take this article too serious. I'm not a machine learning expert or a professional scientist. There might be some mistakes in my methodology or implementation. However, I'd love to hear your thoughts and feedback.
 
 # Approach
-My first (and final) approach was to **(1.) collect face pictures of students** or other academics, **(2.) label them** with a small, limited set of classes, corresponding to their major, and eventually **(3.) fit a convolutional neural net (CNN)** as a classifier. I thought of fields of study, whose students might potentially look a bit stereotypical and came up with four classes: **(1) computer science**, **(2) economics**, **(3)** (German) **linguistics** and **(4) mechanical engineering**. Please note that this is not meant to be offending by any means! (I'm a computer science nerd myself 😉).
+My first (and final) approach was to **(1.) collect face pictures of students** or other academics, **(2.) label them** with a small, limited set of classes, corresponding to their major, and eventually **(3.) fit a convolutional neural net (CNN)** as a classifier. I thought of fields of study, whose students might potentially look a bit stereotypical and came up with four classes:
+
+1. computer science (~ cs)
+2. economics (~ econ)
+3. (German) linguistics (~ german)
+4. mechanical engineering (~ mechanical)
+
+Please note that this is not meant to be offending by any means! (I'm a computer science nerd myself 😉).
 
 # Getting the data
 The very first prerequisite is training data - as usual, when doing machine learning. And since I aimed at training a convolutional neural net (CNN), there should be a lot of data, preferably.
@@ -267,10 +274,10 @@ To get better insights on how the model performs, I briefly inspected it with re
 ## Class distribution
 The first thing I looked at was the class distribution. How are the four study major subjects represented in our data and what does the model predict?
 
-cs | econ | german | mechanical
-- | - | - | -
-0.2510 | 0.2808 | 0.2127 | 0.2553
-0.2595 | 0.2936 | 0.1361 | 0.3106
+ | cs | econ | german | mechanical
+- | - | - | - | -
+*real* | 0.2510 | 0.2808 | 0.2127 | 0.2553
+*pred* | 0.2595 | 0.2936 | 0.1361 | 0.3106
 
 Apparently, the model neglects the class of _german linguists_ a bit. That is also the class for which we have the least training data. Probably I should collect more.
 
