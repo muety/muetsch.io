@@ -5,8 +5,7 @@ tags:
 ---
 
 # The Idea
-A few months ago I read a paper with the title ["
-Deep Neural Networks Are More Accurate Than Humans at Detecting Sexual Orientation From Facial Images"](https://www.gsb.stanford.edu/faculty-research/publications/deep-neural-networks-are-more-accurate-humans-detecting-sexual), which caused a lot of [controversy](https://news.ycombinator.com/item?id=15198997). While I don't want to comment on the methodology and quality of the paper (that was already done, e.g. in [an article by Jeremy Howard](https://www.fast.ai/2017/09/13/kosinski/)), I found it very interesting and inspiring. In a nutshell, the researchers collected face pictures from dating websites and built a machine learning model to classify people's sexual orientation and reached quite an impressive accuracy with their approach.
+A few months ago I read a paper with the title ["Deep Neural Networks Are More Accurate Than Humans at Detecting Sexual Orientation From Facial Images"](https://www.gsb.stanford.edu/faculty-research/publications/deep-neural-networks-are-more-accurate-humans-detecting-sexual), which caused a lot of [controversy](https://news.ycombinator.com/item?id=15198997). While I don't want to comment on the methodology and quality of the paper (that was already done, e.g. in [an article by Jeremy Howard](https://www.fast.ai/2017/09/13/kosinski/)), I found it very interesting and inspiring. In a nutshell, the researchers collected face pictures from dating websites and built a machine learning model to classify people's sexual orientation and reached quite an impressive accuracy with their approach.
 
 [This guest post](https://scatter.wordpress.com/2017/09/10/guest-post-artificial-intelligence-discovers-gayface-sigh/) summarizes the results as: 
 
