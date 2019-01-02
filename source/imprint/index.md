@@ -1,6 +1,6 @@
 ---
 title: imprint
-date: 2017-05-03 22:30:32
+date: 2019-01-02 08:46:32
 ---
 
 # Imprint
@@ -18,8 +18,8 @@ Germany
 ### Contact
 ```
 Telephone: 0️⃣1️⃣7️⃣6️⃣4️⃣5️⃣6️⃣4️⃣1️⃣9️⃣7️⃣4️⃣
-E-Mail: mail@ferdinand-muetsch.de
-Web: www.ferdinand-muetsch.de
+E-Mail: ferdinand@muetsch.io
+Web: www.muetsch.io
 ```
 
 ### Disclaimer
@@ -44,7 +44,7 @@ Your personal data (e.g. title, name, house address, e-mail address, phone numbe
 (2) You can prevent storage of cookies by choosing a "disable cookies" option in your browser settings. But this can limit the functionality of our Internet offers as a result.
 
 #### Disclosure
-According to the Federal Data Protection Act, you have a right to free-of-charge information about your stored data, and possibly entitlement to correction, blocking or deletion of such data. Inquiries can be directed to the following e-mail addresses: ( [mail@ferdinand-muetsch.de](mailto:mail@ferdinand-muetsch.de) )
+According to the Federal Data Protection Act, you have a right to free-of-charge information about your stored data, and possibly entitlement to correction, blocking or deletion of such data. Inquiries can be directed to the following e-mail addresses: ( [ferdinand@muetsch.io](mailto:ferdinand@muetsch.io) )
 
 Source: [twiggs translations](http://www.twigg.de/)
 
