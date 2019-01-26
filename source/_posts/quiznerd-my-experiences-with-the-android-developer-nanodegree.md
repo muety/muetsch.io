@@ -1,5 +1,5 @@
 ---
-title: QuizNerd - My experiences with the Android Developer Nanodegree
+title: My experiences with the Android Developer Nanodegree
 date: 2019-01-26 09:01:50
 tags:
 ---
@@ -46,6 +46,8 @@ The final project consists of two parts. First, you have to submit a design prop
 
 # QuizNerd
 At that time I had a few coding interviews, so I came to the idea to implement a multi-player coding quiz game as a final project. Although that was probably a more comprehensive project than most of the others, I still wanted to do it, especially because it was an app I really wanted to have for myself, not only for the Nanodegree. 
+
+![](images/qn_icon.png)
 
 I spent approximately two weeks of nearly full-time coding on that final project and finally came up with my app called QuizNerd. It is implemented in pure Android (using Java) without any structural frameworks (e.g. like [Dagger](http://square.github.io/dagger/)) and uses Google's [Firebase](https://firebase.google.com/) as a backend. More precisely I used Firebase Authentication for user management, [Firestore](https://firebase.google.com/docs/firestore/) as a real-time document database, FCM for notifications and and Firebase [Cloud Functions](https://firebase.google.com/docs/functions/) as a Serverless framework for backend-side logic. 
 
