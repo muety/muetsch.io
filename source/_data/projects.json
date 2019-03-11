@@ -1,5 +1,10 @@
 [
     {
+        "name": "Anchr for Android",
+        "url": "https://github.com/n1try/anchr-android",
+        "desc": "An Android app, build with Dart and Flutter, to manage links and bookmarks using Anchr.io on your mobile device."
+    },
+    {
         "name": "gitcount",
         "url": "https://github.com/n1try/gitcount",
         "desc": "A command-line tool to estimate the time spent on a git project, based on a very simple heuristic."
