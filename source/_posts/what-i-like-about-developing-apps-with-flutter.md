@@ -4,7 +4,7 @@ date: 2019-03-11 08:45:20
 tags:
 ---
 
-After hearing about [Flutter](https://flutter.dev) by [Matt Carroll](https://twitter.com/@flttry) and [Abraham Williams](https://twitter.com/abraham) at the [SFHTML5 Meetup](https://www.meetup.com/de-DE/sfhtml5/events/256523273/) in San Francisco a few weeks ago, I decided to give it a try.
+After hearing about [Flutter](https://flutter.dev) by [Matt Carroll](https://twitter.com/@flttry) and [Abraham Williams](https://twitter.com/abraham) at the [SFHTML5 Meetup](https://www.meetup.com/de-DE/sfhtml5/events/256523273/) hosted by Google in San Francisco a few weeks ago, I decided to give it a try. I developed a little a small [bookmark manager](https://github.com/n1try/anchr-android) app for Android while attempting to learn Flutter.
 
 # What is Flutter?
 Flutter is an open-source framework for developing cross-platform mobile apps. Or in their own words it ...
