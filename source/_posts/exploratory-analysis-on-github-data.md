@@ -2,6 +2,7 @@
 title: Exploratory Analysis on GitHub Data
 date: 2019-04-11 21:00:59
 tags:
+image: images/gh_location_langs.png
 ---
 
 # Background
@@ -45,7 +46,7 @@ df_top_langs = pd.read_sql_query('''
 df_top_langs.set_index('LanguageName').plot.bar(figsize=(12,8))
 ```
 
-![](images/gh_popular_langs.png)
+![](images/gh_popular_lang.png)
 
 Not too surprisingly, the typical web stack consisting of JavaScript, HTML and CSS, is among the most popular programming languages, according to how often they appear in repositories.
 
