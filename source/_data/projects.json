@@ -1,5 +1,10 @@
 [
     {
+        "name": "Wakapi",
+        "url": "https://github.com/n1try/wakapi",
+        "desc": "A minimalistic, self-hosted WakaTime-compatible backend for coding statistics written in Go."
+    },
+    {
         "name": "Milly App",
         "url": "https://millyapp.de",
         "desc": "Milly is a project to support digitization in German schools. The Quiz game is designed for students to practive their knowledge in a fun and competitive way."
@@ -38,16 +43,6 @@
         "name": "Anchr.io",
         "url": "https://github.com/n1try/anchr",
         "desc": "A toolbox service for maintaining bookmark collections, shortening links and uploading and sharing images encryptedly."
-    },
-    {
-        "name": "express-request-limit",
-        "url": "https://github.com/n1try/express-request-limit",
-        "desc": "Express middleware to limit the request rate to specific routes, based on client IP address."
-    },
-    {
-        "name": "http2-serverpush-proxy",
-        "url": "https://github.com/n1try/http2-serverpush-proxy",
-        "desc": "A simple standalone reverse proxy that automatically enables server-push for assets related to a HTTP response."
     },
     {
         "name": "Telegram ExpenseBot",
