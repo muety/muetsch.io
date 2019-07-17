@@ -24,6 +24,6 @@ The following brokers were tested.
 | RabbitMQ  | Erlang     | 3.7.4   | –             | enabled_plugins=[rabbitmq_management, rabbitmq_management_agent, rabbitmq_management_visualiser, rabbitmq_shovel_management, rabbitmq_stomp, rabbitmq_mqtt, rabbitmq_web_stomp, rabbitmq_web_mqtt] |
 
 ## Results
-These are the results that I obstained. Higher is better.
+These are the results that I obtained. Higher is better.
 
 ![MQTT benchmark results](images/mqtt_bench.png)
