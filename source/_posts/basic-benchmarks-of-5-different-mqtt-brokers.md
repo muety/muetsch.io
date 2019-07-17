@@ -21,7 +21,7 @@ The following brokers were tested.
 | HiveMQ CE | Java       | 2019.1  | Oracle JDK 12 | –                                                                                                                                                                                           |
 | Mosca     | JavaScript | 2.8.1   | Node 4.8.0    | –                                                                                                                                                                                           |
 | Mosquitto | C          | 1.6.3   | –             | –                                                                                                                                                                                           |
-| RabbitMQ  | Erlang     | 3.7.4   | –             | enabled_plugins=[rabbitmq_management,rabbitmq_management_agent,rabbitmq_management_visualiser,rabbitmq_shovel_management,rabbitmq_stomp,rabbitmq_mqtt,rabbitmq_web_stomp,rabbitmq_web_mqtt] |
+| RabbitMQ  | Erlang     | 3.7.4   | –             | enabled_plugins=[rabbitmq_management, rabbitmq_management_agent, rabbitmq_management_visualiser, rabbitmq_shovel_management, rabbitmq_stomp, rabbitmq_mqtt, rabbitmq_web_stomp, rabbitmq_web_mqtt] |
 
 ## Results
 These are the results that I obstained. Higher is better.
