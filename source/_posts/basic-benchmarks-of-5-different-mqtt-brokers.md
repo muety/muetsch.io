@@ -15,15 +15,16 @@ In the context of my Master's thesis I conducted a very basic performance compar
 ## Brokers
 The following brokers were tested.
 
-| Broker    | Written In | Version | Runtime       | Additional Info                                                                                                                                                                             |
-|-----------|------------|---------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| hbmqtt    | Python     | 0.9     | CPython 3.6   | –                                                                                                                                                                                           |
-| HiveMQ CE | Java       | 2019.1  | Oracle JDK 12 | –                                                                                                                                                                                           |
-| Mosca     | JavaScript | 2.8.1   | Node 4.8.0    | –                                                                                                                                                                                           |
-| Mosquitto | C          | 1.6.3   | –             | –                                                                                                                                                                                           |
-| RabbitMQ  | Erlang     | 3.7.4   | –             | enabled_plugins=[rabbitmq_management, rabbitmq_management_agent, rabbitmq_management_visualiser, rabbitmq_shovel_management, rabbitmq_stomp, rabbitmq_mqtt, rabbitmq_web_stomp, rabbitmq_web_mqtt] |
+| Broker        | Written In | Version | Runtime         | Additional Info                                                                                                                                                                             |
+|---------------|------------|---------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| hbmqtt        | Python     | 0.8     | CPython 3.6     | –                                                                                                                                                                                           |
+| hbmqtt (PyPy) | Python     | 0.8     | PyPy 3.6 v7.1.1 | –                                                                                                                                                                                           |n1
+| HiveMQ CE     | Java       | 2019.1  | Oracle JDK 12   | –                                                                                                                                                                                           |
+| Mosca         | JavaScript | 2.8.1   | Node 4.8.0      | –                                                                                                                                                                                           |
+| Mosquitto     | C          | 1.6.3   | –               | –                                                                                                                                                                                           |
+| RabbitMQ      | Erlang     | 3.7.4   | –               | enabled_plugins=[rabbitmq_management, rabbitmq_management_agent, rabbitmq_management_visualiser, rabbitmq_shovel_management, rabbitmq_stomp, rabbitmq_mqtt,rabbitmq_web_stomp, rabbitmq_web_mqtt] |
 
 ## Results
 These are the results that I obtained. Higher is better.
 
-![MQTT benchmark results](images/mqtt_bench.png)
+![MQTT benchmark results](images/mqtt_bench_2.png)
