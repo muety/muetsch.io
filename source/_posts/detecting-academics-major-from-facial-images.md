@@ -116,7 +116,7 @@ In addition, I wrote a script that parses `autocrop.log` to get the failed image
 ## Approach 1: Simple, custom CNN
 
 **Code**
-* [custom_model.ipynb](html/custom_model.html)
+* [custom_model.ipynb](https://gist.github.com/n1try/78bf6d7929e4facd199ad0ffea0b3ad9)
 
 
 I decided to start simple and see if anything can be learned from the data at all. I defined the following simple CNN architecture in Keras: 
@@ -160,8 +160,8 @@ The maximum **validation accuracy of 0.66** was reached after 74 epochs. **Test 
 ## Approach 2: Fine-tuning VGGFace
 
 **Code**
-* [vggfaces_bottleneck_model.ipynb](html/vggfaces_bottleneck_model.html)
-* [vggfaces_finetuned_model.ipynb](html/vggfaces_finetuned_model.html)
+* [vggfaces_bottleneck_model.ipynb](https://gist.github.com/n1try/a079dcb27d921d58323c9574152b2c2d)
+* [vggfaces_finetuned_model.ipynb]([html/vggfaces_finetuned_model.html](https://gist.github.com/n1try/c3b9e9401f178807c91ad890a6c67e18))
 
 
 As an alternative to a simple, custom-defined CNN model, that is trained from scratch, I wanted to follow the common approach of fine-tuning the weights of an existing, pre-trained model. The basic idea of such an approach is to not "re-invent the wheel", but take advantage of what was already learned before and only slightly adapt that "knowledge" (in form of weights) to a certain problem. Latent features in images, which a learning algorithm had already extracted from a giant set of training data before, can just be leveraged. ["Image Classification using pre-trained models in Keras"](https://www.learnopencv.com/keras-tutorial-using-pre-trained-imagenet-models/) gives an excellent overview of how **fine-tuning** works and how it is different from **transfer learning** and custom models. Expectations are that my given classification problem can be solved more accurately with less data. 
@@ -269,7 +269,7 @@ The maximum **validation accuracy of 0.64** was reached after 38 epochs already.
 To get better insights on how the model performs, I briefly inspected it with regards to several criteria. This is a short summary of my finding. 
 
 ## Code
-* [inspection.ipynb](html/inspection.html) 
+* [inspection.ipynb](https://gist.github.com/n1try/404befcfb2eef4b59398f3c8590ce692) 
 
 ## Class distribution
 The first thing I looked at was the class distribution. How are the four study major subjects represented in our data and what does the model predict?
