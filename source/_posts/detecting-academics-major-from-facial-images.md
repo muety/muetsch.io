@@ -161,7 +161,7 @@ The maximum **validation accuracy of 0.66** was reached after 74 epochs. **Test 
 
 **Code**
 * [vggfaces_bottleneck_model.ipynb](https://gist.github.com/n1try/a079dcb27d921d58323c9574152b2c2d)
-* [vggfaces_finetuned_model.ipynb]([html/vggfaces_finetuned_model.html](https://gist.github.com/n1try/c3b9e9401f178807c91ad890a6c67e18))
+* [vggfaces_finetuned_model.ipynb](https://gist.github.com/n1try/c3b9e9401f178807c91ad890a6c67e18)
 
 
 As an alternative to a simple, custom-defined CNN model, that is trained from scratch, I wanted to follow the common approach of fine-tuning the weights of an existing, pre-trained model. The basic idea of such an approach is to not "re-invent the wheel", but take advantage of what was already learned before and only slightly adapt that "knowledge" (in form of weights) to a certain problem. Latent features in images, which a learning algorithm had already extracted from a giant set of training data before, can just be leveraged. ["Image Classification using pre-trained models in Keras"](https://www.learnopencv.com/keras-tutorial-using-pre-trained-imagenet-models/) gives an excellent overview of how **fine-tuning** works and how it is different from **transfer learning** and custom models. Expectations are that my given classification problem can be solved more accurately with less data. 
