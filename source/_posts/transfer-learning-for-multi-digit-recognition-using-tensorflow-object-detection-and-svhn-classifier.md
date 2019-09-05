@@ -7,7 +7,7 @@ tags:
 (Dublin City Marathon 2016, {% link Source https://commons.wikimedia.org/wiki/File:Dublin_City_Marathon_2006_(283653500).jpg Wikimedia Commons %})
 
 # Introduction
-This summer I attended a charity run in my home town, where each of the 6,000 runners was assigned a certain bib number to wear on their shirts for time tracking purposes. During the run, several photographers took pictures of each runner, which were made available online afterward. To find oneself among tens of thousands of pictures, the web portal offered an option to search by one's bib number. However, the images are tagged manually by volunteer users, so only a very small fraction of all photos was actually searchable by number.
+This summer I attended a run in my home town, where each of the 6,000 runners was assigned a certain bib number to wear on their shirt for time tracking. During the run, several photographers took pictures of each runner, which were made available online afterward. To find oneself among tens of thousands of pictures, the web portal offered an option to search by one's bib number. However, the images are tagged manually by volunteer users, so only a very small fraction of all photos was actually searchable by number.
 
 I wondered if this might not be a perfectly suitable task for machine learning-based image processing and so I took it as a challenge to build a system that automatically tags pictures with the bib numbers they contain.
 
