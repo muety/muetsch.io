@@ -17,7 +17,7 @@ My first goal was to just have a little program that allows me to **control the 
 
 # First Prototype
 
-![](https://anchr.io/i/mWvTN.png)
+![](images/tello2.png)
 
 After tinkering for two hours (and having my poor drone hit the wall several times), I got a basic program that:
  - **connects** to the drone
