@@ -70,7 +70,7 @@ if currentControl == keyboard.A {
         drone.Left(intensity)
     }
 // [...]
-} else if cc == keyboard.ArrowRight {
+} else if currentControl == keyboard.ArrowRight {
     fmt.Println("Rotating clockwise.")
     if !dry {
         drone.Clockwise(intensity)
