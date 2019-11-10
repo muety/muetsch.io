@@ -16,10 +16,10 @@ customize:
     favicon: 
       # eg. generate with http://realfavicongenerator.net/
       desktop:
-        url: /images/favicon-192x192.png
+        url: /images/favicon.png
         gravatar: false
       android:
-        url: /images/favicon-192x192.png
+        url: /images/favicon.png
         gravator: false
     social_links:
         github: http://github.com/n1try
