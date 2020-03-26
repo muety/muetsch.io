@@ -1,13 +1,13 @@
 [
     {
+        "name": "🐙 KITSquid",
+        "url": "https://kitsquid.de",
+        "desc": "KITSquid is an independent, alternative course catalog for KIT students, including course recommendations and other community features. Open-source and written in Go."
+    },
+    {
         "name": "Wakapi",
         "url": "https://github.com/n1try/wakapi",
         "desc": "A minimalistic, self-hosted WakaTime-compatible backend for coding statistics written in Go."
-    },
-    {
-        "name": "Milly App",
-        "url": "https://millyapp.de",
-        "desc": "Milly is a project to support digitization in German schools. The Quiz game is designed for students to practive their knowledge in a fun and competitive way."
     },
     {
         "name": "Anchr for Android",
