@@ -6,47 +6,47 @@
     },
     {
         "name": "Wakapi",
-        "url": "https://github.com/n1try/wakapi",
+        "url": "https://github.com/muety/wakapi",
         "desc": "A minimalistic, self-hosted WakaTime-compatible backend for coding statistics written in Go."
     },
     {
         "name": "Anchr for Android",
-        "url": "https://github.com/n1try/anchr-android",
+        "url": "https://github.com/muety/anchr-android",
         "desc": "An Android app, build with Dart and Flutter, to manage links and bookmarks using Anchr.io on your mobile device."
     },
     {
         "name": "gitcount",
-        "url": "https://github.com/n1try/gitcount",
+        "url": "https://github.com/muety/gitcount",
         "desc": "A command-line tool to estimate the time spent on a git project, based on a very simple heuristic."
     },
     {
         "name": "QuizNerd for Android",
-        "url": "https://play.google.com/store/apps/details?id=com.github.n1try.quiznerd",
+        "url": "https://play.google.com/store/apps/details?id=com.github.muety.quiznerd",
         "desc": "A multi-player trivia Android game made for developers and IT enthusiasts."
     },
     {
         "name": "MiniNote",
-        "url": "https://github.com/n1try/mininote",
+        "url": "https://github.com/muety/mininote",
         "desc": "A simple, persistent, self-hosted Markdown note-taking app built with VueJS."
     },
     {
         "name": "telegram-middleman-bot",
-        "url": "https://github.com/n1try/telegram-middleman-bot",
+        "url": "https://github.com/muety/telegram-middleman-bot",
         "desc": "A Telegram bot which translates push messages sent as simple HTTP calls into Telegram messages you can subscribe to. Written in Go."
     },
     {
         "name": "Webdevlist",
-        "url": "https://github.com/n1try/webdevlist.net",
+        "url": "https://github.com/muety/webdevlist.net",
         "desc": "A resource collection for developers containing programming libraries and frameworks, software applications, webservices and *aaS providers as well as learning resources, guides and tutorials all in one place."
     },
     {
         "name": "Anchr.io",
-        "url": "https://github.com/n1try/anchr",
+        "url": "https://github.com/muety/anchr",
         "desc": "A toolbox service for maintaining bookmark collections, shortening links and uploading and sharing images encryptedly."
     },
     {
         "name": "Telegram ExpenseBot",
-        "url": "https://ferdinand-muetsch.de/telegram-expensebot-doodlerbot.html",
+        "url": "https://muetsch.io/telegram-expensebot-doodlerbot.html",
         "desc": "A Telegram bot to manage your daily expenses and keep track of your financial situation."
     }
 ]

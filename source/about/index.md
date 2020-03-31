@@ -28,4 +28,4 @@ Java (★★★★), JavaScript (★★★), Python (★★★), Scala (★★),
 [Spring](http://projects.spring.io/spring-boot/), [Android SDK](https://developer.android.com), [Flutter](https://flutter.dev/), [NodeJS](http://nodejs.org), [VueJS](https://vuejs.org), [Scikit-Learn](https://scikit-learn.org/), [Keras](https://keras.io), [Docker](https://docker.com/), [Terraform](https://www.terraform.io/) and many more...
 
 ## My Social Networks
-If you are interested in some of my projects, take a look at the [Projects](/#projects) section or review my profile on [GitHub](https://github.com/n1try). Please also have a look at my [LinkedIn](https://www.linkedin.com/in/ferdinand-m%C3%BCtsch/) profile.
+If you are interested in some of my projects, take a look at the [Projects](/#projects) section or review my profile on [GitHub](https://github.com/muety). Please also have a look at my [LinkedIn](https://www.linkedin.com/in/ferdinand-m%C3%BCtsch/) profile.

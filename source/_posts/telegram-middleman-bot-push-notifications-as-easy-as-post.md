@@ -16,13 +16,13 @@ It mainly aims at developers and sysadmins, but is not limited to these addresse
 For these reasons I created the Middleman Bot. It takes a simple, small JSON fragment as an input via HTTP call and forwards it to my Telegram chat. There's no need for an additional library (nearly every programming language has a built-in API for HTTP calls or you could use cURL) or authentication process. Simply register at the bot once and fire lightweight HTTP calls afterwards. 
 
 ## Example
-To make my webserver send me a notification when its load is above a certain threshold, the only thing it would need to do is a `POST http://middleman.ferdinand-muetsch.de/api/messages` with this body: 
+To make my webserver send me a notification when its load is above a certain threshold, the only thing it would need to do is a `POST https://apps.muetsch.io/middleman/api/messages` with this body: 
 
 ```json
 {
 	"recipient_token": "3edf633a-eab0-45ea-9721-16c07bb8f245",
 	"text": "Watch out! Average load in the last 10 minutes is >= 10000 requests per second.",
-	"origin": "Caddy webserver @ ferdinand-muetsch.de"
+	"origin": "Caddy webserver @ muetsch.io"
 }
 ```
 
@@ -34,4 +34,4 @@ And there you go.
 
 
 ## Give it a try
-I've pushed the code as well as some introductions on how to run and use that bot to GitHub at  [n1try/telegram-middleman-bot](https://github.com/n1try/telegram-middleman-bot). You can either run your own instance of the bot or use mine, which is running at _http://middleman.ferdinand-muetsch.de_. Let me know what you think!
+I've pushed the code as well as some introductions on how to run and use that bot to GitHub at  [muety/telegram-middleman-bot](https://github.com/muety/telegram-middleman-bot). You can either run your own instance of the bot or use mine, which is running at _https://apps.muetsch.io_. Let me know what you think!

@@ -133,4 +133,4 @@ This example was kept veeeery simple. Of course you could implement your bot to 
 
 If you like to try by bot, simply write a message to **@FavoriteBot** and share it to your friends, if you like it.
 
-If you have any questions, contact me via mail to *mail(at)ferdinand-muetsch.de.*
+If you have any questions, contact me via mail to *ferdinand(at)muetsch.io.*

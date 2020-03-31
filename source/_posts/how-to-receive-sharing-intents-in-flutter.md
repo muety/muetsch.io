@@ -10,7 +10,7 @@ A common use case when building an Android app is to have it handle data shared 
 ![](https://cketti.de/img/share-url-to-clipboard/screenshot_share.png)
 _(Source: https://cketti.de/)_
 
-As an example, let's imagine having a bookmark-manager written in Flutter. It is supposed to save **URLs** with their accompanying **titles**, shared from the smartphone's browser to the app, to one of your bookmark collection. This is exactly [what I just build](https://github.com/n1try/anchr-android).
+As an example, let's imagine having a bookmark-manager written in Flutter. It is supposed to save **URLs** with their accompanying **titles**, shared from the smartphone's browser to the app, to one of your bookmark collection. This is exactly [what I just build](https://github.com/muety/anchr-android).
 
 # Background
 The official Flutter docs already give [a good example](https://flutter.dev/docs/get-started/flutter-for/android-devs#how-do-i-handle-incoming-intents-from-external-applications-in-flutter) on how to achieve that functionality. However, I found that their piece of code only works, if you share data to an app that **is still closed**. If you had opened your app before and it idles in the background, it won't receive the [sharing intent](https://www.androidcode.ninja/android-share-intent-example/) when it is [resumed](https://developer.android.com/guide/components/activities/activity-lifecycle#onresume). Therefore, I extended the example. 
@@ -125,7 +125,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
 }
 ```
 
-Now you're good to go! Once you extracted the sharing intent's contents, you can, for instance, show a pre-filled dialog to add the new link to one of your bookmark collections, just as [I did here](https://github.com/n1try/anchr-android/blob/897395528532a03ce4e1bdba00fe4b3b35f5fe43/lib/app.dart#L39).
+Now you're good to go! Once you extracted the sharing intent's contents, you can, for instance, show a pre-filled dialog to add the new link to one of your bookmark collections, just as [I did here](https://github.com/muety/anchr-android/blob/897395528532a03ce4e1bdba00fe4b3b35f5fe43/lib/app.dart#L39).
 
 # Conclusion
 This approach might seem a little complicated, but in fact, it is the only working solution I could find. There is a plugin called [flutter-share](https://github.com/d-silveira/flutter-share), but unfortunately it did not work for me. Happy coding 😉!

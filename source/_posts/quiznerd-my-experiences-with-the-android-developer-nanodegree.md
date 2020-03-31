@@ -27,9 +27,9 @@ Every section consists of several **(1) video lessons**, in which Udacity develo
 
 Here are three of my section-end project apps:
 
-1. **[popular-movies-android](https://github.com/n1try/popular-movies-android):** App for displaying movie information fetched from an online movie database. Focus was on interacting with an external, third-party web API.
-2. **[baking-time-android](https://github.com/n1try/baking-time-android):** App for showing baking recipes and instructions. Focus was on widgets, responsive design and integrating a video player.
-3. **[xyz-reader-android](https://github.com/n1try/xyz-reader-android):** Basic reading app for text articles. Focus was on properly implementing Material Design, animations and UX.
+1. **[popular-movies-android](https://github.com/muety/popular-movies-android):** App for displaying movie information fetched from an online movie database. Focus was on interacting with an external, third-party web API.
+2. **[baking-time-android](https://github.com/muety/baking-time-android):** App for showing baking recipes and instructions. Focus was on widgets, responsive design and integrating a video player.
+3. **[xyz-reader-android](https://github.com/muety/xyz-reader-android):** Basic reading app for text articles. Focus was on properly implementing Material Design, animations and UX.
 
 ## Community
 Probably the best thing about the whole course was the community. There is an official Slack channel and a forum full of like-minded developers from literally all around the world who are going through the same experience like you. People ask questions, discuss about certain tasks or technology in general and you immediately feel extremely welcome. Whether you are unsure about a task or cannot get a certain error fixed, there are people who will help you. Also, a lot of Udacity mentors hang out on Slack and in the forum and provide support as well, e.g. in form of weekly AMA sessions. In addition to that, every participant of the course is assigned a personal mentor, who is a Udacity mentor that you can contact directly of you have questions. Actually, I did never contact mine, but I am sure they are willing to help.

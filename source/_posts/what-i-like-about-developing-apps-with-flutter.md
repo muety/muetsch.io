@@ -4,7 +4,7 @@ date: 2019-03-11 08:45:20
 tags:
 ---
 
-After hearing about [Flutter](https://flutter.dev) by [Matt Carroll](https://twitter.com/@flttry) and [Abraham Williams](https://twitter.com/abraham) at the [SFHTML5 Meetup](https://www.meetup.com/de-DE/sfhtml5/events/256523273/) hosted by Google in San Francisco a few weeks ago, I decided to give it a try. I developed a small [bookmark manager](https://github.com/n1try/anchr-android) app for Android while attempting to learn Flutter.
+After hearing about [Flutter](https://flutter.dev) by [Matt Carroll](https://twitter.com/@flttry) and [Abraham Williams](https://twitter.com/abraham) at the [SFHTML5 Meetup](https://www.meetup.com/de-DE/sfhtml5/events/256523273/) hosted by Google in San Francisco a few weeks ago, I decided to give it a try. I developed a small [bookmark manager](https://github.com/muety/anchr-android) app for Android while attempting to learn Flutter.
 
 # What is Flutter?
 Flutter is an open-source framework for developing cross-platform mobile apps. Or in their own words it ...
@@ -45,7 +45,7 @@ Similar to Scala's _traits_, Dart even supports a kind of **multiple class inher
 
 ## What I **DO NOT** like about Flutter
 1. **Is it truly cross-platform?** This is rather a question than something I strictly do not like. So far, I only developed an Android app with Flutter and I wonder whether it is actually possible to use the exact same code for iOS. Sometimes you will still need to access native APIs, e.g. when attempting to [receive a sharing intent](https://muetsch.io/how-to-receive-sharing-intents-in-flutter.html), or have varying design elements. So although I am not totally sure about this, I would assume that for large projects you would still need to write two separate Flutter apps for Android and iOS, but have the ability to reuse large parts of the code in form of a shared library. 
-2. **Apps are large * .** Maybe this will be improved in the future, but right now Flutter apps are pretty large. My [simple bookmark manager](https://github.com/n1try/anchr-android) is 46 MB in size when installed.
+2. **Apps are large * .** Maybe this will be improved in the future, but right now Flutter apps are pretty large. My [simple bookmark manager](https://github.com/muety/anchr-android) is 46 MB in size when installed.
 
 # Where to get started?
 If you want to start learning Flutter, I would recommend the following. 

@@ -82,7 +82,7 @@ if currentControl == keyboard.A {
 // [...]
 ```
 
-The entire code is **available on GitHub** at [n1try/tello](https://github.com/n1try/tello).
+The entire code is **available on GitHub** at [muety/tello](https://github.com/muety/tello).
 
 # Challenges
 One thing that made me stuck for a while was the way API commands like `drone.Left(100)` (where the integer parameter represents the movement's "intensity" or speed) work. Once called, they are being applied continuously until manually stopped. In this case, the drone would go left with max speed until you explicitly send `drone.Left(0)`. This behavior combined with the fact that Gobot's keyboard driver only supports to communicate when a key **is pressed**, but **not when it's released** again, made it a little difficult to smoothly control the drone. To cope with that, I introduced a **debouncing logic**. When a key is pressed (e.g. ←), a flag for that key is toggled on for 250 ms before it's automatically reset again, if the key was released in the meantime. Within the `tick()` method, the only thing done is to translate the binary key states to API commands and sync them to the device. 

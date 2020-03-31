@@ -15,4 +15,4 @@ Without server push
 ![](/images/push_screenshot2.png)
 With server push
 
-Details on how to use this library are to be found on the [project site](https://github.com/n1try/http2-serverpush-proxy). Please feel free to give me feedback!
+Details on how to use this library are to be found on the [project site](https://github.com/muety/http2-serverpush-proxy). Please feel free to give me feedback!

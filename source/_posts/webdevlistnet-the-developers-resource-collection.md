@@ -23,4 +23,4 @@ No, it isn’t. Actually, it probably never will be. I’m continuously going to
 I’d really appreciate to get feedback on this project!
 
 [>> Webdevlist.net](https://webdevlist.net)  
-[>> Webdevlist on GitHub](https://github.com/n1try/webdevlist.net) 
+[>> Webdevlist on GitHub](https://github.com/muety/webdevlist.net) 

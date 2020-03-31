@@ -56,7 +56,7 @@ Basically there are three parameters to be varied for the benchmark.
 * The __number of threads__ to be used by _h2load_. I set this parameter to four, corresponding to the number of logical CPU cores of my machine.
 
 ## Results
-Running my [benchmark script](https://github.com/n1try/http-server-benchmarks/blob/master/run-load.sh) delivered the following results.
+Running my [benchmark script](https://github.com/muety/http-server-benchmarks/blob/master/run-load.sh) delivered the following results.
 
 ![](images/benchmarks.svg)
 
@@ -70,7 +70,7 @@ Both of my Node implementations perform worst in this benchmark, whereas Express
 
 Conclusing I can say that I was pretty surprised about how large the differences between various servers are. Go is almost six times as fast as Node with Express, even though [Express still has a very great performance](https://raygun.com/blog/2016/06/node-performance/).
 
-The full benchmark results as well as the suite's source code can be found at my [GitHub project](https://github.com/n1try/http-server-benchmarks).
+The full benchmark results as well as the suite's source code can be found at my [GitHub project](https://github.com/muety/http-server-benchmarks).
 
 ## EDIT
 At January 1st 2017 I did some minor adjustments to my benchmark suite. A thoughtful reader has drawn my attention to the fact that my comparison was a little unfair in the way that Go's net/http as well as Grizzly use as many threads as the host system provides CPU core by default, while Node doesn't. Using Node's `cluster` module I made both Node-based webservers use four listener threads, too and actually the results have improved by around 45 %. Furthermore I did an adjustment to the Jersey + Grizzly server by changing the `IOStrategy` from the default `WorkerThreadIOStrategy` to `SameThreadIOStrategy`, which brought around 10 % in this specific case, where we don't have any blocking computations but only spit out static JSON. If you're interested in leaarning more about different io strategies, refer to [this official documentation page](https://grizzly.java.net/iostrategies.html). Here is my updated benchmark chart.

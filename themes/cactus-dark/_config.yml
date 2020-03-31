@@ -7,7 +7,7 @@ nav:
 
 customize:
     gravatar:
-        email: mail@ferdinand-muetsch.de
+        email: ferdinand@muetsch.io
     logo:
         enabled: true
         width: 50
@@ -22,7 +22,7 @@ customize:
         url: /images/favicon.png
         gravator: false
     social_links:
-        github: http://github.com/n1try
+        github: http://github.com/muety
         twitter: https://twitter.com/n2try
         linkedin: https://www.linkedin.com/in/ferdinand-m%C3%BCtsch-246734139/
         xing: https://www.xing.com/profile/Ferdinand_Muetsch

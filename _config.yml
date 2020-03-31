@@ -13,7 +13,7 @@ pgp: 8026 43D5 EC1F 292A 69D2 8699 21B2 4C0F 6C75 F6CF
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ferdinand-muetsch.de
+url: https://muetsch.io
 root: /
 permalink: :title.html
 permalink_defaults:
@@ -70,7 +70,7 @@ theme: cactus-dark
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:n1try/n1try.github.io.git
+  repo: git@github.com:muety/muety.github.io.git
   branch: master
 
 sitemap:

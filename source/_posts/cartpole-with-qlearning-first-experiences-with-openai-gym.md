@@ -25,7 +25,7 @@ Basically, a (S, A)-tuple's new q-value depends on its old q-value, the immediat
 ## My implementation
 Since Q-Learning is pretty straightforward to understand and implement, I decided on picking that algorithm as a starting point for my CartPole challenge. I looked for other solutions, that also use CartPole and found [this blog post](https://medium.com/@tuzzer/cart-pole-balancing-with-q-learning-b54c6068d947) by [@tuzzer](https://medium.com/@tuzzer), which had partially inspired me during my implementation. 
 
-[>> Code on GitHub (qcartpole.py)](https://gist.github.com/n1try/af0b8476ae4106ec098fea1dfe57f578)
+[>> Code on GitHub (qcartpole.py)](https://gist.github.com/muety/af0b8476ae4106ec098fea1dfe57f578)
 
 ### Transforming the feature space
 Actually the main challenge was to convert the continuous, 4-dimensional input space to a discrete space with a finite and preferably small, yet expressive, number of discrete states. The less states we have, the smaller the Q-table will be, the less steps the agent will need to properly learn its values. However, too few states might not hold enough information to properly represent the environment. The original domains of the input features are these.
@@ -51,7 +51,7 @@ First I tried to choose the epsilon and alpha parameters as constants and experi
 ### Grid search
 As my Q-Learning implementation with adaptive learning- and exploration rates was finished, I implemented an additional grid search to do some hyperparameter tuning. Goal was to find the optimal combination of feature interval lengths and lower bounds for alpha and epsilon. The following parameters turned out to perform best: `'buckets': (1, 1, 6, 12), 'min_alpha': 0.1, 'min_epsilon': 0.1`. Additionally, I also could have evaluated different functions for calculating the adaptive rate, but I haven't, yet. 
 
-[>> Code on GitHub (qcartpole_gridsearch.py)](https://gist.github.com/n1try/87b442fce7f7d58606f462191c6d6033)
+[>> Code on GitHub (qcartpole_gridsearch.py)](https://gist.github.com/muety/87b442fce7f7d58606f462191c6d6033)
 
 ## Result & Future Work
 My final score was __188__, [as can be seen in the leaderboard](https://gym.openai.com/evaluations/eval_emRbuGdHRnWoJuMUnPwd1Q). As I progress with my knowledge on machine learning, while practicing for the upcoming [Machine Learning 2](http://www.aifb.kit.edu/web/Lehre/Vorlesung_Maschinelles_Lernen_2_%E2%80%93_Fortgeschrittene_Verfahren/en) exam, I want to continue improving my CartPole algorithm. Probably the next step will be to incorporate deep Q-Learning, which basically is Q-Learning with the only difference that the q-values are estimated by a deep neural net. The main (and probably only) advantage is the ability to handle way larger feature spaces. I'll keep you guys up-to-date. I hope that I could encourage you to get started with Gym, or machine learning in general, too!

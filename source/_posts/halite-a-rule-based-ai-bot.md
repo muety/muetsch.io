@@ -30,4 +30,4 @@ Finally I built the __MiningStrategy__. Goal is to maxmimize mining rate right i
 ## Results
 Using the bot described above, the best rank I achieved in the leaderboard was __250 of ~ 4500__ (top 6 %) and I'm still ambitious to get even better 😃. My bot is playing as [n1try](https://halite.io/user/?user_id=7481).
 
-\>> [Source code on GitHub](https://github.com/n1try/halite-bot-java). 
+\>> [Source code on GitHub](https://github.com/muety/halite-bot-java). 
