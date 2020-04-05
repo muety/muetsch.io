@@ -28,6 +28,9 @@ customize:
         xing: https://www.xing.com/profile/Ferdinand_Muetsch
         telegram: https://telegram.me/n1try
         envelope-o: mailto:ferdinand@muetsch.io
+    me_links:
+        github: http://github.com/muety
+        twitter: https://twitter.com/n2try
     show_all_posts: false
     post_count: 6
     highlight: rainbow
