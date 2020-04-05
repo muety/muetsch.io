@@ -58,4 +58,8 @@
     <% if (theme.customize.webmention_endpoint) { %>
       <link href="<%- url_for(theme.customize.webmention_endpoint) %>" rel="webmention">
     <% } %>
+
+    <% if (theme.customize.pingback_endpoint) { %>
+      <link href="<%- url_for(theme.customize.pingback_endpoint) %>" rel="pingback">
+    <% } %>
 </head>

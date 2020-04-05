@@ -33,6 +33,7 @@ customize:
         twitter: https://twitter.com/n2try
         mail: mailto:ferdinand@muetsch.io
     webmention_endpoint: https://webmention.io/muetsch.io/webmention
+    pingback_endpoint: https://webmention.io/muetsch.io/xmlrpc
     show_all_posts: false
     post_count: 6
     highlight: rainbow
