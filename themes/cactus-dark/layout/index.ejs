@@ -3,12 +3,6 @@
     <%- markdown(config.description) %>
   <% } %>
 
-  <% if (theme.customize.me_links) { %>
-    <% for(var i in theme.customize.me_links) { %>
-      <link href="<%- url_for(theme.customize.me_links[i]) %>" rel="me">
-    <% } %>
-  <% } %>
-
   <p style="display: inline">
     <% if (theme.customize.social_links) { %>
       Find me on

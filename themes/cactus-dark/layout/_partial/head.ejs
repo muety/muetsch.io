@@ -46,4 +46,16 @@
     <% if (theme.rss) { %>
       <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml" />
     <% } %>
+
+    <!-- rel-me links -->
+    <% if (theme.customize.me_links) { %>
+      <% for(var i in theme.customize.me_links) { %>
+        <link href="<%- url_for(theme.customize.me_links[i]) %>" rel="me">
+      <% } %>
+    <% } %>
+
+    <!-- Webmention link -->
+    <% if (theme.customize.webmention_endpoint) { %>
+      <link href="<%- url_for(theme.customize.webmention_endpoint) %>" rel="webmention">
+    <% } %>
 </head>
