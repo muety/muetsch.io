@@ -54,6 +54,14 @@ In order to set up CoreDNS, there are a few steps to follow.
 ![Example of an encrypted DNS request](images/dns2.png)
 Example of an encrypted DNS request for `kit.edu` to CloudFlare's `1.1.1.1` DNS resolver
 
+Alternatively, use the following `forward` statement to use the independent [BlahDNS](https://blahdns.com) instead of CloudFlare as provider.
+
+```
+forward . tls://2a01:4f8:1c1c:6b4b::1 tls://159.69.198.101 {
+    tls_servername dot-de.blahdns.com
+}
+```
+
 # What happens?
 Let us examine what happens (in terms of DNS) when you type _"kit.edu"_ in your browser's address bar and hit enter.
 
