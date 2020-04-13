@@ -2,6 +2,7 @@
 title: Flying a DJI Tello Drone with Go
 date: 2019-10-01 14:21:53
 tags:
+description: In this post, we program a DJI Tello drone using Go and control it from the command line.
 ---
 
 # The Idea

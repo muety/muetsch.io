@@ -2,6 +2,7 @@
 title: Transfer Learning for Multi-Digit Recognition using TensorFlow Object Detection and SVHN Classifier
 date: 2019-09-05 15:41:49
 tags:
+description: This article presents how to use convolutional neural networks and TensorFlow object detection to localize and recognize multi-digit labels from pictures of runners at sports events.
 ---
 ![Dublin City Marathon 2016](https://miro.medium.com/max/1024/1*ZrlYBlKXiADNJC6OsOKTMg.jpeg)
 (Dublin City Marathon 2016, {% link Source https://commons.wikimedia.org/wiki/File:Dublin_City_Marathon_2006_(283653500).jpg Wikimedia Commons %})

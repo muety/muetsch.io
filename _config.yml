@@ -77,5 +77,13 @@ sitemap:
   path: sitemap.xml
   template: ./node_modules/hexo-generator-sitemap/sitemap.xml
 
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 5
+  content: false
+  order_by: -date
+  autodiscovery: true
+
 include:
     - "favicon.ico"

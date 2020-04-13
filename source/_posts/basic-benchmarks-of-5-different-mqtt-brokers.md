@@ -2,6 +2,7 @@
 title: Basic benchmarks of 5 different MQTT brokers
 date: 2019-07-17 22:16:53
 tags:
+descriptions: This article briefly benchmarks the performance of five different, commonly used MQTT brokers.
 ---
 
 In the context of my Master's thesis I conducted a very basic performance comparison of several different MQTT brokers and quickly wanted to share my insights. Please note that these benchmarks are quite superficial only. I did not aim to perform an in-depth evaluation, but rather get a basic idea of their performance in general. 

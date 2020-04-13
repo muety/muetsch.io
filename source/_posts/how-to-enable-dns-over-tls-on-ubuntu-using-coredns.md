@@ -2,6 +2,7 @@
 title: How to enable DNS-over-TLS on Ubuntu using CoreDNS
 date: 2020-04-11 20:41:57
 tags:
+description: This article describes, how to browse the web more privately using DNS-over-TLS. Therefore, it is shown how to set up CoreDNS on a Ubuntu machine.
 ---
 
 # Privacy on the Web
