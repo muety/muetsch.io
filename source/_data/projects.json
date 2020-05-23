@@ -5,6 +5,11 @@
         "desc": "KITSquid is an independent, alternative course catalog for KIT students, including course recommendations and other community features. Open-source and written in Go."
     },
     {
+        "name": "Wafflr",
+        "url": "https://wafflr.de",
+        "desc": "Wafflr is a modern web app for cafés and ice-cream shops. Customers can use it to quickly and easily place orders, while employees get a live overview of all pending orders. Made with GraphQL, Go and Vue."
+    },
+    {
         "name": "Wakapi",
         "url": "https://github.com/muety/wakapi",
         "desc": "A minimalistic, self-hosted WakaTime-compatible backend for coding statistics written in Go."
@@ -13,11 +18,6 @@
         "name": "Anchr for Android",
         "url": "https://github.com/muety/anchr-android",
         "desc": "An Android app, build with Dart and Flutter, to manage links and bookmarks using Anchr.io on your mobile device."
-    },
-    {
-        "name": "gitcount",
-        "url": "https://github.com/muety/gitcount",
-        "desc": "A command-line tool to estimate the time spent on a git project, based on a very simple heuristic."
     },
     {
         "name": "QuizNerd for Android",
@@ -33,11 +33,6 @@
         "name": "telegram-middleman-bot",
         "url": "https://github.com/muety/telegram-middleman-bot",
         "desc": "A Telegram bot which translates push messages sent as simple HTTP calls into Telegram messages you can subscribe to. Written in Go."
-    },
-    {
-        "name": "Webdevlist",
-        "url": "https://github.com/muety/webdevlist.net",
-        "desc": "A resource collection for developers containing programming libraries and frameworks, software applications, webservices and *aaS providers as well as learning resources, guides and tutorials all in one place."
     },
     {
         "name": "Anchr.io",

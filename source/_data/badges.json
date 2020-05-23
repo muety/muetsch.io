@@ -1,4 +1,4 @@
 [
-    "https://badgen.net/badge/HTTP%202.0/enabled/cyan",
-    "https://badgen.net/badge/IPv6/enabled/cyan"
+    "https://img.shields.io/badge/HTTP%2F2.0-enabled-2BBC8A?style=flat-square",
+    "https://img.shields.io/badge/IPv6-enabled-2BBC8A?style=flat-square"
 ]
