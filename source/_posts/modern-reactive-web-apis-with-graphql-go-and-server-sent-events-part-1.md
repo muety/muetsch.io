@@ -23,6 +23,8 @@ Let's look at an example to get a better idea of how GraphQL works, especially i
 
 Imagine you have an e-commerce application with products and orders. Every order consists, among others, of a set of products. As the operator of the web shop, you might want to get a list of all orders. With a more or less RESTful API (we neglect the hypermedia controls in the example though), your request-response pair could look like this:
 
+<details>
+<summary>Click to view</summary>
 ```
 Request
 -------
@@ -39,9 +41,12 @@ Response Body
     }
 ]
 ```
+</details>
 
 So far so good, but potentially you will also want to view the actual products right away. What you got are only ids, for each of which you would have to issue another API call to retrieve it. Alternatively, the API could also return nested objects, like so:
 
+<details>
+<summary>Click to view</summary>
 ```
 [
     {
@@ -79,11 +84,14 @@ So far so good, but potentially you will also want to view the actual products r
     }
 ]
 ```
+</details>
 
 However, that is — to my understanding – not truly RESTful anymore. Also, while the above example is still quite straightforward, things get ugly as nested objects include other nested objects, that include other nested objects, that... Quickly you get JSON responses of several tens or hundreds of kilobytes, although you're potentially only interested in two or three attributes. Moreover, on some pages of your shop you may be interested in all possible options (e.g. "size") of a product, but not on others. Should your API define different [view models](https://www.infoq.com/articles/View-Model-Definition/) now and expose different endpoints? Or a single endpoints with query flags like `?expanded=true`? Soon you might be catching yourself **tailoring your API specifically to the needs of your client** while neglecting REST conventions and a straightforward design. 
 
 With GraphQL, things are different. Your API is a bit **dumber and less opinionated** now and does not deliver data in a fixed structure, according to a specified [GQL query](https://graphql.org/learn/queries/), which looks a lot like JSON. The above example might look like this, now:
 
+<details>
+<summary>Click to view</summary>
 ```
 Request
 -------
@@ -129,6 +137,7 @@ Response Body
     }
 }
 ```
+</details>
 
 This way, you get only the data you want. All your API has to know is how to fetch every piece of data. All your client has to know is how the data schema itself looks like.
 
