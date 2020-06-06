@@ -75,7 +75,6 @@ deploy:
 
 sitemap:
   path: sitemap.xml
-  template: ./node_modules/hexo-generator-sitemap/sitemap.xml
 
 feed:
   type: rss2
