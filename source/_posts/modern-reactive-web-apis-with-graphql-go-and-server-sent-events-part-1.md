@@ -161,3 +161,5 @@ For subscriptions, the GraphQL standard does not define a lot more than their pl
 
 # What's next?
 This part gave a brief introduction to GraphQL. The next part is about actual code. We're going to build an example web app with live-updates using GraphQL, Go, MongoDB and VueJs. Stay tuned!
+
+\> [**Part 2**](https://muetsch.io/modern-reactive-web-apis-with-graphql-go-and-server-sent-events-part-2.html)
