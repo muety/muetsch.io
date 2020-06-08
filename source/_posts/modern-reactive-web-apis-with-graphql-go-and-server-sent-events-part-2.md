@@ -4,6 +4,8 @@ date: 2020-06-06 18:34:02
 tags:
 ---
 
+![](images/graphql_cover.png)
+
 In the [previous](https://muetsch.io/modern-reactive-web-apis-with-graphql-go-and-server-sent-events-part-1.html) part, concepts and benefits of GraphQL and [GraphQL Subscriptions](https://graphql.org/blog/subscriptions-in-graphql-and-relay/) were presented and proposed as a modern, highly flexible alternative for designing web APIs.
 
 In this post, we are going to look at actual code. For demonstration purposes, a small single-page application (SPA) is built as an example. It can serve as a cleanly structured starting point for new apps based on the proposed tech stack.
