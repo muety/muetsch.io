@@ -111,6 +111,8 @@ With our work, we contributed a proof-of-concept for a novel approach to coopera
 The entire project is [open-source](https://github.com/muety/talkycars-thesis).
 
 # References
+<a name="refs"></a>
+
 1. McKinsey Center for Future Mobility. (2019). Autonomous Driving | MCFM | McKinsey. Retrieved November 25, 2019, from [Link](https://www.mckinsey.com/features/mckinsey-center-for-future-mobility/overview/autonomous-driving)
 2. Thomson, C. (2017). Elon Musk has a stunning prediction for what cars will be like 10 years from now. Retrieved from [Link](https://www.businessinsider.com/elon-musk-predicts-most-cars-will-be-driverless-in-10-years-2017-2?r=DE&IR=T)
 3. BMW Group. (2019). Contract signed: BMW Group and Daimler AG launch long-term development cooperation for automated driving. Retrieved from [Link](https://www.press.bmwgroup.com/global/article/detail/T0298266EN/)contract-signed:-bmw-group-and-daimler-ag-launch-long-term-development-cooperation-for-automated-driving
