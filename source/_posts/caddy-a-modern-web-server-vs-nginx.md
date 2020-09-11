@@ -8,7 +8,7 @@ __Update:__ I'm glad to tell that this article made it to the front page of [Hac
 
 At the time of writing this article the web is effectively powered by three different major web server software packages. A web server, as covered in this article, basically has two purposes. One is to serve static (no dynamic functionality, no backend, no databse, ...) web sites, usually consisting of HTML, JavaScript and CSS plus images etc. The other is to act as a [reverse-proxy](https://en.wikipedia.org/wiki/Reverse_proxy) to web application backends. The three servers I just mentioned have a combined market share of 94.7 % (according to [this statistic](https://w3techs.com/technologies/overview/web_server/all)) and are named [Apache 2](https://httpd.apache.org/) (or _httpd_) (written in C), [nginx](https://www.nginx.com/solutions/web-server/) (say _"engine ex"_) (also written in C) and [Microsoft IIS](https://www.iis.net/) (written in C++). While the first two are platform independent and open-source, the latter is a proprietary, commercial, Windows-only Microsoft product and therefore more interesting at enterprise level rather than for smaller indie projects. Consequently I won't cover IIS further in the following. 
 
-![Most popular web servers on the internet](images/webservers.png)
+![Most popular web servers on the internet](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/webservers.png)
 
 _Most popular web servers on the internet ([Source](https://w3techs.com/technologies/overview/web_server/all))_
 
@@ -16,7 +16,7 @@ nginx' first release was in 2004 and Apache2's roots even date back to 1995. Of 
 
 Personally I switched from Apache2 to nginx a few months ago mainly because of two reasons. The first one was that I had really been annoyed by [Apache2's extremely high memory overhead](https://help.dreamhost.com/hc/en-us/articles/215945987-Web-server-performance-comparison). The second reason was that Apache2 still didn't have HTTP/2.0 support in 2016.
 
-![Apache2 vs. nginx memory usage](https://objects-us-west-1.dream.io/kbimages/images/Webserver_memory_graph.jpg)
+![Apache2 vs. nginx memory usage](https://objects-us-west-1.dream.io/kbhttps://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/images/Webserver_memory_graph.jpg)
 
 _Apache2 vs. nginx memory usage ([Source](https://help.dreamhost.com/hc/en-us/articles/215945987-Web-server-performance-comparison))_
 
@@ -49,7 +49,7 @@ Linux ferdinand-ubuntu 4.8.0-32-generic #34-Ubuntu SMP Tue Dec 13 14:30:43 UTC 2
 ```
 
 The results look like this.
-![](images/webserver_performance.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/webserver_performance.png)
 
 _Caddy vs. nginx performance comparison_
 

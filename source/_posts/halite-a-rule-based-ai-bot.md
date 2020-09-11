@@ -7,7 +7,7 @@ tags:
 After having spent a considerable amount of time with it last weekend, I wanted to make a short comment on [Halite.io](https://halite.io). Halite is a programming- and AI competition where people can write programs or train algorithms to control a bot that plays in a virtual 2D game environment. There is a leaderboard to track how your bot competes with other players' bots and you can watch a replay of every game your bot has played, which helps _debugging_ your bot as well as figuring out other people's strategies. Originally, I got aware of this challenge through a video by [one of my favorite](https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ) YouTube channels and became slightly addicted from that moment on. 
 
 ## The Game
-![](images/halite_game.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/halite_game.png)
 
 While the complete rule set of Halite can be viewed in [their documentation](https://halite.io/learn-programming-challenge/), I only want to explain very basics here. In Halite you play in a space scenario comprising _ships_ and _planets_, while you (= your bot) controls your ships. A ship can do three actions: _move_, _dock_ to or _undock_ from a planet. The more ships you have docked at a planet, the faster you are _mining_ the planet, which means to produce new ships. When two ships get close enough, they can fight and only the winner's ship survives. The game is turn-based, so each of the up to four players' programs are queried (by the game environment) for a list of moves for each of their ships in every turn. Input is the current game state (player- & planet positions, ships' health, ships' current status, ...) and output is a move for each ship. The final goal is to either completely dominate (= destroy every other players' ships) or own the strongest ship fleet and the most planets after 300 turns. 
 
@@ -16,7 +16,7 @@ At the time of writing this article, the leaderboard comprises __~ 4700 players_
 ## My bot
 First of all, what I found especially cool is the fact that players are completely free in their choice of how to realize their bot (hard-coding, machine learning, ...) and what programming language to use. Halite offers community-created starter templates for C++, C#, Dart, Elixir, Go, Haskell, JavaScript, Julia, Kotlin, PHP, Ruby, Rust, Scala, Swift and more. You can choose whatever language you like - which was __Java__ for me - and eventually submit a ZIP file with your code or binary, as well as a script for executing it, to their website. The interface between your program and the game environment is _stdin_ / _stdout_. 
 
-![](images/halite_langs.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/halite_langs.png)
 
 I decided to build my bot based on rather simple rules first, which I figured out by watching some other players' replays. Probably applying machine learning to solve Halite would be even more challenging, but at the time I got aware of this competition, it was about to last only three more weeks (until January, 22nd), so I picked up on a rather simple approach.
 

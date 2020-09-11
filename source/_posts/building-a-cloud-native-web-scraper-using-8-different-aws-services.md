@@ -22,8 +22,8 @@ Here are some notes on what the application was supposed to be able to do (and h
 # Architecture
 Below you can see a high-level overview of all components and the corresponding AWS services, as well as basic interactions between the components. Please note that the diagram is not proper UML, but it should help getting an idea of the overall architecture. And it looks kind of fancy at first sight.)
 
-![](images/crawlbuddy2.png)
-([Click to view large](images/crawlbuddy2.png))
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/crawlbuddy2.png)
+([Click to view large](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/crawlbuddy2.png))
 
 
 ## AWS services

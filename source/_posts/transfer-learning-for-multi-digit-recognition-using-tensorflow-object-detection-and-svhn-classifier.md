@@ -34,7 +34,7 @@ I needed to find a way to localize the 2D-coordinates of all number signs within
 
 In summary, I planned to build a two-step classification system.
 
-![](images/svhn_steps.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/svhn_steps.png)
 
 **Step 1:** Recognize bib numbers and crop them out
 **Step 2:** Use first step's output as input for a fine-tuned SVHN classifier
@@ -43,7 +43,7 @@ In summary, I planned to build a two-step classification system.
 ## Data Acquisition and Labeling for Step 1
 First, I started collecting 1,000 images from the web portal mentioned above. I manually labeled them for step 1 by drawing bounding boxes around each number, using [labelImg](https://github.com/tzutalin/labelImg) and wrote a short script to separate them into training, test and validation sets.
 
-![](images/svhn_labelimg.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/svhn_labelimg.png)
 
 The output of this step is an XML file for every image, containing information about the respective labels and their bounding boxes. Using a script called [`generate_tfrecord.py`](https://github.com/datitran/raccoon_dataset/blob/master/generate_tfrecord.py), those XML files can be combined together with their corresponding images into one big _TFRecord_ file for each set (training, test, validation), that is the format required as input for TensorFlow object detection.
 
@@ -54,12 +54,12 @@ After training for ~ 100,000 episodes, I ended up with a model – represented a
 
 Letting the model run on my data yields quite reliable results of bounding boxes of bib numbers, which I could then use to crop the original images to smaller ones with another small script. 
 
-![](images/svhn_cropped_images.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/svhn_cropped_images.png)
 
 ## Labeling for Step 2
 To produce training data for the second step – digit recognition – I needed to do another round of labeling. This time, the little cropped images of numbers had to be assigned their actual numbers in text form. I did this manually and using a simple CSV table. 
 
-![](images/svhn_labels.png) 
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/svhn_labels.png) 
 
 ## Adding Data Augmentation
 To (1.) overcome my lack of training data and (2.) hopefully make the model generalize better, I considered it a good idea to introduce some image augmentation. I extended the given [`DataLoader`](https://github.com/potterhsu/SVHNClassifier-PyTorch/blob/master/dataset.py) in a way that a specified fraction of the number of raw training images is artificially added to the data set in a slightly transformed form. To be more precise, I used [PyTorch's TorchVision Transforms](https://pytorch.org/docs/stable/torchvision/transforms.html) to introduce (a) color jitter (variance in brightness, contrast, saturation, and hue), (b) [affine transformations](https://en.wikipedia.org/wiki/Affine_transformation) and (c) rotation.
@@ -68,7 +68,7 @@ Another thing I changed from the original implementation is the way input images
 
 However, so far I didn't evaluate which way of pre-processing yields better performance.
 
-![](images/svhn_cropping.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/svhn_cropping.png)
 
  
 # Fine-Tuning using Transfer Learning

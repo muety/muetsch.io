@@ -9,7 +9,7 @@ tags:
 As the topic of my bachelor's thesis at the [TECO](http://teco.edu) and part of the [ScaleIT](https://scale-it.org) research project I've designed and developed an IoT software platform with focus on uniformity, openess and ease of adoption to tackle to problem of bringing flexible IT infrastructures to the industrial shopfloor.
 Here's my thesis' abstract to get an idea of the topic.
 
-![](/images/thesis_mockup.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/thesis_mockup.png)
 
 ### Abstract
 
@@ -20,7 +20,7 @@ Addressing that problem, this work proposes an architecture design as well as a 
 
 We've used general-purpose web technology, Linked Data techniques, semantic hypermedia APIs with Hydra and state-of-the-art software development practices and cloud technology to fulfil our goal. We also picked up on the commonly understood UX concept of apps to abstract underlying technical details away from the end-user and created kind of an app store for on-shoploor purposes. 
 
-![](/images/thesis_stack.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/thesis_stack.png)
 
 My work is published at the [KITopen repository](https://publikationen.bibliothek.kit.edu/1000061764).
 If you got curious and are interested in more details or in case you have questions or criticism, please feel free to contact me!

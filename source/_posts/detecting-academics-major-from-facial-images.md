@@ -55,7 +55,7 @@ After a bit of manual data cleaning (removing pictures without faces, rotating p
 ### Images
 
 **An excerpt from the folder containing all raw images after crawling:**
-![Excerpt from all crawled raw images](images/academic_faces1.png)
+![Excerpt from all crawled raw images](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/academic_faces1.png)
 (If you are in one of these pictures and want to get removed, please contact me.)
 
 ### Labels
@@ -286,7 +286,7 @@ I wanted to get an idea of what the model does wrong and what it does right. Con
 
 Here is an excerpt for class _econ_:
 
-![](images/academic_faces2.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/academic_faces2.png)
 
 The top row shows examples of economists, who the model didn't recognize as such.
 The center row depicts examples of what the model "thinks" economists look like, but who are actually students / researchers with a different major.
@@ -304,7 +304,7 @@ array([[12.76595745,  5.95744681,  0.        ,  6.38297872],
        [ 5.95744681,  5.10638298,  1.27659574, 13.19148936]])
 ```
 
-![](images/academic_faces3.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/academic_faces3.png)
 **Legend:**
 * 0 = cs, 1 = econ, 2 = german, 3 = mechanical
 * Brighter colors ~ higher value

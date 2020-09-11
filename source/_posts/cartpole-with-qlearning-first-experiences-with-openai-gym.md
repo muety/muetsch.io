@@ -9,16 +9,16 @@ Today I made my first experiences with the [OpenAI gym](https://gym.openai.com),
 ## CartPole-v0
 In machine learning terms, CartPole is basically a binary classification problem. There are four features as inputs, which include the cart position, its velocity, the pole's angle to the cart and its derivative (i.e. how fast the pole is "falling"). The output is binary, i.e. either 0 or 1, corresponding to "left" or "right". One challenge is the fact that all four features are continuous values (floating point numbers), which, naively, implies an infinitely large feature space.
 
-![](images/cartpole1.jpg)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/cartpole1.jpg)
 
 ## Approach: Basic Q-Learning
 In the [Machine Learning 1](https://his.anthropomatik.kit.edu/english/28_315.php) course at my university, I got to know one of the most basic, yet widely-used reinforcement learning approaches, which is [Q-Learning](http://mnemstudio.org/path-finding-q-learning-tutorial.htm). The core of Q-Learning is to estimate a value for every possible pare of a state (s) and an action (a) by getting rewarded. Imagine the following graph, which consists of three states, while your agent is currently in _s0_. It can choose between two actions, one of which results in a good state _s1_ (e.g. having won the game), the other one results in a bad state _s2_ (e.g. having lost the game). Accordingly, the transition leading to the good (bad) state gives a reward of 100 (-100). If the agent performs action _a0_, the q-value of _s0_ will probably become negative (Q(s0, a0) < 0)), while Q(s0, a1) > 0.
 
-![](images/cartpole2.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/cartpole2.png)
 
 The update of the q-value is done according to the following equation.
 
-![](images/cartpole3.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/cartpole3.png)
 
 Basically, a (S, A)-tuple's new q-value depends on its old q-value, the immediate reward received for the action and the maximum q-value achievable in the following state. So a (S, A)-pair's q-value indirectly depends on all its successors' q-values, which is expressed in the recursive function definition. By repeatedly walking through all nodes and transistions, the agent can update any (S, A)-pairs q-value, while the results of good and bad actions are slowly "backpropagated" from terminal nodes to early nodes. The agent ends up with a (usually multidimensional) table mapping states and actions to q-values, so that given any state, the best action can be picked by choosing the highest respective q-value.
 
@@ -46,7 +46,7 @@ Alpha is used to "smooth" the updates and make them less radical, which, in the 
 
 First I tried to choose the epsilon and alpha parameters as constants and experimented with various combinations. However, I always achieved only a very poor score (~ between 20 and 50 ticks). Then, again inspired by [@tuzzer](https://medium.com/@tuzzer/) I decided to introduce an adaptive learning- and exploration rate, which starts with a high value and decreases by time (with each training episode). Astonishingly, this made a huge difference. Suddenly, my algorithm converged in about ~ 200 steps. Since I never thought that these hyperparameters made such an extreme difference (from not solving the challenge at all to doing pretty well), this was probably the most interesting finding from my CartPole project. I simply adpoted [@tuzzer](https://medium.com/@tuzzer/)'s adaptive function, which is visualized in the figure below (the minimum of _0.1_ is a hyperparameter to be optimized).
 
-![](images/cartpole4.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/cartpole4.png)
 
 ### Grid search
 As my Q-Learning implementation with adaptive learning- and exploration rates was finished, I implemented an additional grid search to do some hyperparameter tuning. Goal was to find the optimal combination of feature interval lengths and lower bounds for alpha and epsilon. The following parameters turned out to perform best: `'buckets': (1, 1, 6, 12), 'min_alpha': 0.1, 'min_epsilon': 0.1`. Additionally, I also could have evaluated different functions for calculating the adaptive rate, but I haven't, yet. 

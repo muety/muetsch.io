@@ -28,4 +28,4 @@ The following brokers were tested.
 ## Results
 These are the results that I obtained. Higher is better.
 
-![MQTT benchmark results](images/mqtt_bench_2.png)
+![MQTT benchmark results](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/mqtt_bench_2.png)

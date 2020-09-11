@@ -2,7 +2,7 @@
 title: Exploratory Analysis on GitHub Data
 date: 2019-04-11 21:00:59
 tags:
-image: images/gh_location_langs.png
+image: https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/gh_location_langs.png
 ---
 
 # Background
@@ -12,7 +12,7 @@ After running the crawler for a few days, I ended up with **154,248 user profile
 
 The first (less extensive) version of my database – which I performed the following analyses on – looked like this.
 
-![](images/gh_eer.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/gh_eer.png)
 
 While one could argue that the data I collected is not of a representative sample size, I still wanted to do some data analysis on it – just for fun.
 
@@ -46,7 +46,7 @@ df_top_langs = pd.read_sql_query('''
 df_top_langs.set_index('LanguageName').plot.bar(figsize=(12,8))
 ```
 
-![](images/gh_popular_lang.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/gh_popular_lang.png)
 
 Not too surprisingly, the typical web stack consisting of JavaScript, HTML and CSS, is among the most popular programming languages, according to how often they appear in repositories.
 
@@ -153,7 +153,7 @@ df_locations = df_locations.sort_values(ascending=False)[:20]
 df_locations.plot.bar(figsize=(12,8))
 ```
 
-![](images/gh_locations.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/gh_locations.png)
 
 Clearly, San Francisco seems to be the most popular city for developers (or at least for those who are active on GitHub). 
 
@@ -195,7 +195,7 @@ df_loc_langs = (df_loc_langs.T / df_loc_langs.T.sum()).T # normalize heights
 df_loc_langs.plot.bar(stacked=True, figsize=(16,10))
 ```
 
-![](images/gh_location_langs.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/gh_location_langs.png)
 
 Look like there are no real outliers in the distribution of developer skills between different cities of the world. Maybe you could say that, e.g., Indians like web frontends a little more than command-line hacking.
 
@@ -212,7 +212,7 @@ ax.set_xlabel('Percentage (Top 10)')
 ax.set_ylabel('Programming Language Skills')
 ```
 
-![](images/gh_ka_world.png) 
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/gh_ka_world.png) 
 
 These results are a bit surprising to me. Clearly, Karlsruhe-based developers seem to dislike JavaScript compared to the world. However, this is different from what I experienced in several student jobs and internships here.
 

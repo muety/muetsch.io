@@ -4,7 +4,7 @@ date: 2020-09-11 09:24:31
 tags:
 ---
 
-![](images/../../images/talkycars9.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/talkycars9.png)
 
 # Introduction
 This is a short, summarizing write-up about the topics of my Master's thesis, published in February 2020 in cooperation with [Prof. Dr. Sax](https://www.itiv.kit.edu/21_3940.php), [M.Sc. Martin Sommer](https://www.itiv.kit.edu/21_6289.php) and [M.Sc. Marco Stang](https://www.itiv.kit.edu/21_5341.php) at the [KIT Institute for Information Processing Technologies](https://itiv.kit.edu).
@@ -30,15 +30,15 @@ Let us first have a quick outlook. Nowadays, automated driving is still quite ra
 
 One approach to increase reliability and safety of automated vehicles is the concept of cooperative perception. In essence, the idea is to have the cars not only rely on their own sensory, but communicate with surrounding vehicles to mutually exchange information about their environment. In that sense, cooperative perception is a use case of vehicle-to-vehicle – or more broadly – vehicle-to-everything communication. It enables cars to virtually extend their field of view and, for instance, be able to look around corners.
 
-![](images/../../images/nloss_2.png)
-![](images/../../images/nloss_3.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/nloss_2.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/nloss_3.png)
 (Source: [[4]](#refs))
 
 Cooperative perception is a topic of research for years already. Most present approaches rely on so called vehicular ad-hoc networks among participants using dedicated short-range communication. That is, cars within range of each other form pair-wise temporary connections using a technology similar to WiFi. Not uncommonly, they exchange low-level sensor data, for instance LiDAR point cloud, camera images, etc.
 
 There is research which shows that these approaches face some limitations, mainly in terms of latency and data throughput. Consequently, our work assumes a different technological basis. We require that information is exchanged not in form of ad-hoc mesh networks, but through on or more central nodes using cellular communication. Moreover, we do not want to share raw senor data, which can become quite large, but higher-level information that corresponds to a common, shared environment model.
 
-![](images/../../images/talkycars2.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/talkycars2.png)
 (Source: [[4]](#refs))
 
 # Approach 
@@ -49,12 +49,12 @@ Let us focus on the modeling aspect first. There already exist elaborate approac
 
 For our environment model, we combine these aapproches with the concept of geo tiling using so called QuadKeys ([[10]](#refs)). In essence, geo tiling means to recursively divide the world map into four squares up to almost arbitrarily high precision. Each square is then uniquely identifiable through a key. Using these QuadKeys, we have a simple, commonly-understood and unique way of referencing geographical locations. Especially, it prevents from having to translate between different local- and global coordinate systems.
 
-![](images/../../images/quadkeys.jpg)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/quadkeys.jpg)
 (Source: [[9]](#refs))
 
 Moreover, we can utilize geo tiles as a basis for our environment model. We propose a model that represents an occupancy grid at its core, whereas each cell corresponds to a tile of a certain, fixed precision level. For instance, with a QuadKey precision level of 25, we would require our intelligent vehicles to represent and share their perceived environment state as an occupancy grid with cells of approx. 1.1 by 1.1 meters in size. 
 
-![](images/../../images/talkycars3.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/talkycars3.png)
 
 Naturally, a cell's occupancy state alone, that is "occupied" or "not occupied", is not sufficient to comprehensively model a traffic scene. Therefore, we allow each cell to contain additional state information following a comprehensive meta model. For instance, the type of traffic participant, that currently occupies a cell, alongside all of its respective static and dynamic properties might be included as well.
 
@@ -77,13 +77,13 @@ Let us now focus on the second major aspect: the architecture of a software syst
 
 Naturally, one essential requirement is good performance. That is, information from different vehicles shall be transmitted and aggregated as fast as possible. As mentioned earlier, many approaches relying on decentralized DSRC communication are potentially limited in latency and throughput. This is why we want to take the approach to rely on cellular communication, preferably using 5G networks. Also, to reduce communication complexity, our approach relies on centralized compute nodes that receive, transform, fuse and re-distribute information from many network participants. Of course, this introduces new challenges. First and foremost there is the requirement of high scalability, as these compute nodes have to handle large amount of data.
 
-![](images/../../images/talkycars4.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/talkycars4.png)
 
 To address this challenge, we once again utilize geo tiling with QuadKeys. In our approach, the environment is split into QuadTiles of a certain size, for instance 5 by 5 km, and a data fusion node is not deployed globally, but once per every tile. Vehicles within such a tile exchange their data through the tile's responsible node. This way, the node only has to cope with a certain, limited amount of senders and receivers.
 
 In summary, the proposed system consists of three core components. On the client-side, that is, the vehicle side, an application is responsible for generating, sending and receiving instances of the previously mentioned environment model. Second, a message broker is deployed once per tile to consolidate incoming data messages. Third, the previously mentioned fusion node is responsible for aggregating these information packets to a single, globally valid model instance and sending it back to the cars.
 
-![](images/../../images/talkycars5.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/talkycars5.png)
 
 # Evaluation
 For evaluation purposes, we implemented all parts of our system and integrated it with the CARLA simulation environment. We conducted two different experiments to evaluate the proposed system with respect to performance and quality.
@@ -91,18 +91,18 @@ For evaluation purposes, we implemented all parts of our system and integrated i
 ## Software Performance
 In the first part of the evaluation, we attempted to answer the question of how many concurrent vehicles the central data broker or fusion node is able to handle at a time. In our experiment setup, we deployed one instance of the fusion node as well as a distributed data generator that simulates an increasing amount of vehicles sending their environment models. We required that observations must be fused at a fixed rate, for instance, 10 times per second. Then we measured the actual rate at which the fusion node is able to process incoming observations as the number of sender vehicles increased. Eventually, we found that the possible fusion rate heavily depends on the size of the underlying occupancy grid and that our very little optimized implementation is able to maintain a fusion rate of 10 Hz with up to 220 concurrent vehicles at a grid size of approx. 50 meters and 100 concurrent vehicles at a grid size of approx. 100 meters. 
 
-![](images/../../images/talkycars6.png)
+![](https://apps.muetsch.io/images/o:auto/rs,s:400?image=https://muetsch.io/images/talkycars6.png)
 
 ## End-to-End Perception Quality
 The second part of the evaluation aimed to assess whether a vehicle's overall perception quality can be improved through the use of our system in general.
 
 Therefore, we utilized the CARLA simulation environment and repeatedly generated different urban traffic scenes with a fixed amount of connected, intelligent vehicles, each of which runs our proposed software system. Every vehicle was tasked to traverse the environment from a random start point to a random destination. While driving, every vehicle recorded its own local perception, derived from its sensors, including all perceived obstacles. Later, these perceived environment states are compared to the true state of the environment provided by the simulator. Accordingly, an error measure can be derived. To asses whether or not our proposed system is beneficial to a self-driving car's perception quality, every instance of the experiment is run twice: once with and once without cooperative perception. Eventually the respective error measures can be compared.
 
-![](images/../../images/talkycars7.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/talkycars7.png)
 
 Doing so, we found that the average perception quality, that is, the accuracy of detecting obstacles in the simulation, could be improved significantly in our test scenarios.
 
-![](images/../../images/talkycars8.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/talkycars8.png)
 (Image: Recall ("hit rate") for occupied cells with / without CP)
 
 # Conclusion

@@ -13,13 +13,13 @@ I’ve recently created two bots for Telegram that should each help with a daily
 
 ### ExpenseBot – Keep track of your finances
 
-![1461614801_Money-Increase](/images/expensebot_icon.png)
+![1461614801_Money-Increase](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/expensebot_icon.png)
 
 This bot’s purpose is to help people manage their daily expenses and keep track of their financial situation. Users can add expenses from wherever they are using a few simple commands from within the chat and have an eye on how much they have spent in a month or a day. This obviates the need for confusing Excel spreadsheets or paper notes. You can reach the bot by sending a Message to *[@ExpenseBot](https://telegram.me/ExpenseBot)* in Telegram.
 
 ### DoodlerBot – Coordinate group appointments
 
-![1462726473_calendar](/images/doodlerbot_icon.png)
+![1462726473_calendar](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/doodlerbot_icon.png)
 
 My second bot helps users coordinate a group of people and find the right date for a common appointment, just like you might know from [doodle.com](http://doodle.com) (even though it doesn’t have anything to do with that commercial service, except for fulfilling the same need). Open a new doodle and let your mates in the group chat vote for their preferred date to finally make the best decision for everyone. You can reach the bot by sending a Message to *[@DoodlerBot](https://telegram.me/DoodlerBot)* in Telegram.
 

@@ -16,7 +16,7 @@ Usually, your default DNS server is the one provided by your ISP. And since the 
 1. Change your DNS provider to one that is more anonymous and does not have personal information about you
 2. Encrypt your DNS queries to prevent anyone in the middle (especially your ISP) from reading them
 
-![Example of a non-encrypted DNS request](images/dns1.png)
+![Example of a non-encrypted DNS request](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/dns1.png)
 Example of a non-encrypted DNS request for `kit.edu` to Google's `8.8.8.8` DNS resolver 
 
 Luckily, the [DNS-over-TLS](https://en.wikipedia.org/wiki/DNS_over_TLS) specification already provides a solution and it is already supported by the three largest public DNS providers [CloudFlare](https://1.1.1.1/), [Google](https://developers.google.com/speed/public-dns/) and [Quad9](https://www.quad9.net/). You only have to configure your computer to use it.
@@ -52,7 +52,7 @@ In order to set up CoreDNS, there are a few steps to follow.
 }
 ```
 
-![Example of an encrypted DNS request](images/dns2.png)
+![Example of an encrypted DNS request](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/dns2.png)
 Example of an encrypted DNS request for `kit.edu` to CloudFlare's `1.1.1.1` DNS resolver
 
 Alternatively, use the following `forward` statement to use the independent [BlahDNS](https://blahdns.com) instead of CloudFlare as provider.

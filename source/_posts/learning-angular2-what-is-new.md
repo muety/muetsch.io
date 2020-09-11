@@ -4,7 +4,7 @@ date: 2016-02-17 22:51:59
 tags:
 ---
 
-![](/images/angular2_logo.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/angular2_logo.png)
 
 A few days ago i started teaching myself [Angular 2](http://angular.io), which is the successor of the popular frontend web-framework [AngularJS 1.x](https://angularjs.org/). It is still in development and only released as a beta and the developers at Google recommend to not use it in production yet. But I’m sure it will come some time in the near future so why not take a step ahead and already learn it now? As Angular 1 has become very successful and wide-spread for web-applications’ client side I have no doubts that Angular 2 will establish itself pretty quick too.
 

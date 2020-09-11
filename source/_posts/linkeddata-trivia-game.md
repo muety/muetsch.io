@@ -8,7 +8,7 @@ Originally I got inspired by [this recent post](https://news.ycombinator.com/ite
 
 [Code on GitHub](https://github.com/muety/linkeddata-trivia)
 
-![](images/trivia.jpg)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/trivia.jpg)
 
 ### Limitations
 This project is __not a production-ready__ app at all, but rather a __proof-of-concept__ to experiment with. Currently, the __major issue is performance__. Since the app fires a bunch of rather expensive, non-optimized SPARQL queries at the public DBPedia endpoint, the whole process of generating a quiz question takes several seconds on average, sometimes even up to a minute. This could be optimized to a certain extent (e.g. currently there are at least 8 separate HTTP requests from this app plus a few more from the ranking webservice), but all in all querying RDF data is still pretty slow. 

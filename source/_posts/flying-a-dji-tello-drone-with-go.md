@@ -9,7 +9,7 @@ description: In this post, we program a DJI Tello drone using Go and control it 
 A few months ago, I bought a [DJI Tello](https://amzn.to/2neAwVr) (affiliate link) drone on Amazon for ~ 80 €, which is quite an impressive price, considering that you can also pay several hundred or even thousand Euro for a DJI drone. Of course, this one is only meant for fun and tinkering, not for professional photography or so. 
 Even though I was amazed by how easy it is to control the drone from your smartphone – even with windy weather conditions - the Tello started to bore me after a few weeks. I wanted to do something more interesting with the drone – I wanted to **program it**!
 
-![](images/tello1.jpg)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/tello1.jpg)
 
 # Using Gobot SDK
 During my research on how to program drones - specifically the Tello – I found an article called ["Hello, Tello - Hacking Drones With Go"](https://gobot.io/blog/2018/04/20/hello-tello-hacking-drones-with-go/), which referenced the documentation of a robot programming toolkit called [Gobot](https://gobot.io). As it turned out, Gobot is a Go SDK to control several different micro-robots like [GoPiGo3](https://gobot.io/documentation/platforms/gopigo3/), the [Parrot Ardrone](https://gobot.io/documentation/platforms/ardrone/), any drone using the [MAVLink protocol](https://mavlink.io/en/), [Pebble smartwatches](https://gobot.io/documentation/platforms/pebble/) and many more. It also has support for different microcontrollers, including Arduino, RaspberryPi and Intel Edison as well as communication protocols like MQTT or [NATS](https://nats.io/). Gobot's API to interface with any of the supported platforms appeared to be quite straightforward and easy to understand, so I decided to give it a try.
@@ -18,7 +18,7 @@ My first goal was to just have a little program that allows me to **control the 
 
 # First Prototype
 
-![](images/tello2.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/tello2.png)
 
 After tinkering for two hours (and having my poor drone hit the wall several times), I got a basic program that:
  - **connects** to the drone

@@ -17,7 +17,7 @@ My implementation is essentially based on [this great blog post](https://keon.io
 ### Tweak #1: More hidden neurons
 I slightly modified the network layout by **doubling the number of hidden neurons** in the second hidden layer. While randomly experimenting with some layouts I found that this one seemed to work better on average. Generally, determining a neural network's layout is basically trial and error for the most parts. Mainly you want to master the [bias-variance tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff), but there is no rule on how to choose network structure in order to do so. Mine looks like this now:
 
-![](images/dqn4.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/dqn4.png)
 
 ### Tweak #2: Larger replay memory
 In [Keon](https://github.com/keon)'s original implementation, the replay memory had a maxmimum size of 2,000. Assuming an average "survival" time of 100 steps, it would only hold experiences from 20 episodes, which is not much. I didn't see any reason why they shouldn't be a greater variety in training examples, so I increased the **memory size to 100,000**.
@@ -31,12 +31,12 @@ As already mentioned in my last post, I'm of the opinion that it wouldn't make s
 ### Tweak #5: Logarithmic ε-decay
 Since the adaptive exploration rate from [@tuzzer's solution](https://medium.com/@tuzzer/cart-pole-balancing-with-q-learning-b54c6068d947) was very effective in my last implementation, I simply adopted it for this one, too. I didn't cross-validate whether it's better or worse than [Keon](https://github.com/keon)'s epsilon decay, but at least it doesn't seem to do bad.
 
-![](images/dqn3.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/dqn3.png)
 
 ### Tweak #6: tanh activation function
 I'm really not sure about this point, so please correct me if I'm wrong. The original implementation used the ReLU activation function, which is a linear function that maps the input to itself, but thesholded at zero.
 
-![](images/dqn2.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/dqn2.png)
 
 However, since the input features can be negative, ReLU might cause dead neurons, doesn't it? To overcome that problem, I decided to _tanh_ as an activation function.
 
@@ -49,7 +49,7 @@ However, I found that although the DQN approach _can_ converge faster, it also s
 
 [>> Code on GitHub (dqn_cartpole.py)](https://gist.github.com/muety/2a6722407117e4d668921fce53845432)
 
-![](images/dqn1.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/dqn1.png)
 
 **Q**: `Min 120, Max 999, Mean 197.16, Std: 183.223`
 **DQN**: `Min 56, Max 999, Mean 600.04, Std: 356.046`

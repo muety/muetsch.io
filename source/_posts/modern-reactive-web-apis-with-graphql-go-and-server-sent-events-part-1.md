@@ -4,7 +4,7 @@ date: 2020-06-06 11:59:23
 tags:
 ---
 
-![](images/graphql_cover.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/graphql_cover.png)
 
 # Introduction
 In the course of this two-part article, the interested reader is briefly introduced to the basic of GraphQL and how it compares to traditional approaches. In the second part, an example single-page web application (SPA) is built to demonstrate the use of GraphQL in combination with further modern web technologies. The [final project](https://github.com/muety/go-graphql-sse-example) provides a clean, opinionated code- and project structure for both backend and frontend and constitutes a good starting point for new apps based on the presented tech stack.
@@ -144,7 +144,7 @@ Response Body
 This way, you get only the data you want. All your API has to know is how to fetch every piece of data. All your client has to know is how the data schema itself looks like.
 
 ## Try it out
-![](images/graphql_github.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/graphql_github.png)
 
 GitHub's official API offers GraphQL query endpoints. You can try it out using their [GraphQL explorer](https://developer.github.com/v4/explorer/).
 

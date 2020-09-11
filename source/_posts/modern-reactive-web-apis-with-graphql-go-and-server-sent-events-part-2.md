@@ -4,7 +4,7 @@ date: 2020-06-06 18:34:02
 tags:
 ---
 
-![](images/graphql_cover.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/graphql_cover.png)
 
 In the [previous](https://muetsch.io/modern-reactive-web-apis-with-graphql-go-and-server-sent-events-part-1.html) part, concepts and benefits of GraphQL and [GraphQL Subscriptions](https://graphql.org/blog/subscriptions-in-graphql-and-relay/) were presented and proposed as a modern, highly flexible alternative for designing web APIs.
 
@@ -17,7 +17,7 @@ The demo web app built in the context of this article comprised of a client-side
 
 With this demo app, we aim to mimic the functionality of a very basic, minimalist food ordering system. Customers can choose from a list of food products and place their orders. They are shown a waiting number an estimated processing time for their orders and are notified once the order is ready to be picked up. One the other side there is the kiosk operator, who views a live dashboard of currently pending orders, which appear just as they are being placed. 
 
-![](images/graphql_screenshots1.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/graphql_screenshots1.png)
 
 ## Technology Stack
 In summary, the following technologies are used:

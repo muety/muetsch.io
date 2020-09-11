@@ -42,10 +42,10 @@ At the very end of the course, there is the so called **Capstone project** and t
 
 The final project consists of two parts. First, you have to submit a design proposal, which includes your app idea, some mock-ups and details on how you plan to implement it. After your design has been approved by Udacity mentors, you can start with phase 2, the actual implementation.
 
-![](images/cert.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/cert.png)
 
 # QuizNerd
-![](images/qn_feature.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/qn_feature.png)
 
 At that time I had a few coding interviews, so I came to the idea to implement a multi-player coding quiz game as a final project. Although that was probably a more comprehensive project than most of the others, I still wanted to do it, especially because it was an app I really wanted to have for myself, not only for the Nanodegree. 
 
@@ -53,7 +53,7 @@ I spent approximately two weeks of nearly full-time coding on that final project
 
 If you are a developer who likes games like [QuizClash](https://play.google.com/store/apps/details?id=se.feomedia.quizkampen.de.lite), I would love to have you try out QuizNerd! You can find it on the [Play Store](https://play.google.com/store/apps/details?id=com.github.n1try.quiznerd) and it has several hundred questions for Android, C++, C#, HTML, Java, JavaScript, PHP, Python and Swift. Feel free to share your feedback with me 🙂.
 
-![](images/qn2.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/qn2.png)
 
 # Conclusion
 It was fun! I learned a lot during the Nanodegree and I am kind of confident calling myself an Android developer now. Most of the concepts were explained very detailed. Fore instance one of my favorite chapters was the one about Gradle, where they precisely explained how Gradle works, how to write own Gradle tasks and how to apply that to Android.

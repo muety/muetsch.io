@@ -4,7 +4,7 @@ date: 2016-09-21 23:02:25
 tags:
 ---
 
-![](/images/webdevlist.jpg)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/webdevlist.jpg)
 
 I just put up a new project of mine, which is called Webdevlist.
 

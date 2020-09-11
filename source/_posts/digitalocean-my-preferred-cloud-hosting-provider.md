@@ -4,7 +4,7 @@ date: 2016-04-06 22:55:18
 tags:
 ---
 
-![](/images/do.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/do.png)
 [DigitalOcean.com](https://digitalocean.com) is a service that offers you on-demand virtual server instances that you can use to host any server application, be it a simple webpage, a Node.js written backend, any Docker container or anything else.
 
 It is especially useful if you have developed a web application and want to bring it to the internet without owning a root server. In this case you can go to DigitalOcean, choose any boilerplate (or Droplet, as they call it) for your new virtual, cloud-hosted machine, additionally choose a the datacenter region which is closest to you or your customers, add your SSH keys for quick access and hit the create button. Within less than a minute your machine is up and running with a dedicated IPv4 assigned where you can ssh in.

@@ -8,11 +8,11 @@ Since it took me a while to completely understand why a RAID 1+0 configuration s
 First you should have a basic understanding of what the first two RAID levels are and what it means to nest them. Very basically at level 0 data gets striped, meaning a datum gets split up into two or more blocks that get stored on a different hard drive each. Goal is to improve read and write performance linearly to the number of disks used, because the fragments don’t have to be read sequentially anymore but in parallel. Level 1 is about mirroring a datum on two disks with the goal to improve security. Of course, both levels can be combined – you could either mirror striped data or stripe mirrored data which finally gives both: security and performance. In each case at least four disks are needed, while the half of the disks usually is a mirror. So if you took six disks you would do 3-striping. With eight disks you would do 4-striping and so on. Technically you could have more than one mirror (like doing 2-striping and having a 3-mirror or even more) but it’s very unusual.  
 The following diagrams shall illustrate these two ways and are useful for further explanations. In both cases we have a RAID with six disks.
 
-![raid01](/images/raid01.png)  
+![raid01](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/raid01.png)  
 
 *Disks 4, 5 and 6 are the mirrors of 1, 2 and 3.*
 
-![raid10](/images/raid10.png)  
+![raid10](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/raid10.png)  
 
 *Disk 2 mirrors 1, 4 mirrors 3 and 6 mirrors 5.*
 

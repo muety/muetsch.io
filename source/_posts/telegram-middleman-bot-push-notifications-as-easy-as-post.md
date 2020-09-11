@@ -4,7 +4,7 @@ date: 2017-07-04 22:13:57
 tags:
 ---
 
-![](images/middleman.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/middleman.png)
 
 ## E-Mails are so 2010
 E-Mails are everywhere. Literally anybody who gets in contact with a computer in some way will use the electronic mail system, which dates back to 1971. And certainly the E-Mail still has its right to exist, even in 2017. Especially in a business context it simply makes sense for many use cases - however not for all of those it is nowadays used for. The smaller the piece of information you want to communicate is, the less efficient e-mails are. Due to tons of header rows and other heavy load, a mail has a large overhead. Just look at a small random sample of mail from your inbox, find out the core information you get from it and look at the file size. Often you will find an overhead of more than 70 %. Great examples are subscription mails from online forum posts. Their essential information is basically only one bit in size, namely that something new has happened. However, they usually contain lots of HTML code, CSS, attachment pictures and some boilerplate text. Another example is those chatty-like conversations between two or more people, where each of them responds with only a few words to his conversation partner's last question or the like. Although only few words are added, the whole previous mail is replicated again, enriched with some headers and then sent to the server, where it is stored and delivered to the recipients. I'm glad that for those cases apps like Slack are gradually establishing and I hope they will replace the e-mail some day. Anyway, I get off the topic. This shouldn't be a hate letter against the e-mail. Rather I want to present another bot for the __Telegram__ instant messenger.
@@ -30,7 +30,7 @@ The token is your unique identifier the bot uses internally to decide to which c
 
 And there you go. 
 
-![](images/middleman2.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/middleman2.png)
 
 
 ## Give it a try
