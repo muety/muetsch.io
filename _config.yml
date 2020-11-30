@@ -76,12 +76,14 @@ sitemap:
   path: sitemap.xml
 
 feed:
+  enable: true
   type: rss2
   path: rss2.xml
   limit: 5
-  content: false
+  content:
   order_by: -date
   autodiscovery: true
+  template:
 
 include:
     - "favicon.ico"

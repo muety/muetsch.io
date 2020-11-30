@@ -2,6 +2,7 @@
 title: Watching stock prices with Node-RED and Webhook2Telegram
 date: 2020-11-30 21:08:47
 tags:
+description: Brief description of my setup to watch stock watch stock prices using Node-RED and Telegram
 ---
 
 # Motivation
@@ -12,8 +13,7 @@ I hold a few stocks and I want to stay up-to-date about their quotations. Howeve
 # Flow
 The resulting flow, that fulfills the above mentioned purpose looks like this.
 
-![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/nodered-flow.png)
-([Click to view large](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/nodered-flow.png))
+[![](https://apps.muetsch.io/images/o:auto/rs,s:640?image=https://muetsch.io/images/nodered-flow.png)](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/nodered-flow.png)
 
 The flow's entry node is an `inject` node, that holds a JSON array of all my stocks' symbols (e.g. `QCOM`) and is automatically executed once every afternoon. The message is then split into multiple, individual messages, namely, one for every stock symbol. A `http request` node then calls the [Alphavantage API](https://www.alphavantage.co/) once for every message to fetch the intra-day price changes. Subsequently, the response is parsed, post-processed and formatted as Markdown. Eventually all individual messages are combined into one again before my [Webhook2Telegram](https://github.com/muety/webhook2telegram) bot is requested to send me the message as a last step.
 
