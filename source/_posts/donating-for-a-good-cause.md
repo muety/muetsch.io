@@ -32,4 +32,4 @@ While contributing to what is generally referred to as a good cause – like hum
 
 Besides an incredible amount of knowledge, the internet also has to offer [countless](https://github.blog/2018-11-08-100M-repos/) free, open-source software projects, without which today's tech world would not be anywhere near what it is now. 
 
-In an upcoming blog post I will give a few good reasons why it is worth to monetarily support open source projects and which different options you have. Stay tuned. 
+In an [upcoming blog post](https://muetsch.io/consider-sponsoring-open-source.html) I will give a few good reasons why it is worth to monetarily support open source projects and which different options you have. Stay tuned. 
