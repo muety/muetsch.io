@@ -1,9 +1,9 @@
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="h-entry post" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
     <div class="meta">
-      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name"><% if (page.author) { %><%- page.author %><% } else { %><%- config.title %><% } %></span>
+      <span class="author" itemprop="author" property="author" itemscope itemtype="http://schema.org/Person" vocab="http://schema.org/" typeof="Person">
+        <span itemprop="name" property="name" class="p-author h-card"><% if (page.author) { %><%- page.author %><% } else { %><%- config.title %><% } %></span>
       </span>
       <%- partial('_partial/post/date', { post: page, class_name: 'postdate' }) %>
       <%- partial('_partial/post/tag') %>
@@ -11,13 +11,13 @@
       <div style="margin-top: 30px">
         <a href="https://liberapay.com/muety/" target="_blank"
           style="background-image: none; text-decoration: none;"><img
-            src="https://img.shields.io/liberapay/receives/muety.svg?logo=liberapay&style=flat-square" alt="Liberapay"
+            src="https://badges.fw-web.space/liberapay/receives/muety.svg?logo=liberapay&style=flat-square" alt="Liberapay"
             style="height: auto !important;width: auto !important;"></a>
       </div>
     </div>
   </header>
   <%- partial('_partial/post/gallery') %>
-  <div class="content" itemprop="articleBody">
+  <div class="content e-content" itemprop="articleBody" property="articleBody">
     <%- page.content %>
   </div>
 </article>

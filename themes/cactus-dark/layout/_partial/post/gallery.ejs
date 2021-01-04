@@ -2,7 +2,7 @@
 <div class="article-gallery">
     <% page.photos.forEach(function(photo, i) { %>
     <a class="gallery-item" href="<%- url_for(photo) %>" rel="gallery_<%= page._id %>">
-        <img src="<%- url_for(photo) %>" itemprop="image" />
+        <img src="<%- url_for(photo) %>" class="u-photo" itemprop="image" property="image"/>
     </a>
     <% }) %>
 </div>
