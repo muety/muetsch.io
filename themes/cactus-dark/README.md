@@ -122,15 +122,6 @@ Set the `rss` field in the theme's `_config.yml` to one of the following values:
 2. `rss: atom.xml` sets a specific feed link.
 3. `rss:`leave empty to use the [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed) plugin. 
 
-### Analytics
-
-Add you Google Analytics `tracking_id` to the theme's `_config.yml`.
-
-  ```
-  plugins:
-      gooogle_analytics: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-  ```
-
 ### Comments
 
 First, create a site on Disqus: [https://disqus.com/admin/create/](http://disqus.com/admin/create/).

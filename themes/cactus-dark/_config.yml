@@ -42,8 +42,8 @@ rss: false
 
 # Plugins
 plugins:
-    disqus_shortname: # Disqus Comments Shortname
-    google_analytics: UA-3922933-8 # enter the tracking ID for your Google Analytics
+    disqus_shortname:
+    google_analytics:
 
 # Miscellaneous
 miscellaneous:
