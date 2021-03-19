@@ -8,7 +8,7 @@ tags:
 
 On the occasion of the Java programming language's 25th anniversary, Oracle just recently announced a pretty nice discount on the _Java 11 SE Developer Certification_. For a limited period of time you can get the exam, which normally costs something around $ 250 and the accompanying course, which, I believe, is even more expensive, for a total of $ 25.
 
- At [Frachtwerk](https://frachtwerk.de), we decided to take the chance and give all backend developers the opportunity to get certified. Today, I had my exam and here are my thought on the journey to get there.
+ At [Frachtwerk](https://frachtwerk.de), we decided to take the chance and give all backend developers the opportunity to get certified. Today, I had my exam and here are my thoughts on the journey to get there.
 
 ## The Course
 The course's target audience includes developers, who already have a decent amount of experience with programming in Java, but not necessarily are experts, yet. Motivation for taking the course could be to further improve your skills or to specifically prepare for the certification. A certification like this, in turn, can help developers set themselves apart from potential competitors on the job market.
