@@ -13,7 +13,7 @@ On the occasion of the Java programming language's 25th anniversary, Oracle just
 ## The Course
 The course's target audience includes developers, who already have a decent amount of experience with programming in Java, but not necessarily are experts, yet. Motivation for taking the course could be to further improve your skills or to specifically prepare for the certification. A certification like this, in turn, can help developers set themselves apart from potential competitors on the job market.
 
-I, personally, have been developing web application in Java for a few years now and would consider my experience and language skills fairly advanced. However, I was surprised how much I could still learn, though. I even got to know feature of Java that I haven't had heard of before.
+I, personally, have been developing web applications in Java for a few years now and would consider my experience and language skills fairly advanced. However, I was surprised how much I could still learn, though. I even got to know feature of Java that I haven't had heard of before.
 
 Contents of the course range from the most essential things like types, variables, loops and conditions over inheritance principles, streams, I/O and JDBC throughout to low-level multi-threading and concurrency concepts and details about the fairly new Java 9 module system.
 
@@ -36,7 +36,7 @@ Especially since it is free, I would definitely recommend the course, even to ex
 ## The Exam
 After I had spent about 1.5 full work days for preparation, I eventually felt confident enough to register for the exam. It takes place online and you can choose from a variety of different dates and times. 
 
-I was very satisfied with the learning path so far. However, there were a few points about the exam which I was not happy about. 
+I was perfectly satisfied with the learning path so far. However, there were a few points about the exam which I did not quite like that much.
 
 While the certification program itself is offered by Oracle, the exam takes place through an external provider called Pearson VUE. Being spezialized on online exams, they take various measures to prevent cheating. In principle, this is a positive thing. I could not take a certificate seriously if I knew that you could google during the exam or do partner work. However, in my opinion, things were a bit too strict here.
 
