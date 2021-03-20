@@ -49,3 +49,5 @@ So far so good. However, at some point, things started to get a little ridiculou
 Eventually, I passed the exam after 90 minutes and 50 multiple-choice coding questions and got my certificate. The only disappointing thing about it is the fact that my last name, `Mütsch`, is instead written as `M%C3%Btsch` on it. I would not have guessed that non-ASCII characters like German umlauts would still be a problem in 2021. But anyway, I am happy that I passed the exam, which, indeed, was way harder than I would have expected.
 
 All in all, I am still happy with this experience and would recommend it to any Java developer, too. 
+
+![](https://apps.muetsch.io/images/o:auto/rs,s:640?image=https://muetsch.io/images/java_cert8.png)
