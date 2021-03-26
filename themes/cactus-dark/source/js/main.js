@@ -7,10 +7,20 @@ function toggleById(x) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+  /**
+   * Shows the responsive navigation menu on mobile.
+   */
+  var menuIcons = document.getElementById('header').getElementsByClassName('icon')
+  if (menuIcons.length) menuIcons[0].addEventListener('click', function (e) {
+    menuIcons[0].parentElement.classList.toggle('responsive')
+  })
+
+  /**
+    * Display the menu if the menu icon is clicked.
+    */
   if ([...document.querySelectorAll('.post')].length) {
     var menu = document.getElementById('menu')
-    var menuIcons = [document.getElementById('menu-icon'), document.getElementById('menu-icon-tablet')]
-    menuIcons.forEach(function (menuIcon) {
+    [document.getElementById('menu-icon'), document.getElementById('menu-icon-tablet')].forEach(function (menuIcon) {
       menuIcon.addEventListener('click', function (e) {
         if (!menu.style.visibility || menu.style.visibility === 'hidden') {
           menu.style.visibility = 'visible'
