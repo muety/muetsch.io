@@ -1,4 +1,5 @@
 [
-    "https://badges.fw-web.space/badge/HTTP%2F2.0-enabled-2BBC8A?style=flat-square",
-    "https://badges.fw-web.space/badge/IPv6-enabled-2BBC8A?style=flat-square"
+    "images/badges/http3_badge.svg",
+    "images/badges/ipv6_badge.svg",
+    "images/badges/dnssec_badge.svg"
 ]
