@@ -1,5 +1,10 @@
 [
     {
+        "name": "🐳 MailWhale",
+        "url": "https://github.com/muety/mailwhale",
+        "desc": "A bring-your-own-SMTP-server mail relay with REST API and web UI, built with Go and Svelte."
+    },
+    {
         "name": "📊 Wakapi",
         "url": "https://github.com/muety/wakapi",
         "desc": "A minimalistic, self-hosted WakaTime-compatible backend for coding statistics written in Go."
@@ -8,11 +13,6 @@
         "name": "🐙 KITSquid",
         "url": "https://kitsquid.de",
         "desc": "KITSquid is an independent, alternative course catalog for KIT students, including course recommendations and other community features. Open-source and written in Go."
-    },
-    {
-        "name": "🍦 Wafflr",
-        "url": "https://wafflr.de",
-        "desc": "Wafflr is a modern web app for cafés and ice-cream shops. Customers can use it to quickly and easily place orders, while employees get a live overview of all pending orders. Made with GraphQL, Go and Vue."
     },
     {
         "name": "⚓️ Anchr for Android",
