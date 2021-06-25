@@ -7,7 +7,7 @@ tags:
 # Introduction
 If you are using any kinds of Google services on your smartphone, chances are high that Google continuously tracks your location and updates your [Timeline](https://www.google.com/maps/timeline).
 
-![](https://www.techlicious.com/images/misc/google-timeline-10-5-2017-700px.jpg)
+![](https://apps.muetsch.io/images/o:auto/rs,s:640?image=https://muetsch.io/images/owntracks4.jpg)
 ([Source](https://techwelkin.com/wp-content/uploads/2017/04/google-timeline-location-history.jpg))
 
 This is a pretty cool feature and for me it is super interesting to see in retrospect which places I have visited in the past. However, it is also a bit concerning to see how precisely Google tracks your daily life. That is why I turned the location tracking off and decided to go for a rather privacy-focused approach instead.
@@ -23,7 +23,7 @@ To build your own, self-hosted location tracking system, you are going to need a
 * Grafana
 
 ## OwnTracks
-![](images/owntracks1.png)
+![](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/owntracks1.png)
 
 The first step to tracking your location is to record it anywhere you go. As most people almost always carry their smartphones with them and as most smartphones have GNSS sensors, the choice is quite obvious. The only thing missing is an appropriate app. This is where [OwnTracks](https://owntracks.org/) comes to play. It is an open-source mobile app that does exactly what we need - record your location and send it to a custom configured MQTT broker or HTTP endpoint. It is available for both Android (written in Kotlin) and iOS (written in Objective-C) and comes with super detailed, developer-focused [documentation](https://owntracks.org/booklet/).
 
@@ -53,7 +53,7 @@ I would suggest to read through the docs and decide which modes suits you best, 
 
 This basically tells the app to _request my location with block-level accuracy (100 meters) every time I move by more than 25 meters, but at most every 60 seconds_. These settings work quite well for me and I did not recognize any significant impact on battery consumption. 
 
-![](images/owntracks2.png)
+![](https://apps.muetsch.io/images/o:auto/rs,s:320?image=https://muetsch.io/images/owntracks2.png)
 
 ## Server-side script
 After setting up the client side, a server-side component to receive the OwnTracks app's requests is still missing. OwnTracks ships with its [Recorder](https://github.com/owntracks/recorder), which is a small and simple web application written in C. However, I did not like it a lot, as it does not look particularly beautiful and is very limited regarding its functionality. I rather wanted to visualize my data in Grafana. But to get it there, it first needs to be persisted to a database. 
@@ -89,6 +89,8 @@ I quickly wrote [a little PHP script](https://gist.github.com/muety/3dcbb22916a4
 
 ## Grafana dashboard
 The last missing part is to actually visualize your location data. I am a big fan of Grafana, as you can easily build beautiful visualizations with low effort. Grafana integrates with MySQL as a data source, so it can read the location data previously ingested by the above script. Using the [grafana-map-panel](https://github.com/panodata/grafana-map-panel) plugin, you can visualize geo data in dashboard. In addition, I added another two graphs for plotting my velocity and my phone's battery level over time. This is what it looks like in the end. 
+
+![](https://apps.muetsch.io/images/o:auto/rs,s:640?image=https://muetsch.io/images/owntracks3.png)
 
 The geo data panel is generated from this underlying SQL query:
 
