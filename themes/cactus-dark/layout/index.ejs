@@ -62,3 +62,11 @@
   </div>
 </section>
 <% } %>
+
+<% if(config.iota) { %>
+<script type="module" src="js/iota-button/iota-button.esm.js"></script>
+<script nomodule src="js/iota-button/iota-button.js"></script> 
+<div class="iota-button-container">
+  <iota-button address="<%- config.iota %>" type="donation" currency="EUR"/>
+</div>
+<% } %>
