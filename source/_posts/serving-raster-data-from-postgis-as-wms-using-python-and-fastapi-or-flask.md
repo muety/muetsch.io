@@ -35,7 +35,7 @@ Since WMS itself is not that complex as a protocol, you can quite easily come up
 The first component is a quite comprehensive SQL function, that does most of the heavy lifting. Once created in your database it can be called as part of SQL queries with a couple of parameters. Connect to your PostGIS database and run the following script to initially create the function.
 
 ```sql
---- get_tast_tile.sql
+--- get_rast_tile.sql
 
 create or replace function get_rast_tile(param_format text, param_width integer, param_height integer, param_srid integer, param_bbox text, param_schema text, param_table text) returns bytea
     immutable
