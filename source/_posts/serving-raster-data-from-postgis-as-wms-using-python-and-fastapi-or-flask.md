@@ -93,7 +93,7 @@ BEGIN
             var_env,
             param_width,
             param_height,
-            var_erast
+            var_erast,
             var_env_buf;
 
     var_sql :=
