@@ -46,11 +46,16 @@ as
 $$
 DECLARE
     var_sql text; var_result raster; var_srid integer;
-    var_env geometry; var_erast raster;
+    var_env geometry; var_env_buf geometry; var_erast raster;
 BEGIN
     EXECUTE
         'SELECT ST_MakeEnvelope(' || array_to_string(('{' || param_bbox || '}')::float8[], ',') || ',' || param_srid ||')'
-        INTO var_env; -- <1>
+    INTO var_env;
+
+    EXECUTE
+        'SELECT ST_Buffer($1, 20);'
+    USING var_env
+    INTO var_env_buf; 
 
     var_sql :=
             'SELECT srid, ST_AsRaster($4,$5,$6,pixel_types,nodata_values,nodata_values) As erast
@@ -58,13 +63,13 @@ BEGIN
             WHERE r_table_schema = $1 AND r_table_name = $2 AND r_raster_column=$3';
 
     EXECUTE var_sql INTO var_srid, var_erast
-        USING param_schema, param_table, 'rast', var_env, param_width, param_height; -- <2>
+        USING param_schema, param_table, 'rast', var_env, param_width, param_height;
 
     var_sql :=
         'WITH r AS (SELECT ST_Clip(rast,' ||
         CASE
-            WHEN var_srid = param_srid THEN '$3'
-            ELSE 'ST_Transform($3,$2)'
+            WHEN var_srid = param_srid THEN '$7'
+            ELSE 'ST_Transform($7,$2)'
             END || ') As rast FROM  ' ||
         quote_ident(param_schema) || '.' ||
         quote_ident(param_table) || '
@@ -79,7 +84,7 @@ BEGIN
             WHEN var_srid = param_srid THEN 'rast'
             ELSE 'ST_Transform(rast,$1)'
             END ||
-        ',$6,true,''CubicSpline'') As rast FROM r) As final'; -- <3>
+        ',$6,true,''NearestNeighbor'') As rast FROM r) As final';
 
     EXECUTE var_sql INTO var_result
         USING
@@ -88,11 +93,17 @@ BEGIN
             var_env,
             param_width,
             param_height,
-            var_erast; -- <4>
+            var_erast
+            var_env_buf;
+
+    var_sql :=
+        'SELECT ST_MapAlgebra($1, $2, ''[rast2]'', ''8BUI''::text, ''FIRST'', ''[rast2]'', NULL::text) rast';
+    EXECUTE var_sql INTO var_result
+    USING var_erast, var_result;
 
     IF var_result IS NULL THEN
         var_result := var_erast;
-    End If;
+    END IF;
 
     RETURN
         CASE
