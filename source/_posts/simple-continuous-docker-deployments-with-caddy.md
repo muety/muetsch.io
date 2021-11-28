@@ -34,16 +34,18 @@ Conceptually, Caddy spawns a webhook endpoint, that is called as part of the las
 1. Create a new bash script, e.g. `update_app.sh`, that contains the logic for updating your container.
     ```bash
     #!/bin/bash
+
+    # Replace your-username with your actual user or leave out `--config` when using public registry
+    DC="/home/your-username/.docker"
     
     # Pull image `registry.gitlab.com/your-group/your-project` from non-public GitLab container registry
-    # Replace your-username with your actual user or leave out `--config` when using public registry
-    docker --config /home/your-username/.docker pull registry.gitlab.com/your-group/your-project
+    docker --config $DC pull registry.gitlab.com/your-group/your-project
 
     # Stop old container
-    docker stop your-app-1 && docker rm your-app-1
+    docker --config $DC stop your-app-1 && docker --config $DC rm your-app-1
 
     # Run new container (e.g. some web app listeing on port 8080)
-    docker run -d -p 127.0.0.1:8080:8080 --name your-app-1 registry.gitlab.com/your-group/your-project:latest
+    docker --config $DC run -d -p 127.0.0.1:8080:8080 --name your-app-1 registry.gitlab.com/your-group/your-project:latest
     ```
 
 1. Make the file executable by `caddy` user:
