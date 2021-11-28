@@ -6,8 +6,7 @@ tags:
 
 # CI and CD
 
-<!--![](https://apps.muetsch.io/images/o:auto/rs,s:640?image=https://muetsch.io/images/cicd1.png)-->
-![](images/cicd1.png)
+![](https://apps.muetsch.io/images/o:auto/rs,s:640?image=https://muetsch.io/images/cicd1.png)
 ([Source](https://harness.io/blog/continuous-delivery-tools/))
 
 Continuous deployment (CD) refers to the process of frequently delivering software updates through automated deployments and usually goes hand in hand with continuous integration (CI). The input to a CI pipeline (e.g. running on [GitLab CI](https://docs.gitlab.com/ee/ci/), [GitHub Actions](https://github.com/features/actions), [Jenkins](https://www.jenkins.io/), [TeamCity](https://www.jetbrains.com/teamcity/) or [GoCD](https://www.gocd.org/)) is raw source code, while the output usually is a well-tested, self-contained build artifact, that contains your application. This could be a binary executable (common with compiled languages like C, C++, Go), a JAR or WAR file (in the case of JVM languages), a DEB or RPM package, a Python [wheel](https://www.python.org/dev/peps/pep-0427/), and, among all these other options, also a Docker image. Let us focus on the latter, as this is one of the most common and most flexible approaches nowadays. So, after having been built and stored in some Docker library (e.g. publicly on DockerHub or in a private container registry like [GitLab](https://docs.gitlab.com/ee/user/packages/), [Artifactory](https://jfrog.com/artifactory/) or [Nexus](https://www.sonatype.com/products/repository-pro)), the Docker image must still somehow find its way to the server, where the application shall be deployed - at least in the case of web applications. This is where CD comes to play. 
