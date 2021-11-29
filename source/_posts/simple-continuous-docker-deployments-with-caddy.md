@@ -56,6 +56,8 @@ Conceptually, Caddy spawns a webhook endpoint, that is called as part of the las
 1. Edit your Caddyfile to look like so:
     ```
     your-app.example.org {
+        # Assuming you also use Caddy as a reverse proxy to your app, not required
+        reverse_proxy http://localhost:8080
 
         # Request matcher, based on query param and token header field
         @your-app_push {
@@ -73,9 +75,6 @@ Conceptually, Caddy spawns a webhook endpoint, that is called as part of the las
                 timeout 120s
             }
         }
-
-        # Assuming you also use Caddy as a reverse proxy to your app, not required
-        reverse_proxy http://localhost:8080
     }
     
     ```
