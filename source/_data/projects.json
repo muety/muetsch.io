@@ -1,13 +1,18 @@
 [
     {
+        "name": "📊 Wakapi",
+        "url": "https://github.com/muety/wakapi",
+        "desc": "A minimalistic, self-hosted WakaTime-compatible backend for coding statistics written in Go."
+    },
+    {
         "name": "🐳 MailWhale",
         "url": "https://github.com/muety/mailwhale",
         "desc": "A bring-your-own-SMTP-server mail relay with REST API and web UI, built with Go and Svelte."
     },
     {
-        "name": "📊 Wakapi",
-        "url": "https://github.com/muety/wakapi",
-        "desc": "A minimalistic, self-hosted WakaTime-compatible backend for coding statistics written in Go."
+        "name": "🤖 Telepush",
+        "url": "https://telepush.dev",
+        "desc": "A simple Telegram Bot to translate POST requests with JSON payload into Telegram push messages. Written in Go."
     },
     {
         "name": "🐙 KITSquid",
@@ -15,14 +20,14 @@
         "desc": "KITSquid is an independent, alternative course catalog for KIT students, including course recommendations and other community features. Open-source and written in Go."
     },
     {
+        "name": "⚓️ Anchr.io",
+        "url": "https://github.com/muety/anchr",
+        "desc": "A toolbox service for maintaining bookmark collections, shortening links and uploading and sharing images encryptedly."
+    },
+    {
         "name": "⚓️ Anchr for Android",
         "url": "https://github.com/muety/anchr-android",
         "desc": "An Android app, build with Dart and Flutter, to manage links and bookmarks using Anchr.io on your mobile device."
-    },
-    {
-        "name": "🤓 QuizNerd for Android",
-        "url": "https://play.google.com/store/apps/details?id=com.github.muety.quiznerd",
-        "desc": "A multi-player trivia Android game made for developers and IT enthusiasts."
     },
     {
         "name": "✏️ MiniNote",
@@ -30,14 +35,9 @@
         "desc": "A simple, persistent, self-hosted Markdown note-taking app built with VueJS."
     },
     {
-        "name": "🤖 Webhook2Telegram",
-        "url": "https://github.com/muety/webhook2telegram",
-        "desc": "A Telegram bot which translates push messages sent as simple HTTP calls into Telegram messages you can subscribe to. Written in Go."
-    },
-    {
-        "name": "⚓️ Anchr.io",
-        "url": "https://github.com/muety/anchr",
-        "desc": "A toolbox service for maintaining bookmark collections, shortening links and uploading and sharing images encryptedly."
+        "name": "🤓 QuizNerd for Android",
+        "url": "https://play.google.com/store/apps/details?id=com.github.muety.quiznerd",
+        "desc": "A multi-player trivia Android game made for developers and IT enthusiasts."
     },
     {
         "name": "💰 Telegram ExpenseBot",
