@@ -45,8 +45,8 @@ The idea of Serverless is (a) to have developers not having to worry about deplo
 ## RPC technologies
 Another field where I found a lot of parallels between new, "fancy" technologies and old, "legacy" approaches is remote-procedure calls (RPC). RPC is an alternative approach to API design and comparable with resource-based paradigms such as REST or "query"-based approaches like GraphQL. 
 
-### **gRPC, tRPC, ...
-The most popular framework today in this space is [gRPC](https://grpc.io/) by Google, but there are also [Cap'n'Proto](https://capnproto.org/), [tRPC](https://trpc.io/), [JSON-RPC](https://go.dev/blog/json-rpc) (less of a framework, rather a convention) and others. And then there used to be [**SOAP**](https://en.wikipedia.org/wiki/SOAP) for a long time. It's [considered outdated and deprectated](https://www.redhat.com/architect/apis-soap-rest-graphql-grpc) today. But in essence, it was doing the exact same thing - just in a slightly different way. Of course, gRPC has a few advantages over SOAP, especially more efficient message representation, thanks to binary encoding, and communication, thanks to HTTP/2 – on the other hand, though, SOAP has discoverability, thanks to to WSDL. The point I'm trying to make is that the fundamental concepts are almost exactly the same.
+### gRPC, tRPC, ...
+The most popular framework today in this space is [gRPC](https://grpc.io/) by Google, but there are also [Cap'n'Proto](https://capnproto.org/), [tRPC](https://trpc.io/), [JSON-RPC](https://go.dev/blog/json-rpc) (less of a framework, rather a convention) and others. And then there used to be [**SOAP**](https://en.wikipedia.org/wiki/SOAP) for a long time. It's [considered outdated and deprecated](https://www.redhat.com/architect/apis-soap-rest-graphql-grpc) today. But in essence, it was doing the exact same thing - just in a slightly different way. Of course, gRPC has a few advantages over SOAP, especially more efficient message representation, thanks to binary encoding, and communication, thanks to HTTP/2 – on the other hand, though, SOAP has discoverability, thanks to to WSDL. The point I'm trying to make is that the fundamental concepts are almost exactly the same.
 
 # Old ≠ bad
 The central point I want to make with this article is: technology is not necessarily bad, just because it's old. Not even PHP (especially with [PHP 8.0](https://www.php.net/releases/8.0/en.php)). Many seemingly novel concepts have already been there before at some point, and not few of them do still have their reason to exist. When a new technology emerges, it is often times just an evolution, rather than a revolution - a slight improvement or the rejuvenation of a previous technology (cf. gRPC vs. SOAP, Serverless vs. PHP scripts, ...). Of course, this is important. Technology must be adapted to modern needs. But also, at the same time, developers should be careful about not ending up reinventing the wheel once again.
@@ -54,6 +54,6 @@ The central point I want to make with this article is: technology is not necessa
 # Key takeaways
 From this discussion, my key takaways are:
 
-* **Technology is not bad, just because it's old.** Don't fooled by the novelty bias.
+* **Technology is not bad, just because it's old.** Don't be fooled by the novelty bias.
 * **Don't ever _rant_ about a technology** - especially not just because everyone else on Twitter does. Even [dreaded](https://survey.stackoverflow.co/2022/#technology-most-loved-dreaded-and-wanted) things like PHP or VBA have their right to exist. You can anyways only judge about a technology, if you have actually worked with it extensively. 
 * **Focus on building features**, not tools - unless you really have a need to.
