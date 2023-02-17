@@ -5,22 +5,22 @@ date: 2017-05-03 22:21:16
 
 # About
 
-## Me
+Hey and welcome 👋 I'm Ferdinand, 28 years old, based in Karlsruhe, Germany and am passionate about anything related to software and information technology. I love to write efficient and optimized code to automate task and solve real-world problems and I'm a big fan of open-source.
 
-Hey and welcome 👋 I'm Ferdinand, 27 years old, based in Karlsruhe, Germany and working as a freelance software engineer.
+I got into tech back when starting my studies on [information engineering and management](https://informationswirtschaft.org) at [Karlsruhe Institute of Technology](https://kit.edu) in 2012 and sought to improve my skills and knowledge ever since. I used to work in full-stack web dev as a student employee and intern at various companies, including [Inovex](https://inovex.de), [ArtiMinds](https://artiminds.com) and the Volkswagen Group of America Electronic Research Lab [(ERL)](https://vwiecc.com/). All of them were a great experience for me and helped me grow a lot. Over time, I went from basic web development into full-stack dev, DevOps, data engineering and software architecture.
 
-In February 2020, I finished my Master's in [information engineering and management](https://informationswirtschaft.org) at [Karlsruhe Institute of Technology](https://kit.edu). My final thesis at [ITIV](https://itiv.kit.edu) was on the subjects of _Cooperative Perception and Cellular Vehicle-2-X Communication for Autonomous Driving_. Prior to that, I received my Bachelor's degree in 2016 with a final thesis about _Microservices and Semantic Web_ at [TECO](https://teco.edu).
+In 2020, I finished my Master's with a thesis on the subjects of _Cooperative Perception and Cellular Vehicle-2-X Communication for Autonomous Driving_ at [ITIV](https://itiv.kit.edu). After that, I first worked at [Frachtwerk](https://frachtwerk.de) as a software engineer and project lead, and later at an upcoming ClimateTech startup, [Orbio Earth](https://orbio.earth), as a software architect, data engineer and dev team lead.
 
-My interests are – among others – software development, especially in a web- and mobile context, as well as data science and machine leatning. I consider myself open-minded and progressive and I am continuously interested in learning new technology.
+Just recently, in Feb 2023, I started my PhD on the topics of autonomous driving at the chair of Prof. Zöllner on [Applied Technical-Cognitive Systems](https://aifb.kit.edu/web/Angewandte_Technisch-Kognitive_Systeme/en), Institute of Applied Informatics and Formal Description Methods.
 
-Besides my studies I used to work as a student employee at [Inovex](https://inovex.de) in Karlsruhe and as a self-employed Freelancer developer. Moreover, I did a rewarding internship at the [Volkswagen Electronic Research Lab (ERL)](https://vwiecc.com/) in Belmont, California as part of the software platforms team.
-
-I participated in realizing software projects for small and mid-sized businesses in the context of Industry 4.0, the Internet of Things, big-scale data analytics, web platforms and more. 
-
-After having had a great experience as part of the development team at [Frachtwerk GmbH](https://frachtwerk.de) I am a freelance developer now.
+I continusouly seek to improve, acquire new skills and get into new topics. I think people should **never stop learning!**
 
 ## My topics
-Full-Stack Web (★★★★), Mobile (★★), DevOps (★★), Data Engineering (★★), Data Science (★), Machine Learning (★)
+Full-Stack Web, Software Architecture, Data Engineering, Systems Administration, Cloud Automation
 
 ## My Languages
-Java (★★★★), Go (★★★★), JavaScript (★★★), Python (★★★), TypeScript (★★), Scala (★), R (★), Dart (★)
+Go (★★★★), Java (★★★), Python (★★★), JavaScript / TypeScript (★★★)
+
+<br>
+
+Check out my [LinkedIn](https://www.linkedin.com/in/ferdinand-m%C3%BCtsch/details/skills/) for more!
