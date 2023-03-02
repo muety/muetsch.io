@@ -32,7 +32,7 @@ Move all of the above to a new 2 TB SSD at `/dev/sdd`.
 
 # Steps
 ## Check for file system errors (optional) 
-This step will probably be obsolete for you, but I'm still going to mention it. I'm using Fedora 37, which, by default, uses [btrfs](https://fedoraproject.org/wiki/Btrfs) as a file system. While btrfs has a few advantages over ext4 (built-on compression, deduplication, snapshotting, ...), it is sometimes a bit more bitchy. So before doing any modifications to the file system partition, check for errors (this has caused me quite a bit of trouble later on, so better do it right in the beginning). 
+This step will probably not be needed for you, but I'm still going to mention it. I'm using Fedora 37, which, by default, uses [btrfs](https://fedoraproject.org/wiki/Btrfs) as a file system. While btrfs has a few advantages over ext4 (built-on compression, deduplication, snapshotting, ...), it is sometimes a bit more bitchy. So before doing any modifications to the file system partition, check for errors (this has caused me quite a bit of trouble later on, so better do it right in the beginning). 
 
 ```bash
 sudo btrfs check /dev/sda3
@@ -52,13 +52,13 @@ If you're on a ext4 file system, it probably wouldn't hurt to run `fsck` instead
 ## Copy first OS (Linux)
 * Boot into the Kali (or whichever) live system
 * Open GParted
-* Copy and paste (Ctrl+C, Ctrl+V) (it's actually as easy as that) every single partition of /dev/sda to the target SSD (/dev/sdd)
+* Copy and paste (Ctrl+C, Ctrl+V) (it's actually as easy as that) every single partition of `/dev/sda` to the target SSD (`/dev/sdd`)
   * You could also use `dd` to block-wise copy the whole disk all at once, but I liked this method better
 * Optionally resize the OS partition to your preferred size
 * Try to reboot from new disk (in your BIOS' boot menu, choose the new disk and hope GRUB and afterwards your Linux pops up)
 
 ## Convert MBR to GPT (optional)
-Since the disk hosting my Linux installation was still in old MBR partition table format, where you can only have 4 partitions at max (I believe...), I first had to convert it to GPT, like so:
+You might not need this step either. Only run this (⚠️), if one of your disks still uses the old MBR partition table format (like in my case). With MBR, there can only be 4 partitions at max (I believe...), so I first had to convert to GPT, like this:
 
 ```bash
 gdisk /dev/sda
@@ -87,9 +87,11 @@ At this point, everything went well. You'll only have to fix the Windows boot lo
 * Assign the volume some drive letter by running `assign letter=V:`
 * Exit the shell (`exit`)
 * Open boot loader directory (`cd /d V:\EFI\Microsoft\Boot\`)
-* Run `bootrec /FixBoot`
-* Backup your old boot loader file with `ren BCD BCD.old`
-* Repair the boot loader with `bcdboot c:\Windows /l en-us /s V: /f ALL`
+* Run `bootrec /FixBoot` (might fail, but that's fine)
+* Backup your old boot loader config file (BCD) with `ren BCD BCD.old`
+* Repair the BCD with `bcdboot c:\Windows /l en-us /s V: /f ALL`
+
+([Source](https://www.heise.de/tipps-tricks/Windows-10-Bootmanager-reparieren-so-geht-s-4268553.html))
 
 Reboot. Everything should be working fine now (...).
 
