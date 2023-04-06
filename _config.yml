@@ -9,7 +9,7 @@ author: Ferdinand Mütsch
 language: english
 timezone:	Europe/Berlin
 pgp: 8026 43D5 EC1F 292A 69D2 8699 21B2 4C0F 6C75 F6CF
-iota: iota1qprryy5j4zd7ykfksenx97lzg0rurzy9dkwjq3fk8hmfxtc37nltkhgwrjc
+# iota: iota1qprryy5j4zd7ykfksenx97lzg0rurzy9dkwjq3fk8hmfxtc37nltkhgwrjc
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

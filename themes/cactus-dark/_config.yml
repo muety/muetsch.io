@@ -33,6 +33,9 @@ customize:
         telegram:
             iconset: fab
             url: https://telegram.me/n1try
+        strava:
+            iconset: fab
+            url: https://www.strava.com/athletes/76078245
         money-bill:
             iconset: fas
             url: https://liberapay.com/muety/
