@@ -1,5 +1,10 @@
 [
     {
+        "name": "⛺️ Server.Camp",
+        "url": "https://server.camp",
+        "desc": "Friendly SaaS hosting of popular open-source software tools for startups and small companies, built by developers."
+    },
+    {
         "name": "📊 Wakapi",
         "url": "https://github.com/muety/wakapi",
         "desc": "A minimalistic, self-hosted WakaTime-compatible backend for coding statistics written in Go."
