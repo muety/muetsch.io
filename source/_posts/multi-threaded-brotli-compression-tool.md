@@ -24,7 +24,7 @@ Instead, I dove a bit deeper into the code and realized their [Go example](https
 You can find patch files for my changes below.
 
 <details>
-<summary><code>my-patch.go</code></summary>
+<summary><code>my-patch.patch</code></summary>
 
 ```
 diff --git a/c/go/brotli/brotli.go b/c/go/brotli/brotli.go
@@ -76,12 +76,11 @@ index b0955c5..9b87e92 100644
 ```
 </details>
 
-After applying these changes, building the executable was straightforward:
+After applying these changes (`git apply my-patch.patch`), building the executable was straightforward:
 
 ```bash
-make
-cd c/go
-go build -o brotli-rust
+cd c && make  # alternatively: docker run --rm -it -v $(pwd):/app -u 1000 rust bash -c 'cd /app/c && make'
+cd go && go build -o brotli-rust
 ```
 
 Eventually, I was able to Brotli-compress a file while utilizing 100 % of my CPU 🙌:
