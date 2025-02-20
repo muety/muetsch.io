@@ -20,6 +20,12 @@ Quoting from the blog post referenced above:
 
 Same for coding. I do this for fun. When I'm writing a blog post, it's not because I seek to attract a lot of clicks. It's because I discovered something that I feel is worth sharing with likeminded people. And when I'm writing code, I'm doing so for the sake of the thing itself. I don't regard programming as a means to an end, but as part of the journey. I enjoy to wrap my head around some problem, dig into the documentation of some library and do trial & error debugging until my program eventually works - even though Copilot or sth. might have done it a lot faster.
 
-Also, I feel a lot more comfortable to read blog posts and StackOverflow answers written by actual human experts - like senior devs with yearslong experience or researchers of that area - than AI content. If a blog post sounds like ChatGPT, I usually skip and move on. Also, personally, I find it somewhat disappointing that events like Google I/O or Apple WWDC - that used to be famous for dropping exciting new dev features and sparking nerdy tech talk among colleagues each time - have mostly turned into AI bulls*** bingo. Just my two cents.
+[This excellent article](https://nmn.gl/blog/ai-and-learning) elaborates on the concerning phenomenon that young, unexperienced developers tend to lack foundational understanding about programming and postulates a thesis that gives food for thought.
+
+> We're trading deep understanding for quick fixes, and while it feels great in the moment, we’re going to pay for this later.
+
+Judging from my learning path, I totally agree with the statement that "reading discussions by experienced developers [e.g. on StackOverflow] about your topic is the best way to learn". Getting code to work is easy today, but comprehending how and why it works is at least equally as important. For that reason, I encourage every aspiring developer to opt for the rocky road.
+
+Apart from that, I also just feel a lot more comfortable to read blog posts and StackOverflow answers written by actual human experts - like senior devs with yearslong experience or researchers of that area - than AI content. If a blog post sounds like ChatGPT, I usually skip and move on. Also, personally, I find it somewhat disappointing that events like Google I/O or Apple WWDC - that used to be famous for dropping exciting new dev features and sparking nerdy tech talk among colleagues each time - have mostly turned into AI bulls*** bingo. Just my two cents.
 
 **Long story short is:** all content on this blog and all code in my projects is purely written by myself. Just to let you know ...
