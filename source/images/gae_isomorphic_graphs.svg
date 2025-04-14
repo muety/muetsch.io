@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024.6733" height="532.93561" version="1.1" id="svg64" sodipodi:docname="gae_isomorphic_graphs.svg" inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+   <defs id="defs68" />
+   <sodipodi:namedview id="namedview66" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" showgrid="false" inkscape:zoom="2.56" inkscape:cx="939.0625" inkscape:cy="169.53125" inkscape:window-width="1868" inkscape:window-height="1131" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="svg64" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" />
+   <g transform="translate(11.500004,12.4288)" id="g62">
+      <rect width="758" height="200" fill-opacity="0" id="rect2" x="0" y="0" />
+      <g transform="translate(0,140)" id="g60">
+         <path style="fill:none" d="M 758,0" id="path4" />
+         <path style="fill:none" d="M 1.6182661e-5,-1.192838e-5 A 1300,1300 0 0 0 505.33333,0" id="path6" />
+         <path style="fill:none" d="M 505.33334,1.1827797e-5 A 500,500 0 0 0 252.66667,0" id="path8" />
+         <path style="fill:none" d="M 252.66655,3.9473176e-5 A 500,500 0 0 0 0,0" id="path10" />
+         <path class="link" d="M 758,0 A 600000,600000 0 0 0 505.33334,2.5652478e-5" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path12" />
+         <path class="link" d="M 758,0 A 550.00091,550.00091 0 0 0 252.66681,-3.695488e-5" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path14" />
+         <path class="link" d="M 505.33334,2.5652478e-5 A 600000,600000 0 0 0 252.66681,-3.695488e-5" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path16" />
+         <path class="link" d="M 758,0 A 550,550 0 0 0 -7.1526972e-7,5.1817242e-6" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path18" />
+         <path class="link" d="M 505.33334,2.5652478e-5 A 550,550 0 0 0 -7.1526972e-7,5.1817242e-6" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path20" />
+         <path class="link" d="M 252.66681,-3.695488e-5 A 599663.51,599663.51 0 0 0 -7.1526972e-7,5.1817242e-6" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path22" />
+         <path class="link" d="M 758,0 A 600000,600000 0 0 0 505.33334,2.5652478e-5" stroke-width="2" fill="none" stroke="#4682b4" id="path24" />
+         <path class="link" d="M 758,0 A 550.00091,550.00091 0 0 0 252.66681,-3.695488e-5" stroke-width="0" fill="none" stroke="rgba(0,0,0,0)" id="path26" />
+         <path class="link" d="M 505.33334,2.5652478e-5 A 600000,600000 0 0 0 252.66681,-3.695488e-5" stroke-width="2" fill="none" stroke="#4682b4" id="path28" />
+         <path class="link" d="M 758,0 A 550,550 0 0 0 -7.1526972e-7,5.1817242e-6" stroke-width="2" fill="none" stroke="#4682b4" id="path30" />
+         <path class="link" d="M 505.33334,2.5652478e-5 A 550,550 0 0 0 -7.1526972e-7,5.1817242e-6" stroke-width="0" fill="none" stroke="rgba(0,0,0,0)" id="path32" />
+         <path class="link" d="M 252.66681,-3.695488e-5 A 599663.51,599663.51 0 0 0 -7.1526972e-7,5.1817242e-6" stroke-width="2" fill="none" stroke="#4682b4" id="path34" />
+         <g class="node" transform="translate(758)" fill="#ffffff" stroke="#000000" stroke-width="3px" id="g40">
+            <circle r="10" id="circle36" cx="0" cy="0" />
+            <text font-family="sans-serif" text-anchor="middle" dy="0.33000001em" fill="#000000" style="stroke:none" id="text38">A</text>
+         </g>
+         <g class="node" transform="translate(505.33334,2.5652478e-5)" fill="#ffffff" stroke="#541e1e" stroke-width="1px" id="g46">
+            <circle r="10" id="circle42" cx="0" cy="0" />
+            <text font-family="sans-serif" text-anchor="middle" dy="0.33000001em" fill="#000000" style="stroke:none" id="text44">B</text>
+         </g>
+         <g class="node" transform="translate(252.66681,-3.695488e-5)" fill="#ffffff" stroke="#541e1e" stroke-width="1px" id="g52">
+            <circle r="10" id="circle48" cx="0" cy="0" />
+            <text font-family="sans-serif" text-anchor="middle" dy="0.33000001em" fill="#000000" style="stroke:none" id="text50">C</text>
+         </g>
+         <g class="node" fill="#ffffff" stroke="#3f4647" stroke-width="1px" id="g58">
+            <circle r="10" id="circle54" cx="0" cy="0" />
+            <text font-family="sans-serif" text-anchor="middle" dy="0.33000001em" fill="#000000" style="stroke:none" id="text56">D</text>
+         </g>
+      </g>
+   </g>
+   <g transform="translate(11.500004,332.93561)" id="g995">
+      <rect width="758" height="200" fill-opacity="0" id="rect935" x="0" y="0" />
+      <g transform="translate(0,140)" id="g993">
+         <path style="fill:none" d="M 7.3003816e-6,-5.5610208e-6 A 500,500 0 0 0 0,0" id="path937" />
+         <path style="fill:none" d="M 505.33316,2.5331974e-5 A 500,500 0 0 0 505.33333,0" id="path939" />
+         <path style="fill:none" d="M 252.66667,-4.2126234e-5 A 500,500 0 0 0 252.66667,0" id="path941" />
+         <path style="fill:none" d="M 757.99988,3.5569072e-5 A 500,500 0 0 0 758,0" id="path943" />
+         <path class="link" d="M 505.33334,1.4219187e-5 A 550,550 0 0 0 -3.5933645e-6,-5.5473183e-6" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path945" />
+         <path class="link" d="M 252.66669,0 A 599943.72,599943.72 0 0 0 -3.5933645e-6,-5.5473183e-6" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path947" />
+         <path class="link" d="M 505.33334,1.4219187e-5 A 600000,600000 0 0 0 252.66669,0" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path949" />
+         <path class="link" d="M 758,5.8415649e-6 A 550,550 0 0 0 -3.5933645e-6,-5.5473183e-6" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path951" />
+         <path class="link" d="M 758,5.8415649e-6 A 600000,600000 0 0 0 505.33334,1.4219187e-5" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path953" />
+         <path class="link" d="M 758,5.8415649e-6 A 550.00013,550.00013 0 0 0 252.66669,0" stroke-width="15" fill="none" stroke="rgba(0,0,0,0)" id="path955" />
+         <path class="link" d="M 505.33334,1.4219187e-5 A 550,550 0 0 0 -3.5933645e-6,-5.5473183e-6" stroke-width="2" fill="none" stroke="#4682b4" id="path957" />
+         <path class="link" d="M 252.66669,0 A 599943.72,599943.72 0 0 0 -3.5933645e-6,-5.5473183e-6" stroke-width="0" fill="none" stroke="rgba(0,0,0,0)" id="path959" />
+         <path class="link" d="M 505.33334,1.4219187e-5 A 600000,600000 0 0 0 252.66669,0" stroke-width="2" fill="none" stroke="#4682b4" id="path961" />
+         <path class="link" d="M 758,5.8415649e-6 A 550,550 0 0 0 -3.5933645e-6,-5.5473183e-6" stroke-width="2" fill="none" stroke="#4682b4" id="path963" />
+         <path class="link" d="M 758,5.8415649e-6 A 600000,600000 0 0 0 505.33334,1.4219187e-5" stroke-width="0" fill="none" stroke="rgba(0,0,0,0)" id="path965" />
+         <path class="link" d="M 758,5.8415649e-6 A 550.00013,550.00013 0 0 0 252.66669,0" stroke-width="2" fill="none" stroke="#4682b4" id="path967" />
+         <g class="node" transform="translate(-3.5933645e-6)" fill="#ffffff" stroke="#000000" stroke-width="3px" id="g973">
+            <circle r="10" id="circle969" cx="0" cy="0" />
+            <text font-family="sans-serif" text-anchor="middle" dy="0.33000001em" fill="#000000" style="stroke:none" id="text971">A</text>
+         </g>
+         <g class="node" transform="translate(505.33334,1.4219187e-5)" fill="#ffffff" stroke="#541e1e" stroke-width="1px" id="g979">
+            <circle r="10" id="circle975" cx="0" cy="0" />
+            <text font-family="sans-serif" text-anchor="middle" dy="0.33000001em" fill="#000000" style="stroke:none" id="text977">B</text>
+         </g>
+         <g class="node" transform="translate(252.66669)" fill="#ffffff" stroke="#541e1e" stroke-width="1px" id="g985">
+            <circle r="10" id="circle981" cx="0" cy="0" />
+            <text font-family="sans-serif" text-anchor="middle" dy="0.33000001em" fill="#000000" style="stroke:none" id="text983">C</text>
+         </g>
+         <g class="node" transform="translate(758)" fill="#ffffff" stroke="#3f4647" stroke-width="1px" id="g991">
+            <circle r="10" id="circle987" cx="0" cy="0" />
+            <text font-family="sans-serif" text-anchor="middle" dy="0.33000001em" fill="#000000" style="stroke:none" id="text989">D</text>
+         </g>
+      </g>
+   </g>
+   <g id="g1348" transform="matrix(1.7745092,0,0,1.7701575,-48.353697,262.08852)">
+      <g transform="translate(520.1875,-139.1875)" id="g1074">
+         <rect class="link" width="20" height="20" x="0" y="0" fill="rgba(0,0,0,0)" stroke="#aaaaaa" stroke-width="3" id="rect1034" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="0" y="21" fill="#4682b4" stroke="" stroke-width="0" id="rect1036" />
+         <rect class="link" width="20" height="20" x="0" y="42" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1038" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="0" y="63" fill="#4682b4" stroke="" stroke-width="0" id="rect1040" />
+         <rect class="link" width="20" height="20" x="21" y="0" fill="#4682b4" stroke="" stroke-width="0" id="rect1042" />
+         <rect class="link" width="20" height="20" x="21" y="21" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1044" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="21" y="42" fill="#4682b4" stroke="" stroke-width="0" id="rect1046" />
+         <rect class="link" width="20" height="20" x="21" y="63" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1048" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="42" y="0" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1050" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="42" y="21" fill="#4682b4" stroke="" stroke-width="0" id="rect1052" />
+         <rect class="link" width="20" height="20" x="42" y="42" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1054" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="42" y="63" fill="#4682b4" stroke="" stroke-width="0" id="rect1056" />
+         <rect class="link" width="20" height="20" x="63" y="0" fill="#4682b4" stroke="" stroke-width="0" id="rect1058" />
+         <rect class="link" width="20" height="20" x="63" y="21" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1060" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="63" y="42" fill="#4682b4" stroke="" stroke-width="0" id="rect1062" />
+         <rect class="link" width="20" height="20" x="63" y="63" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1064" style="fill:#ffffff" />
+         <text font-family="sans-serif" transform="translate(0,21)" font-size="10px" text-anchor="middle" dy="0.33000001em" y="-10.5" x="10.5" id="text1066">A</text>
+         <text font-family="sans-serif" transform="translate(21,42)" font-size="10px" text-anchor="middle" dy="0.33000001em" y="-10.5" x="10.5" id="text1068">B</text>
+         <text font-family="sans-serif" transform="translate(42,63)" font-size="10px" text-anchor="middle" dy="0.33000001em" y="-10.5" x="10.5" id="text1070">C</text>
+         <text font-family="sans-serif" transform="translate(63,84)" font-size="10px" text-anchor="middle" dy="0.33000001em" y="-10.5" x="10.5" id="text1072">D</text>
+      </g>
+   </g>
+   <g id="g1451" transform="matrix(1.7746703,0,0,1.7700295,20.764493,-1043.7277)">
+      <g transform="translate(481.1875,778.0625)" id="g1143">
+         <rect class="link" width="20" height="20" x="63" y="63" fill="rgba(0,0,0,0)" stroke="#aaaaaa" stroke-width="3" id="rect1103" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="63" y="21" fill="#4682b4" stroke="" stroke-width="0" id="rect1105" />
+         <rect class="link" width="20" height="20" x="63" y="42" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1107" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="63" y="0" fill="#4682b4" stroke="" stroke-width="0" id="rect1109" />
+         <rect class="link" width="20" height="20" x="21" y="63" fill="#4682b4" stroke="" stroke-width="0" id="rect1111" />
+         <rect class="link" width="20" height="20" x="21" y="21" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1113" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="21" y="42" fill="#4682b4" stroke="" stroke-width="0" id="rect1115" />
+         <rect class="link" width="20" height="20" x="21" y="0" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1117" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="42" y="63" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1119" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="42" y="21" fill="#4682b4" stroke="" stroke-width="0" id="rect1121" />
+         <rect class="link" width="20" height="20" x="42" y="42" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1123" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="42" y="0" fill="#4682b4" stroke="" stroke-width="0" id="rect1125" />
+         <rect class="link" width="20" height="20" x="0" y="63" fill="#4682b4" stroke="" stroke-width="0" id="rect1127" />
+         <rect class="link" width="20" height="20" x="0" y="21" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1129" style="fill:#ffffff" />
+         <rect class="link" width="20" height="20" x="0" y="42" fill="#4682b4" stroke="" stroke-width="0" id="rect1131" />
+         <rect class="link" width="20" height="20" x="0" y="0" fill="rgba(0,0,0,0)" stroke="" stroke-width="0" id="rect1133" style="fill:#ffffff" />
+         <text font-family="sans-serif" transform="translate(63,84)" font-size="10px" text-anchor="middle" dy="0.33000001em" y="-10.5" x="10.5" id="text1135">A</text>
+         <text font-family="sans-serif" transform="translate(21,42)" font-size="10px" text-anchor="middle" dy="0.33000001em" y="-10.5" x="10.5" id="text1137">B</text>
+         <text font-family="sans-serif" transform="translate(42,63)" font-size="10px" text-anchor="middle" dy="0.33000001em" y="-10.5" x="10.5" id="text1139">C</text>
+         <text font-family="sans-serif" transform="translate(0,21)" font-size="10px" text-anchor="middle" dy="0.33000001em" y="-10.5" x="10.5" id="text1141">D</text>
+      </g>
+   </g>
+</svg>
