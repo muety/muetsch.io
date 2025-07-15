@@ -1,16 +1,31 @@
 [
     {
-        "title": "S. Ochs, J.Doll, D. Grimm, T. Fleck, M. Heinrich, S. Orf, A. Schotschneider, H. Gremmelmaier, R. Polley, S. Pavlitska, M. Zipfl, H. Schneider, F. Mütsch, D. Bogdoll, F. Kuhnt, P. Schörner, M. R. Zofka and J. M. Zöllner, “One Stack to Rule them All: To Drive Automated Vehicles, and Reach for the 4th level”, arXiv preprint, 2024",
-        "year": 2024,
-        "url": "https://arxiv.org/abs/2404.02645"
+        "title": "F. Mütsch, M. Zipfl, and J. M. Zöllner, “Exploring Semantic Clustering and Similarity Search for Heterogeneous Traffic Scenario Graphs”, IEEE International Automated Vehicle Validation Conference, 2025.",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2507.05086"
     },
     {
-        "title": "F. Mütsch, H. Gremmelmaier, N. Becker, D. Bogdoll, M. R. Zofka, and J. M. Zöllner, “From Model-Based to Data-Driven Simulation: Challenges and Trends in Autonomous Driving,” IEEE/CVF CVPR Workshop on Vision-Centric Autonomous Driving (VCAD), 2023.",
+        "title": "F. Mütsch, H. Gremmelmaier, N. Becker, D. Bogdoll, M. R. Zofka, and J. M. Zöllner, “From Model-Based to Data-Driven Simulation: Challenges and Trends in Autonomous Driving”, IEEE/CVF CVPR Workshop on Vision-Centric Autonomous Driving (VCAD), 2023.",
         "year": 2023,
         "url": "https://arxiv.org/abs/2305.13960"
     },
     {
-        "title": "A. Miclaus, W. Clauss, E. Schwert, M. A. Neumann and F. Mütsch, “Towards the Shop Floor App Ecosystem: Using the Semantic Web for Gluing Together Apps into Mashups,” in Proceedings of the 7th International Workshop on the Web of Things, 2020.",
+        "title": "N. Polley, Y. Boualili, F. Mütsch, M. Zipfl, T. Fleck, and J. M. Zöllner, “2.5D Object Detection for Intelligent Roadside Infrastructure”, IEEE International Conference on Intelligent Transportation Systems (ITSC), 2025.",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2507.03564"
+    },
+    {
+        "title": "M. Zipfl et al., “DigiT4TAF - Bridging Physical and Digital Worlds for Future Transportation Systems”, IEEE International Automated Vehicle Validation Conference, 2025.",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2507.03564"
+    },
+    {
+        "title": "S. Ochs et al., “One Stack to Rule them All: To Drive Automated Vehicles, and Reach for the 4th level”, arXiv preprint, 2024",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2404.02645"
+    },
+    {
+        "title": "A. Miclaus, W. Clauss, E. Schwert, M. A. Neumann and F. Mütsch, “Towards the Shop Floor App Ecosystem: Using the Semantic Web for Gluing Together Apps into Mashups”, 7th International Workshop on the Web of Things, 2020.",
         "year": 2020,
         "url": "https://dl.acm.org/doi/abs/10.1145/3017995.3017999"
     }
