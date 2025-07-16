@@ -76,9 +76,14 @@ theme: cactus-dark
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:muety/muety.github.io.git
-  branch: master
+  - type: rsync
+    host: muetsch.io
+    user: ferdinand
+    root: /var/www/muetsch.io
+    verbose: false
+    progress: false
+    delete: false
+    args: "-z"
 
 sitemap:
   path: sitemap.xml
