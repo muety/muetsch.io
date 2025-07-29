@@ -1,5 +1,5 @@
 ---
-title: EU-hosted LLM Coding Assistant via Ionos AI Model Hub in VSCode and JetBrains
+title: EU-hosted LLM Coding Assistant in VSCode and JetBrains
 date: 2025-07-29 10:48:29
 tags:
 ---
@@ -73,6 +73,6 @@ The setup in VSCode is similarly easy. First, you'll need the [GitHub Copilot Ch
 # Conclusion
 If you value [digital sovereignity](https://www.netcup.com/de/blog/digital-sovereignty/digitale-souveraenitaet), don't want to purchase an expensive graphics card that would still end up idling most of the time, but nevertheless want to leverage LLM assistants for repetitive coding task, opting for EU-based model-as-a-service offering is probably a sound option for you. My above instructions may guide you on your way to a "semi-local" AI coding setup. 
 
-Alternatively, there is also [Mistal LeChat](https://chat.mistral.ai) as an [EU-based ChatGPT alternative](https://european-alternatives.eu/alternative-to/chatgpt) or [FLUX.1](https://bfl.ai/models/flux-kontext) by Black Forest Labs for image generation.
+Alternatively, there is also [Mistral LeChat](https://chat.mistral.ai) as an [EU-based ChatGPT alternative](https://european-alternatives.eu/alternative-to/chatgpt) or [FLUX.1](https://bfl.ai/models/flux-kontext) by Black Forest Labs for image generation.
 
 Have fun and happy coding! ✌️
