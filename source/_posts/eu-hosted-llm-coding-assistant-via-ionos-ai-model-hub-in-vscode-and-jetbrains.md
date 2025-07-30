@@ -1,7 +1,7 @@
 ---
 title: EU-hosted LLM Coding Assistant in VSCode and JetBrains
 date: 2025-07-29 10:48:29
-tags:
+tags: [sysadmin, ai, machine-learning, selfhosted]
 ---
 
 # Local LLM Hosting
