@@ -1,7 +1,9 @@
-<% if(page.comments && theme.plugins.disqus_shortname){ %>
-    <div class="blog-post-comments">
-        <div id="disqus_thread">
-            <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        </div>
+<% if(page.comments && theme.cusdis.host){ %>
+    <div id="comments-container">
+        <h1>Comments</h1>
+        <div id="cusdis_thread" data-host="<%- theme.cusdis.host %>" data-app-id="<%- theme.cusdis.app_id %>" data-page-id="<%- page.path %>" data-page-url="<%- page.permalink %>" data-page-title="<%- page.title %>" data-theme="dark"></div>
     </div>
+
+    <script async defer src="js/cusdis.es.js"></script>  <!-- copied from https://cusdis.muetsch.io/js/cusdis.es.js -->
+    <script async defer src="js/cusdis.js"></script>
 <% } %>
