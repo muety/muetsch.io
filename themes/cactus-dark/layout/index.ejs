@@ -61,7 +61,7 @@
     <ul class="publication-list">
       <% for(var obj in site.data.publications){ %>
         <li class="publication-item">
-          [<%= site.data.publications[obj].year %>] <%= site.data.publications[obj].title %> <a href="<%= site.data.publications[obj].url %>" target="_blank">(Online)</a><br><br>
+          [<%= site.data.publications[obj].year %>] <%= site.data.publications[obj].title %> <% if (site.data.publications[obj].url) { %><a href="<%= site.data.publications[obj].url %>" target="_blank">(Online)</a> <% } %> <br><br>
         </li>
       <% } %>
     </ul>

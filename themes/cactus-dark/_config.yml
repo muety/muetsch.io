@@ -31,12 +31,18 @@ customize:
         linkedin:
             iconset: fab
             url: https://www.linkedin.com/in/ferdinand-m%C3%BCtsch-246734139/
-        telegram:
-            iconset: fab
-            url: https://telegram.me/n1try
-        #strava:
+        #telegram:
         #    iconset: fab
-        #    url: https://www.strava.com/athletes/76078245
+        #    url: https://telegram.me/n1try
+        signal-messenger: 
+            iconset: fab
+            url: https://signal.me/#eu/b3XQ-xzv5G8elld6B0R3B_-MvKg4leUkwTNKFKV9ZqwlkBoYBD1DgJGPvN3DxAIq
+        google-scholar:
+            iconset: fab
+            url: https://scholar.google.de/citations?user=uJ9HGfcAAAAJ
+        strava:
+            iconset: fab
+            url: https://www.strava.com/athletes/76078245
         money-bill:
             iconset: fas
             url: https://liberapay.com/muety/
