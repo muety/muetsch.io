@@ -4,7 +4,7 @@ date: 2024-06-13 08:46:14
 tags: [ai, machine-learning]
 ---
 
-Inspired by [this blog](https://www.leftfold.tech/pages/noai/), I want to make a statement about the use of generative AI on my sites and in my projects. All content you'll find here is **written by human** (that is, primarily by myself).
+Inspired by [these](https://www.leftfold.tech/pages/noai/) [two](https://antonz.org/ai-free/) blog posts, I want to make a statement about the use of generative AI on my sites and in my projects. All content you'll find here is **written by human** (that is, primarily by myself).
 
 I don't intend to damn recent advanced in LLMs and gen-AI for synthesizing text, code, pictures and videos. The progress made on that end is super impressive and generative deep learning methods are an extremely interesting research area. By no means do I think that these evolvements are just a hype. ChatGPT, LLaMA, Stable Diffusion, Whisper & Co. are here to stay and I am convinced they will sort of revolutionalize the way we work as creators and developers (in a good or bad way). Possibly, we'll even get to AGI not too far in the future.
 
