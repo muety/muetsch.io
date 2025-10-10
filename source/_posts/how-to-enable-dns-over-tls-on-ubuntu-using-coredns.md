@@ -1,9 +1,11 @@
 ---
 title: How to enable DNS-over-TLS on Ubuntu using CoreDNS
 date: 2020-04-11 20:41:57
-tags:
+tags: [linux, privacy]
 description: This article describes, how to browse the web more privately using DNS-over-TLS. Therefore, it is shown how to set up CoreDNS on a Ubuntu machine.
 ---
+
+**👉 Update (10/2025):** Today, a much more straightforward way to set up DNT-over-TLS on a Linux machine is to simply use the built-in DoT capabilities of `systemd-resolved`, see [here](https://wiki.archlinux.org/title/Systemd-resolved#DNS_over_TLS). You might use the resolvers provided by [dnsforge](https://dnsforge.de/), [dnscry.pt](https://www.dnscry.pt/public-resolvers/), [dns0](https://www.dns0.eu/) or any other. As an alternative, some peole (including myself) also prefer [DNSCrypt](https://dnscrypt.info/faq#why-use-dnscrypt%3F) over DoT, which is not natively supported by systemd, though.
 
 # Privacy on the Web
 Luckily, most traffic on the web is encrypted today, which means nobody between your computer and the web server knows what you are sending or receiving. This includes your internet service provider (ISP), any kind of government agency or a potential attacker on your network. Since the entire HTTP packet, including its headers, is encrypted, they will not even see what website you are visiting. At least not for sure. What they can see is the target web server's IP address from the IP packet's header. However, there might be several different web servers for different web sites listening on that IP and there is no chance to find out which one you intended to visit.

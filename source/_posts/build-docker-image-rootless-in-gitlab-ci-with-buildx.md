@@ -1,7 +1,7 @@
 ---
 title: Build Docker image rootless in GitLab CI with Buildx
 date: 2025-10-09 20:19:46
-tags:
+tags: [software-engineering]
 ---
 
 <img src="images/gitlab_docker.svg" style="height: 200px; margin: 24px auto;">
