@@ -32,6 +32,7 @@ Not a book, but: Stephan Schmidt - the interviewee in this podcast episode - mad
 **Topics:** Tech culture.
 
 ### More (unordered, non-comprehensive)
+* [Why Self-host?](https://romanzipp.com/blog/why-a-homelab-why-self-host)
 * [In Defense of Not-Invented-Here Syndrome](https://www.joelonsoftware.com/2001/10/14/in-defense-of-not-invented-here-syndrome/)
 * [You Are Not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb)
 * [Software Engineering at Google](https://arxiv.org/abs/1702.01715)
@@ -86,8 +87,7 @@ In progress...
 ## Podcasts
 Some podcasts I (more or less) regularly listen to (tech and non-tech):
 
-* [Lex Fridman](https://lexfridman.com/podcast)
 * [enPower - Der Energiewende-Podcast](https://www.enpower-podcast.de/)
 * [11KM: der tagesschau-Podcast](https://www.ardaudiothek.de/sendung/11km-der-tagesschau-podcast/12200383/)
+* [Digitale Anomalien](https://digitaleanomalien.de/)
 * [Darknet Diaries](https://darknetdiaries.com/)
-* [Software Engineering Daily](https://softwareengineeringdaily.com/)
