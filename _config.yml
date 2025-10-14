@@ -8,7 +8,9 @@ description: Hi and welcome! 👋 I'm Ferdinand, a passionate software- and data
 author: Ferdinand Mütsch
 language: english
 timezone:	Europe/Berlin
-pgp: 8026 43D5 EC1F 292A 69D2 8699 21B2 4C0F 6C75 F6CF
+pgp:
+  fingerprint: 8026 43D5 EC1F 292A 69D2 8699 21B2 4C0F 6C75 F6CF
+  file: ferdinand_muetsch.asc
 # iota: iota1qprryy5j4zd7ykfksenx97lzg0rurzy9dkwjq3fk8hmfxtc37nltkhgwrjc
 
 # URL

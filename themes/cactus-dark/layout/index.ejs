@@ -14,8 +14,8 @@
     <% } %>
   </p>
   <p>
-    <% if (config.pgp) { %>
-      PGP:  <%- config.pgp %>
+    <% if (config.pgp.fingerprint) { %>
+      🔑 <a href="<%- config.pgp.file %>">PGP</a> (<%- config.pgp.fingerprint %>)
     <% } %>
   </p>
 </section>
