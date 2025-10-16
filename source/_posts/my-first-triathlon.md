@@ -35,9 +35,9 @@ I finished 104th with a total time after 1h 44m – which is a lot better than I
 All in all: definitely would recommend, definitely will do again!
 
 <div class="image-container">
-    <img src="images/triathlon1.webp" style="max-width: 30%">
-    <img src="images/triathlon2.webp" style="max-width: 30%">
-    <img src="images/triathlon3.webp" style="max-width: 30%">
+    <img src="images/triathlon1.webp" style="max-width: 30%; display: inline;">
+    <img src="images/triathlon2.webp" style="max-width: 30%; display: inline;">
+    <img src="images/triathlon3.webp" style="max-width: 30%; display: inline;">
 </div>
 
 # The big event
@@ -52,9 +52,9 @@ But then it started to become fun! The cycling route involved a total of 800 m o
 When I crossed the finish line, I was totally overwhelmed by feelings. I felt incredibly exhausted, relieved, extremely proud and much more – all at once. I was happy to see my friends waiting for at the finish line. They gave me mental support through the entire race and were proud of me too.
 
 <div class="image-container">
-    <img src="images/triathlon4.webp" style="width: 30%">
-    <img src="images/triathlon5.webp" style="width: 30%">
-    <img src="images/triathlon6.webp" style="width: 30%">
+    <img src="images/triathlon4.webp" style="width: 30%; display: inline;">
+    <img src="images/triathlon5.webp" style="width: 30%; display: inline;">
+    <img src="images/triathlon6.webp" style="width: 30%; display: inline;">
 </div>
 
 ## Some stats
