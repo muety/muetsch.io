@@ -2,6 +2,7 @@
 title: Detecting academics' major from facial images
 date: 2019-01-02 11:02:21
 tags:
+published: false
 ---
 
 # The Idea
