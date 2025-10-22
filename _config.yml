@@ -84,7 +84,7 @@ deploy:
     root: /var/www/muetsch.io
     verbose: false
     progress: false
-    delete: false
+    delete: true
     args: "-z"
 
 sitemap:
