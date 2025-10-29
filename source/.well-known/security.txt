@@ -1,0 +1,5 @@
+Contact: mailto:ferdinand@muetsch.io
+Canonical: https://muetsch.io/.well-known/security.txt
+Expires: 2099-12-31T23:00:00.000Z
+Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/802643D5EC1F292A69D2869921B24C0F6C75F6CF
+Preferred-Languages: en, de
