@@ -4,6 +4,8 @@ date: 2025-07-29 10:48:29
 tags: [sysadmin, ai, machine-learning, selfhosted]
 ---
 
+**Update 2025-10-30:** I updated this article to feature a simpler setup. Instead of proxying the upstream API as local Ollama endpoints, we're using a generic, out-of-the-box local reverse proxy.
+
 # Local LLM Hosting
 LLMs like ChatGPT, Claude, Gemini & Co. are becoming increasingly popular among developers and even though I still prefer [writing code by hand](/statement-about-generative-ai.html), support from an AI model still comes in handy every so often. However, I feel strongly uncomfortable with the idea of sharing my entire code base with US-based providers like OpenAI, whose data protection practices are at least questionable. 
 
@@ -56,19 +58,63 @@ First steps include to create a IONOS Cloud account, sign up for the AI model hu
 ![Access token creation screenshot](images/ionos_ai_hub_token_creation.webp)
 
 ## OpenAI -> Ollama API Proxy
-Most Model-as-a-Service solutions provide an [OpenAI-compatible](https://platform.openai.com/docs/api-reference/introduction) API, so that any tool, that can talk to an OpenAI service can also be pointed to your respective custom endpoint. However, many code editors and IDEs currently only support Ollama- and / or LM Studio APIs for local models. This is why a tiny piece of middleware is required to proxy between the two different formats, that is, expose IONOS' OpenAI API as a local Ollama-style API.
+Most Model-as-a-Service solutions provide an [OpenAI-compatible](https://platform.openai.com/docs/api-reference/introduction) API, so that any tool, that can talk to an OpenAI service can also be pointed to your respective custom endpoint. However, not all code editors and IDEs currently support custom, authenticated OpenAI endpoints. There are several open issues and feature requests for JetBrains ([#11585](https://youtrack.jetbrains.com/issue/LLM-11585/Bring-your-own-LLM-API-key-for-individual-personal-license-of-AI-Pro), [#18360](https://youtrack.jetbrains.com/issue/LLM-18360/Third-party-AI-Provider-API-key-missing), [#47](https://youtrack.jetbrains.com/issue/JUNIE-47/Add-ability-to-use-Junie-locally)) and VSCode ([#7518](https://github.com/microsoft/vscode-copilot-release/issues/7518)), but until they're implemented and upstreamed, we have to settle with a workaround. What we need is a tiny piece of middleware to proxy between the two different formats, that is, expose IONOS' OpenAI API on `localhost`.
 
-I decided to use [openai-ollama-proxy](https://github.com/muety/openai-ollama-proxy) for that purpose. To set it up, simply follow the README instructions, while providing the IONOS endpoint (`https://openai.inference.de-txl.ionos.com/v1`) and your secret access token via command-line arguments. Run the service to expose a local [Ollama API](https://www.postman.com/postman-student-programs/ollama-api/documentation/suc47x8/ollama-rest-api) at port 11434. Verify it by browsing to http://localhost:11434/api/tags (list available models endpoint).
+We're using [Caddy](https://caddyserver.com/) as a reverse proxy, which you can just install via your package manager. The config (provided as a `Caddyfile`) for proxying is this:
+
+```
+:11434 {
+	reverse_proxy https://openai.inference.de-txl.ionos.com/v1 {
+		header_up "openai.inference.de-txl.ionos.com"
+		header_up Authorization "Bearer <YOUR IONOS API TOKEN HERE>"
+	}
+}
+```
+
+You can then start the proxy by running:
+
+```bash
+caddy run --config Caddyfile
+```
+
+On Linux, you might also want to create a SystemD unit to automatically run Caddy in the background. On Windows you can achieve the same by setting up a Windows service.
+
+**Note:** A previous version of this article presented a different approach where the IONOS OpenAI API was exposed as a local [Ollama API](https://www.postman.com/postman-student-programs/ollama-api/documentation/suc47x8/ollama-rest-api) using [openai-ollama-proxy](https://github.com/muety/openai-ollama-proxy), but this comes with several downsides.
 
 ## JetBrains Integration (PyCharm, IntelliJ, ...)
-Last step is to hook up the (proxied) model with your IDE, e.g. PyCharm. To do so, enable the [AI Asisstant](https://plugins.jetbrains.com/plugin/22282-jetbrains-ai-assistant) plugin, enable Ollama integration in its settings, choose your preferred model and turn on _Offline mode_. When done, you're good to go to start chatting with Llama (or whatever model you picked) and have it help you code!
+Last step is to hook up the (proxied) model with your IDE, e.g. PyCharm. To do so, enable the [AI Asisstant](https://plugins.jetbrains.com/plugin/22282-jetbrains-ai-assistant) plugin, enable OpenAI integration in its settings, choose your preferred model and turn on _Offline mode_. When done, you're good to go to start chatting with Llama (or whatever model you picked) and have it help you code!
 
 ![Jetbrains AI asistant setup settings](images/jetbrains_ai_settings.webp)
 
 ## Visual Studio Code Integration
-The setup in VSCode is similarly easy. First, you'll need the [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) plugin. Bring up the chat, go to _"Manage Models"_, choose "Ollama" as a provider (Openrouter would work as well) and, if you did everything right, it will already pick up your local endpoint and list the available models. 
+For VSCode, we're using the [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) extension. Unfortunately, custom OpenAI endpoints are only available in the [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/) variant for now (but will hopefully make it to the "standard" edition as well). 
 
-![VSCode Copilot setup settings](images/vscode_ai_settings.webp)
+First step is to edit the settings, which you'll find under _File_ -> _Preferences_ -> _Settings_. Add the following snippet to hook up VScode with your reverse-proxied OpenAI API:
+
+```json
+{
+    "github.copilot.chat.customOAIModels": {
+        "llama/llama-3.3-70b-instruct": {
+            "name": "Llama 3.3 70B Instruct",
+            "url": "http://localhost:11434/v1",
+            "toolCalling": true,
+            "vision": false,
+            "thinking": true,
+            "maxInputTokens": 128000,
+            "maxOutputTokens": 4096,
+            "requiresAPIKey": false
+        }
+    }
+}
+```
+
+You may choose any model available at http://localhost:11434/v1/models.
+
+Next, bring up the Copilot chat, go to _"Manage Models"_, choose "OpenAI Compatible" as a provider and, if you did everything right, it will already pick up your local endpoint and list the available models. 
+
+![VSCode Copilot setup settings step 1](images/vscode_ai_settings_1.webp)
+
+![VSCode Copilot setup settings step 2](images/vscode_ai_settings_2.webp)
 
 # Conclusion
 If you value [digital sovereignity](https://www.netcup.com/de/blog/digital-sovereignty/digitale-souveraenitaet), don't want to purchase an expensive graphics card that would still end up idling most of the time, but nevertheless want to leverage LLM assistants for repetitive coding task, opting for EU-based model-as-a-service offering is probably a sound option for you. My above instructions may guide you on your way to a "semi-local" AI coding setup. 
