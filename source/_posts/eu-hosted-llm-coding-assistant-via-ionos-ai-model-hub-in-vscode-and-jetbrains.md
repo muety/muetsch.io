@@ -64,12 +64,14 @@ We're using [Caddy](https://caddyserver.com/) as a reverse proxy, which you can 
 
 ```
 :11434 {
-	reverse_proxy https://openai.inference.de-txl.ionos.com/v1 {
+	reverse_proxy https://openai.inference.de-txl.ionos.com {
 		header_up "openai.inference.de-txl.ionos.com"
 		header_up Authorization "Bearer <YOUR IONOS API TOKEN HERE>"
 	}
 }
 ```
+
+For Scaleway, the reverse proxy URL will be `https://api.scaleway.ai` instead. 
 
 You can then start the proxy by running:
 
