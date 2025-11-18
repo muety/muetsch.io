@@ -13,7 +13,7 @@ customize:
         width: 50
         height: 50
         gravatar: false
-        url: images/logo.svg
+        url: images/logo.webp
     favicon: 
       desktop:
         url: images/favicon.png
