@@ -1,8 +1,8 @@
 [
     {
-        "title": "F. Mütsch, M. Zipfl, and J. M. Zöllner, “Exploring Semantic Clustering and Similarity Search for Heterogeneous Traffic Scenario Graphs”, IEEE International Automated Vehicle Validation Conference, 2025.",
+        "title": "F. Mütsch, M. Zipfl, and J. M. Zöllner, “Exploring Semantic Clustering and Similarity Search for Heterogeneous Traffic Scenario Graphs”, IEEE International Automated Vehicle Validation Conference (IAVVC), 2025.",
         "year": 2025,
-        "url": "https://arxiv.org/abs/2507.05086"
+        "url": "https://doi.org/10.1109/IAVVC61942.2025.11219473"
     },
     {
         "title": "F. Mütsch, H. Gremmelmaier, N. Becker, D. Bogdoll, M. R. Zofka, and J. M. Zöllner, “From Model-Based to Data-Driven Simulation: Challenges and Trends in Autonomous Driving”, IEEE/CVF CVPR Workshop on Vision-Centric Autonomous Driving (VCAD), 2023.",
@@ -10,8 +10,9 @@
         "url": "https://arxiv.org/abs/2305.13960"
     },
     {
-        "title": "T. Fleck et al., “2.5D Object Detection for Intelligent Roadside Infrastructure”, IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI), 2025.",
-        "year": 2025
+        "title": "T. Fleck et al., “Sensor Fusion for Collaborative Mobile Agent Localization using Stationary Roadside Perception Sensors”, IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI), 2025.",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/MFI67357.2025.11259185"
     },
     {
         "title": "N. Polley, Y. Boualili, F. Mütsch, M. Zipfl, T. Fleck, and J. M. Zöllner, “2.5D Object Detection for Intelligent Roadside Infrastructure”, IEEE International Conference on Intelligent Transportation Systems (ITSC), 2025.",
