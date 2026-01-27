@@ -1,10 +1,19 @@
 ---
 title: How development history keeps repeating itself
 date: 2022-11-04 11:18:08
+updated: 2025-01-27 21:25:00
 tags: [software-engineering]
 ---
 
 ![Tools in a workshop](images/dev_history1.webp)
+
+---
+
+**Update 2025-01-27:** Just came across a [super interesting discussion](https://www.reddit.com/r/softwarearchitecture/comments/1qol5xl/have_we_reached_peak_backend_architecture/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) on Reddit and this comment in particular reflects pretty much exactly what I was describing three years ago in this article.
+
+![Reddit comment on software development history](images/dev_history2.webp)
+
+---
 
 I want to share a couple of thoughts that repeatedly come to my mind the more experienced I become in (web-) development. If you're observing the ecosystem thoughtfully, you can kind of see history repeat itself every couple of years - and the wheel being reinvented over and over again. Here is my personal opinion about innovation in the web world, about technologies like PHP and SOAP versus modern JavaScript frameworks like Next.js and paradigms like Serverless, about developer productivity, and more. 
 

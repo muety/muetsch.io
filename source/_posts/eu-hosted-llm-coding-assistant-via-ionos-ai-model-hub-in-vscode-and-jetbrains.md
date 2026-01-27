@@ -1,10 +1,21 @@
 ---
 title: EU-hosted LLM Coding Assistant in VSCode and JetBrains
 date: 2025-07-29 10:48:29
+updated: 2025-01-27 21:34:00
 tags: [sysadmin, ai, machine-learning, selfhosted]
 ---
 
+**Update 2025-01-27:** JetBrains AI Assistant now finally supports custom OpenAI-compatible endpoints out of the box, so there's no need for the proxying explained below. JetbBrains [Junie](https://www.jetbrains.com/junie/), however, still only works with a handful of selected, proprietary models (incl. GPT 5.2-Codex, Claude Opus 4.5, Gemini 3 Pro, etc.).
+
+---
+
+**Update 2025-01-26:** I switched from IONOS to Scaleway in the meanwhile, because their service seems to be more actively developed further (new models being released "frequently"). Also, initial setup is easier and their cloud console UI (incl. cost management) felt more intuitive and transparent to me.
+
+---
+
 **Update 2025-10-30:** I updated this article to feature a simpler setup. Instead of proxying the upstream API as local Ollama endpoints, we're using a generic, out-of-the-box local reverse proxy.
+
+---
 
 # Local LLM Hosting
 LLMs like ChatGPT, Claude, Gemini & Co. are becoming increasingly popular among developers and even though I still prefer [writing code by hand](/statement-about-generative-ai.html), support from an AI model still comes in handy every so often. However, I feel strongly uncomfortable with the idea of sharing my entire code base with US-based providers like OpenAI, whose data protection practices are at least questionable. 
