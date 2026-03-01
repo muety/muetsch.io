@@ -1,7 +1,7 @@
 ---
 title: Speeding up my MySQL database dump / restore by ~10x
 date: 2026-03-01 08:27:30
-tags:
+tags: [software-engineering, sysadmin, linux, selfhosted]
 ---
 
 My favorite side-project [Wakapi.dev](https://wakapi.dev/) runs on MySQL and since we have more than 4,200 registered users today (thank you all! 🙏), the database size has grown to almost 34 GB. Accordingly, restoring a database dump from backup is quite time-consuming. In fact, it used to take **almost 10 hours** until recently. The following is a brief rundown of how I sped this up to just barely more than **1.5 hours** – just because I'm so excited by this simple change.
@@ -48,7 +48,7 @@ For restoring, there's a single `util.loadDump()` method.
 
 Both dumping and restoring work in a **multi-threaded** fashion, utilizing pretty much the above logic (plus many more smart tweaks and tricks).
 
-Long story short, I refactored by backup + restore pipeline to this:
+Long story short, I refactored my backup + restore pipeline to this:
 
 ```bash
 # dump the database (or multiple, if wanted)
