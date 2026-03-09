@@ -4,6 +4,25 @@ date: 2024-06-13 08:46:14
 tags: [ai, machine-learning]
 ---
 
+---
+
+## Update 2026-03-09
+**I've changed my mind.** At least for the coding part. I came to the realization the software engineering will inevitably change and ignoring this fact wouldn't probably be the smartest move. As AI-assisted coding and – especially – the tooling around it is evolving, I can quite clearly see where things are moving towards now. 
+
+Software eningeering (and with it the role of the software engineer) shifts from writing actual code towards precisely **instructing** some coding agent and afterwards **reviewing** its output. The middle part of doing actual _programming_ is delegated to AI, because it's just insanely more efficient at it (as my colleague put it: AI-assisted coding is like working with a skilled junior dev on cocaine).
+
+For me, personally, this is somewhat disappointing, because I particularly liked this "dirty work". But that's how it does, I guess ...
+
+The good part is: I can also still learn a lot from the code that my LLM of choice outputs (e.g. just recently I learned about [`PARTIAL INDEX`](https://www.postgresql.org/docs/current/indexes-partial.html) in Postgres, which was exactly the right tool for what I was trying to accomplish). Also, I'm simply becoming a lot more productive thanks to AI and my endless list of "maybe some time in the future" side project ideas becomes a little more likely to ever get done. 
+
+For my **professional work**, I've decided to jump on the bandwagon of AI-assisted coding (not to be confused with brainrot vibe-coding), because anything else would be foolish. For my **hobby projects** (especially Wakapi.dev), I'll probably keep hand-coding large portions, but also won't refuse to use AI on principle. For **blogging**, everything will remain **100 % hand-written**.
+
+However, as I still care a lot about data privacy and -sovereignity, I try hard to use free and open-source software (such as [OpenCode](https://opencode.ai), [Goose](https://block.github.io/goose/), [Ollama](https://ollama.com), ...) and open-weights models (preferably hosted at European cloud providers like [Scaleway or Ionos](https://muetsch.io/eu-hosted-llm-coding-assistant-via-ionos-ai-model-hub-in-vscode-and-jetbrains.html)) as far as popssible. I boycott ChatGPT / OpenAI for moral reasons, but occasionally use Gemini or Claude Code where the OSS models hit their limits. Maybe I'll blog about my dev setup in more detail at some point.
+
+---
+
+# Intro 
+
 Inspired by [these](https://www.leftfold.tech/pages/noai/) [two](https://antonz.org/ai-free/) blog posts, I want to make a statement about the use of generative AI on my sites and in my projects. All content you'll find here is **written by human** (that is, primarily by myself).
 
 I don't intend to damn recent advanced in LLMs and gen-AI for synthesizing text, code, pictures and videos. The progress made on that end is super impressive and generative deep learning methods are an extremely interesting research area. By no means do I think that these evolvements are just a hype. ChatGPT, LLaMA, Stable Diffusion, Whisper & Co. are here to stay and I am convinced they will sort of revolutionalize the way we work as creators and developers (in a good or bad way). Possibly, we'll even get to AGI not too far in the future.
