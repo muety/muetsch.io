@@ -3,6 +3,7 @@ nav:
   About: /about/
   Blog: /archives/
   Reads: /reads/
+  Foodpics: /foodpics/
   Imprint: /imprint/
 
 customize:
@@ -14,7 +15,7 @@ customize:
         height: 50
         gravatar: false
         url: images/logo.webp
-    favicon: 
+    favicon:
       desktop:
         url: images/favicon.png
         gravatar: false
@@ -34,7 +35,7 @@ customize:
         #telegram:
         #    iconset: fab
         #    url: https://telegram.me/n1try
-        signal-messenger: 
+        signal-messenger:
             iconset: fab
             url: https://signal.me/#eu/b3XQ-xzv5G8elld6B0R3B_-MvKg4leUkwTNKFKV9ZqwlkBoYBD1DgJGPvN3DxAIq
         google-scholar:
