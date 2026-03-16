@@ -10,7 +10,12 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
-## Chaos Bowl with ramen noodles, tofu, red cabbage, spinach, chickpeas, carrots, and tahini dressing
+## Homemade tagliatelle with ramson pesto (🧀)
+Cooked on Mar, 15, 2026.
+
+<img src="/images/foodpics-tagliatelle-pesto.webp" loading="lazy">
+
+## Chaos Bowl with ramen noodles, tofu, red cabbage, spinach, chickpeas, carrots, and tahini dressing (🌱)
 Cooked on Mar 11, 2026.
 
 <img src="/images/foodpics-chaos-bowl.webp" loading="lazy">
@@ -20,7 +25,7 @@ Cooked on Mar 08, 2026.
 
 <img src="/images/foodpics-falafel-with-hummus-and-vegetables.webp" loading="lazy">
 
-## Goat cheese malfatti in tomato sauce  (🧀)
+## Goat cheese malfatti in tomato sauce (🧀)
 Cooked on Mar 07, 2026.
 
 <img src="/images/foodpics-goat-cheese-malfatti.webp" loading="lazy">
