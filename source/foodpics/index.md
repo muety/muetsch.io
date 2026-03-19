@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Breaded tofu in a herb and Parmesan crust with red lentil pasta and zucchini
+Cooked on Mar 18, 2026.
+
+<img src="/images/foodpics-crusty-tofu.webp" loading="lazy">
+
 ## Chaos Bowl with ramen noodles, tofu, red cabbage, spinach, chickpeas, carrots, and tahini dressing
 Cooked on Mar 11, 2026.
 
