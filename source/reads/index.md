@@ -88,6 +88,8 @@ He proposed a series of measures that he thinks would help fight absurd richness
 Also, he introduced the terms of **extrative** and **regenerative** jobs, with the former being jobs that add negative value to society (such as an investment banker or fund manager) and the latter having a positive net impact on society (e.g. cleaning staff at a hospital). He demands political action to value regenerative jobs much higher and encourages people to strive for such.
 This is pretty much in line with the **Ikigai** concept the I presented above and also touches upon the points that I made in my blog post about [picking a job with a purpose](/picking-a-job-with-a-purpose.html).
 
+**Topics:** Politics, society, climate.
+
 ### [Superintelligence – Nick Bostrom](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies)
 In this book, also a recommendation from a friend, the author elaborates on the topic of "superintelligent" AI, i.e. AI models that are on par human intelligence or even exceed it. Besides philosophizing about the likelihood of such a development, he explains different conceivable scenarios and outcomes and debates whether AGI (artificial general intelligence) will be beneficial and benevolent or a serious threat for mankind. Even though I definitely wouldn't categorize myself as an "AI doomer", I must admit that - at latest after reading this book (and similar others) - I understood the importance of not being too careless about the endeavors of big tech to achieve AGI. The fact that many more than just a handful of prestigious scientists conduct serious research on the topic underlines this.
 
@@ -101,9 +103,6 @@ Quote from the book:
 A compilation of super interesting anecdotes about why and how different individuals became (seemingly) successful in various ways, what unexpected factors their development was influenced by and how correlation is different from causation. Featuring: a group of extraordinarily healthy Italian emigrants in the US, a bunch of seemingly strangely talented Canadian hockey players, the computer pioneer Bill Joy, a series of airplane crashes, the fortune of Chinese farmers and many more. I learned about _self-fulfilling prophecies_, the curse of _accumulative advantage_, and the _10,000 hours rule_. 
 
 **Topics:** Society, statistics.
-
-### [Toxisch Reich – Sebastian Klein](https://www.oekom.de/buch/toxisch-reich-9783987261381)
-In progress...
 
 ### More (unordered, non-comprehensive)
 * [The Age of AI has begun (Bill Gates)](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)
