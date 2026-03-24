@@ -62,6 +62,32 @@ Also, it taught me about the concept of [Ikigai](https://en.wikipedia.org/wiki/I
 
 **Topics:** Climate, society.
 
+### [Toxisch Reich – Sebastian Klein](https://www.oekom.de/buch/toxisch-reich-9783987261381)
+The author, Sebastian Klein, founder of [Blinkist](https://www.blinkist.com/de) has donated 90 % of his multi-million Euro fortune to charity after he realized what big of a problem absurd wealth and inequality is to a democratic society and our planet's climate.
+He presents countless facts and examples of the harmfulness of insanely rich people to society and economy and how and why – particularly in Germany – inequality and injustice increases continuously. A few facts from the many that he names include:
+- In Germany, the wealthiest 5 % own more than the remaining 95 % combined.
+- The wealthiest 1 % owns more than one-third of all wealth, while the poorest 50 % owns only about 3%.
+- Every year, 400 bn € is inherited in Germany.
+- To keep global warming below 1.5°C, people should generate no more than 1 ton of CO2 per year through their consumption. The German average is 11 tons; the top 1 % emits 83 tons.
+- Inequality has been shown to lead to political disengagement, particularly lower voter turnout and a tendency toward radical parties.
+- Inequality harms health—women at risk of poverty have a life expectancy 8 years lower than women in the high-income group.
+- Every year, the state loses between 50 bn € and 100 bn € due to tax evasion – the basic income program costs ("Bürgergeld") approximately 40 bn €.
+- Income taxes account for 26 % of all tax revenue, while taxes on inheritance, gifts, and wealth account for a mere 1 %.
+- A wealth tax of 1 % per year would generate approximately 70 bn € in tax revenue in Germany.
+- ...
+
+He proposed a series of measures that he thinks would help fight absurd richness and inequality, including: 
+- A Reform of the inheritance tax, with an exemption of 1m € per person, progressive taxation with a top rate of >= 50%, and tax exemption for heirs of owner-occupied residential property
+- A wealth tax of ~1 % per year.
+- A progressive capital gains tax to make work comparatively more rewarding again
+- A reform of the value-added tax so that everyday necessities are tax-free, while luxury consumer goods are particularly expensive
+- An excess profits tax for large companies 
+- An unconditional basic inheritance and unconditional basic income, not least to incentivize employers to create more attractive working conditions
+- An absolute wealth cap of, for instance, 10m €
+
+Also, he introduced the terms of **extrative** and **regenerative** jobs, with the former being jobs that add negative value to society (such as an investment banker or fund manager) and the latter having a positive net impact on society (e.g. cleaning staff at a hospital). He demands political action to value regenerative jobs much higher and encourages people to strive for such.
+This is pretty much in line with the **Ikigai** concept the I presented above and also touches upon the points that I made in my blog post about [picking a job with a purpose](/picking-a-job-with-a-purpose.html).
+
 ### [Superintelligence – Nick Bostrom](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies)
 In this book, also a recommendation from a friend, the author elaborates on the topic of "superintelligent" AI, i.e. AI models that are on par human intelligence or even exceed it. Besides philosophizing about the likelihood of such a development, he explains different conceivable scenarios and outcomes and debates whether AGI (artificial general intelligence) will be beneficial and benevolent or a serious threat for mankind. Even though I definitely wouldn't categorize myself as an "AI doomer", I must admit that - at latest after reading this book (and similar others) - I understood the importance of not being too careless about the endeavors of big tech to achieve AGI. The fact that many more than just a handful of prestigious scientists conduct serious research on the topic underlines this.
 
