@@ -10,7 +10,17 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
-## Vegan mini chocolate cacke (🌱)
+## Spicy gochujang tofu with napa cabbage and brown rice (🌱)
+Cooked on Mar 28, 2026.
+
+<img src="/images/foodpics-spicy-gochujang-tofu.webp" loading="lazy">
+
+## Leftovers quiche (🧀)
+Cooked on Mar 28, 2026.
+
+<img src="/images/foodpics-leftovers-quiche.webp" loading="lazy">
+
+## Vegan mini chocolate cake (🌱)
 Baked on Mar 24, 2026.
 
 <img src="/images/foodpics-vegan-mini-chocolate-cake.webp" loading="lazy">
