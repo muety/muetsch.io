@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Steamed dumplings with homemade vanilla sauce (🌱)
+Cooked on April 11, 2026.
+
+<img src="/images/foodpics-steamed-dumplings.webp" loading="lazy">
+
 ## Homemade Neapolitanian pizza with biga dough  (🧀)
 Cooked on Apr 5, 2026.
 
