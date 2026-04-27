@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Sesame-garlic tempeh with brokkoli and Qunioa (🌱)
+Cooked on April 24, 2026.
+
+<img src="/images/foodpics-tempeh-with-quinoa.webp" loading="lazy">
+
 ## Vegan tagliatelle á la Bolognese (🌱)
 Cooked on April 21, 2026.
 
