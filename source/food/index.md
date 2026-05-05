@@ -10,10 +10,15 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
-## Asparagus and zucchini casserole (🌱)
+## Almond-rice balls on a bed of kohlrabi (🌱)
+Cooked on May 05, 2026.
+
+<img src="/images/foodpics-almond-rice-balls.webp" loading="lazy">
+
+## Asparagus and zucchini casserole (🧀)
 Cooked on April 30, 2026.
 
-<img src="/images/food-asparagus-casserole.webp" loading="lazy">
+<img src="/images/foodpics-asparagus-casserole.webp" loading="lazy">
     
 ## Sesame-garlic tempeh with brokkoli and Qunioa (🌱)
 Cooked on April 24, 2026.
