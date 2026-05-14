@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Kala chana (with black chickpeas) with Naan (🌱)
+Cooked on May 05, 2026.
+
+<img src="/images/foodpics-kala-chana.webp" loading="lazy">
+
 ## Almond-rice balls on a bed of kohlrabi (🌱)
 Cooked on May 05, 2026.
 
