@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Mushroom and lentils stew with Spätzle (🧀)
+Cooked on May 21, 2026.
+
+<img src="/images/foodpics-mushroom-lentil-stew.webp" loading="lazy">
+
 ## Kala chana (with black chickpeas) with Naan (🌱)
 Cooked on May 05, 2026.
 
