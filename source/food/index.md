@@ -10,8 +10,58 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
-## Veggie meatballs with bell pepper sauce and Spätzle  (🧀)
-Cooked on Apr 4, 2026.
+## Mushroom and lentils stew with Spätzle (🧀)
+Cooked on May 21, 2026.
+
+<img src="/images/foodpics-mushroom-lentil-stew.webp" loading="lazy">
+
+## Kala chana (with black chickpeas) with Naan (🌱)
+Cooked on May 05, 2026.
+
+<img src="/images/foodpics-kala-chana.webp" loading="lazy">
+
+## Almond-rice balls on a bed of kohlrabi (🌱)
+Cooked on May 05, 2026.
+
+<img src="/images/foodpics-almond-rice-balls.webp" loading="lazy">
+
+## Asparagus and zucchini casserole (🧀)
+Cooked on April 30, 2026.
+
+<img src="/images/foodpics-asparagus-casserole.webp" loading="lazy">
+    
+## Sesame-garlic tempeh with brokkoli and Qunioa (🌱)
+Cooked on April 24, 2026.
+
+<img src="/images/foodpics-tempeh-with-quinoa.webp" loading="lazy">
+
+## Vegan tagliatelle á la Bolognese (🌱)
+Cooked on April 21, 2026.
+
+<img src="/images/foodpics-vegan-bolognese.webp" loading="lazy">
+
+## Herb-flavored zucchini with peas on semolina porridge (🌱)
+Cooked on April 19, 2026.
+
+<img src="/images/foodpics-zucchini-on-semolina-porridge.webp" loading="lazy">
+
+## Black beans with fried potatoes, spinach, and an egg (🧀)
+Cooked on April 17, 2026.
+
+<img src="/images/foodpics-black-beans-with-potatoes.webp" loading="lazy">
+
+## Steamed dumplings with homemade vanilla sauce (🌱)
+Cooked on April 11, 2026.
+
+<img src="/images/foodpics-steamed-dumplings.webp" loading="lazy">
+
+## Homemade Neapolitanian pizza with biga dough (🧀)
+Cooked on Apr 5, 2026.
+
+<img src="/images/foodpics-biga-pizza.webp" loading="lazy">
+
+## Veggie meatballs with bell pepper sauce and Spätzle (🧀)
+Cooked on Apr 3, 2026.
 
 <img src="/images/foodpics-frikadellen.webp" loading="lazy">
 
