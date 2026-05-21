@@ -32,6 +32,7 @@ Not a book, but: Stephan Schmidt - the interviewee in this podcast episode - mad
 **Topics:** Tech culture.
 
 ### More (unordered, non-comprehensive)
+* [The Maintainer's Dilemma](https://spf13.com/p/the-maintainers-dilemma/)
 * [AI 2027](https://ai-2027.com/)
 * [Why Self-host?](https://romanzipp.com/blog/why-a-homelab-why-self-host)
 * [In Defense of Not-Invented-Here Syndrome](https://www.joelonsoftware.com/2001/10/14/in-defense-of-not-invented-here-syndrome/)
