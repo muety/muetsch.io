@@ -10,6 +10,16 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Whole-grain spelt semolina with strawberries (🌱)
+Cooked on May 29, 2026.
+
+<img src="/images/foodpics-semolina-strawberry.webp" loading="lazy">
+
+## Mini-asparagus quiches with goat cheese (🧀)
+Cooked on May 28, 2026.
+
+<img src="/images/foodpics-mini-asparagus-quiches.webp" loading="lazy">
+
 ## Mushroom and lentils stew with Spätzle (🧀)
 Cooked on May 21, 2026.
 
