@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Udon curry with tofu kohlrabo leaves and roasted corn (🌱)
+Cooked on May 29, 2026.
+
+<img src="/images/foodpics-udon-curry.webp" loading="lazy">
+
 ## Whole-grain spelt semolina with strawberries (🌱)
 Cooked on May 29, 2026.
 
