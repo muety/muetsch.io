@@ -10,8 +10,13 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Zoodles with almond and mushroom sauce (🌱)
+Cooked on Jun 02, 2026.
+
+<img src="/images/foodpics-zoodles.webp" loading="lazy">
+
 ## Udon curry with tofu kohlrabo leaves and roasted corn (🌱)
-Cooked on May 29, 2026.
+Cooked on May 30, 2026.
 
 <img src="/images/foodpics-udon-curry.webp" loading="lazy">
 
