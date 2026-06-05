@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Lentil Moussaka (🧀)
+Cooked on Jun 04, 2026.
+
+<img src="/images/foodpics-moussaka.webp" loading="lazy">
+
 ## Zoodles with almond and mushroom sauce (🌱)
 Cooked on Jun 02, 2026.
 
