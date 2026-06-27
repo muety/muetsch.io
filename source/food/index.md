@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Mediterranean oven-roasted tomatoes on celery purée
+Cooked on Jun 27, 2026.
+
+<img src="/images/foodpics-tomatoes-on-celery.webp" loading="lazy">
+
 ## Vegan Tuscan-style meatballs with Spätzle (🌱)
 Cooked on Jun 23, 2026.
 
