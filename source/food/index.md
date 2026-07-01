@@ -10,7 +10,12 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
-## Mediterranean oven-roasted tomatoes on celery purée
+## White lemon beans with minced soy and leeks (🌱)
+Cooked on June 30, 2026.
+
+<img src="/images/foodpics-white-lemon-beans.webp" loading="lazy">
+
+## Mediterranean oven-roasted tomatoes on celery purée (🌱)
 Cooked on Jun 27, 2026.
 
 <img src="/images/foodpics-tomatoes-on-celery.webp" loading="lazy">
