@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Leek and chickpea stir-fry with sun-dried tomatoes and fusilli (🌱)
+Cooked on July 06, 2026.
+
+<img src="/images/foodpics-leek-chickpea-pan.webp" loading="lazy">
+
 ## White lemon beans with minced soy and leeks (🌱)
 Cooked on June 30, 2026.
 
