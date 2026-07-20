@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Shakshuka with mixed vegetables and brown rice (🧀)
+Cooked on Jul 17, 2026.
+
+<img src="/images/foodpics-vegetables-shakshuka.webp" loading="lazy">
+
 ## Leek and chickpea stir-fry with sun-dried tomatoes and fusilli (🌱)
 Cooked on July 06, 2026.
 
