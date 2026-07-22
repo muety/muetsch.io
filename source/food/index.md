@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Sour dough crumb cake (🧀)
+Baked on Jul 22, 2026.
+
+<img src="/images/foodpics-crumb-cake.webp" loading="lazy">
+
 ## Spicy tofu scramble with yellow lentils, pepper and soy beans (🌱)
 Cooked on July 20, 2026.
 
