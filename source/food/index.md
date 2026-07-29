@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Vegan pad thai (🌱)
+Cooked on July 29, 2026.
+
+<img src="/images/foodpics-pad-thai.webp" loading="lazy">
+
 ## Curry tempeh with zucchini and millet (green, bean, grain) (🌱)
 Cooked on July 20, 2026.
 
