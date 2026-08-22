@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Tofu and onion roast with homemade bread dumplings (🧀)
+Baked on Aug 22, 2026.
+
+<img src="/images/foodpics-tofu-onion-roast.webp" loading="lazy">
+
 ## Spicy Mala Tofu with Udon noodles (🌱)
 Cooked on August 5, 2026.
 
