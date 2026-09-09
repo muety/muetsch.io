@@ -36,7 +36,7 @@ Eventually, I found a good solution, which uses [rclone](https://rclone.org/) in
 
         [Service]
         Type=simple
-        ExecStart=/usr/bin/rclone mount nextcloud: ~/mnt/nextcloud \
+        ExecStart=/usr/bin/rclone mount nextcloud: %h/mnt/nextcloud \
             --config=%h/.config/rclone/rclone.conf \
             --vfs-cache-mode full \
             --vfs-cache-max-age 1h \
@@ -47,7 +47,7 @@ Eventually, I found a good solution, which uses [rclone](https://rclone.org/) in
             --uid 1000 \
             --gid 1000 \
             --daemon-timeout 30s
-        ExecStop=/bin/fusermount -u ~/mnt/nextcloud
+        ExecStop=/bin/fusermount -u %h/mnt/nextcloud
         TimeoutStartSec=60
         TimeoutStopSec=20
         KillMode=process
@@ -57,7 +57,7 @@ Eventually, I found a good solution, which uses [rclone](https://rclone.org/) in
         StartLimitBurst=3
 
         [Install]
-        WantedBy=multi-user.target
+        WantedBy=default.target
         ```
 
     1. Start the service and enable it for being executed during startup
