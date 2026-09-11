@@ -10,6 +10,18 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Vegan authentic Italian dishes in Rome (🌱)
+I recently traveled through Italy and had an amazing culinary experience, especially in Rome. Other than all the other dishes posted here, these were not home-cooked, but served in a restaurant, but I still felt like sharing them. Details in my (German) [Reddit post](https://www.reddit.com/r/VeganDE/comments/1w8v4l9/).
+
+<img src="/images/foodpics-vegan-in-rome.webp" loading="lazy">
+
+From top-left to bottom-right:
+- Moscardini fritti (made from porcini mushrooms)
+- Involtini du melanzane con ragout
+- Tonarelli in a zucchini-lemon-ginger sauce with pistachios
+- Spghetti alla carbonara
+- Wholegrain calzone stuffed with champignons and "ham"
+
 ## Grilled vegetables with saitan cutlet and gnocchi (🌱)
 Cooked on September 9, 2026.
 
