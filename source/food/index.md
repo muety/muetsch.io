@@ -10,6 +10,16 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Spaghetti with edamame and wild garlic pesto, shitake mushrooms and marinated tempeh (🌱)
+Cooked on Sep 13, 2026.
+
+<img src="/images/foodpics-spaghetti-edamame-pesto.webp" loading="lazy">
+
+## Crostata della nonna with ricotta (🧀)
+Cooked on Sep 13, 2026.
+
+<img src="/images/foodpics-crostata-della-nonna.webp" loading="lazy">
+
 ## Mung bean curry with tofu (🌱)
 Cooked on Sep 12, 2026.
 
