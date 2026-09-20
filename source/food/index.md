@@ -10,6 +10,16 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Vegan BBQ (🌱)
+Cooked on Sep 19, 2026.
+
+<img src="/images/foodpics-vegan-bbq.webp" loading="lazy">
+
+## Six-layer vegan lasagna (🌱)
+Cooked on Sep 16, 2026 (not by myself).
+
+<img src="/images/foodpics-six-layer-lasagna.webp" loading="lazy">
+
 ## Spicy Kung Pao cauliflower (🌱)
 Cooked on Sep 15, 2026.
 
