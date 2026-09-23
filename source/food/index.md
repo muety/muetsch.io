@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Mongolian stir fry tofu (🌱)
+Cooked on Sep 23, 2026.
+
+<img src="/images/foodpics-mongolian-stir-fry-tofu.webp" loading="lazy">
+
 ## Vegan onion quiche (🌱)
 Cooked on Sep 20, 2026.
 
