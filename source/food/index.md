@@ -10,6 +10,11 @@ Since I eat a vegetarian diet, all meals are either veggie or vegan, while I try
 
 For the most part, I'll just post pictures and meal titles, no precise recipes. Feel free to hit me up though if you're curious about one of the dishes.
 
+## Soy medaillons in paprika-mushroom sauce (🌱)
+Cooked on Sep 24, 2026.
+
+<img src="/images/foodpics-soy-medaillons-paprika-sauce.webp" loading="lazy">
+
 ## Mongolian stir fry tofu (🌱)
 Cooked on Sep 23, 2026.
 
