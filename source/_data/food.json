@@ -1,0 +1,371 @@
+[
+    {
+        "date": "2026-09-29",
+        "image": "/images/foodpics-miso-ramen.webp",
+        "title": "Miso Ramen",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-09-24",
+        "image": "/images/foodpics-soy-medaillons-paprika-sauce.webp",
+        "title": "Soy medaillons in paprika-mushroom sauce",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-09-23",
+        "image": "/images/foodpics-mongolian-stir-fry-tofu.webp",
+        "title": "Mongolian stir fry tofu",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-09-20",
+        "image": "/images/foodpics-onion-quiche.webp",
+        "title": "Vegan onion quiche",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-09-19",
+        "image": "/images/foodpics-vegan-bbq.webp",
+        "title": "Vegan BBQ",
+        "type": "vegan",
+        "description": "Featuring:\n- Bulgur salad with grilled vegetables\n- Vegan tuna salad (made from jackfruit)\n- Soy steaks"
+    },
+    {
+        "date": "2026-09-16",
+        "image": "/images/foodpics-six-layer-lasagna.webp",
+        "title": "Six-layer vegan lasagna",
+        "type": "vegan",
+        "description": "Not cooked by myself."
+    },
+    {
+        "date": "2026-09-15",
+        "image": "/images/foodpics-kung-pao.webp",
+        "title": "Spicy Kung Pao cauliflower",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-09-13",
+        "image": "/images/foodpics-spaghetti-edamame-pesto.webp",
+        "title": "Spaghetti with edamame and wild garlic pesto, shitake mushrooms and marinated tempeh",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-09-13",
+        "image": "/images/foodpics-crostata-della-nonna.webp",
+        "title": "Crostata della nonna with ricotta",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-09-12",
+        "image": "/images/foodpics-mung-bean-curry.webp",
+        "title": "Mung bean curry with tofu",
+        "type": "vegan"
+    },
+    {
+        "date": null,
+        "image": "/images/foodpics-vegan-in-rome.webp",
+        "title": "Vegan authentic Italian dishes in Rome",
+        "type": "vegan",
+        "description": "I recently traveled through Italy and had an amazing culinary experience, especially in Rome. Other than all the other dishes posted here, these were not home-cooked, but served in a restaurant, but I still felt like sharing them. Details in my (German) [Reddit post](https://www.reddit.com/r/VeganDE/comments/1w8v4l9/).\n\nFrom top-left to bottom-right:\n- Moscardini fritti (made from porcini mushrooms)\n- Involtini du melanzane con ragout\n- Tonarelli in a zucchini-lemon-ginger sauce with pistachios\n- Spghetti alla carbonara\n- Wholegrain calzone stuffed with champignons and \"ham\""
+    },
+    {
+        "date": "2026-09-09",
+        "image": "/images/foodpics-grilled-vegs-with-saitan-cutlet.webp",
+        "title": "Grilled vegetables with saitan cutlet and gnocchi",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-08-22",
+        "image": "/images/foodpics-tofu-onion-roast.webp",
+        "title": "Tofu and onion roast with homemade bread dumplings",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-08-05",
+        "image": "/images/foodpics-mala-tofu.webp",
+        "title": "Spicy Mala Tofu with Udon noodles",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-08-04",
+        "image": "/images/foodpics-soy-chunks-red-lentils-hummus.webp",
+        "title": "Soy chunks with red lentils hummus, steamed vegetables and whole grain penne",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-08-03",
+        "image": "/images/foodpics-palak-tofu.webp",
+        "title": "Palak tofu with sticky rice",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-07-29",
+        "image": "/images/foodpics-pad-thai.webp",
+        "title": "Vegan pad thai",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-07-21",
+        "image": "/images/foodpics-crumb-cake.webp",
+        "title": "Sour dough crumb cake",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-07-20",
+        "image": "/images/foodpics-tempeh-with-zucchini.webp",
+        "title": "Curry tempeh with zucchini and millet (green, bean, grain)",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-07-20",
+        "image": "/images/foodpics-tofu-scramble.webp",
+        "title": "Spicy tofu scramble with yellow lentils, pepper and soy beans",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-07-17",
+        "image": "/images/foodpics-vegetables-shakshuka.webp",
+        "title": "Shakshuka with mixed vegetables and brown rice",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-07-06",
+        "image": "/images/foodpics-leek-chickpea-pan.webp",
+        "title": "Leek and chickpea stir-fry with sun-dried tomatoes and fusilli",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-06-30",
+        "image": "/images/foodpics-white-lemon-beans.webp",
+        "title": "White lemon beans with minced soy and leeks",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-06-27",
+        "image": "/images/foodpics-tomatoes-on-celery.webp",
+        "title": "Mediterranean oven-roasted tomatoes on celery purée",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-06-23",
+        "image": "/images/foodpics-tuscan-meatballs.webp",
+        "title": "Vegan Tuscan-style meatballs with Spätzle",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-06-14",
+        "image": "/images/foodpics-sage-ravioli.webp",
+        "title": "Ravioli stuffed with basil and ricotta, served in brown sage butter",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-06-09",
+        "image": "/images/foodpics-enfrijoladas.webp",
+        "title": "Enfrijoladas de champiñones with black bean mousse",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-06-06",
+        "image": "/images/foodpics-vegan-bolo-bianco.webp",
+        "title": "Vegan spaghetti bolo bianco",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-06-04",
+        "image": "/images/foodpics-moussaka.webp",
+        "title": "Lentil Moussaka",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-06-02",
+        "image": "/images/foodpics-zoodles.webp",
+        "title": "Zoodles with almond and mushroom sauce",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-05-30",
+        "image": "/images/foodpics-udon-curry.webp",
+        "title": "Udon curry with tofu kohlrabi leaves and roasted corn",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-05-29",
+        "image": "/images/foodpics-semolina-strawberry.webp",
+        "title": "Whole-grain spelt semolina with strawberries",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-05-28",
+        "image": "/images/foodpics-mini-asparagus-quiches.webp",
+        "title": "Mini-asparagus quiches with goat cheese",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-05-21",
+        "image": "/images/foodpics-mushroom-lentil-stew.webp",
+        "title": "Mushroom and lentils stew with Spätzle",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-05-05",
+        "image": "/images/foodpics-kala-chana.webp",
+        "title": "Kala chana (with black chickpeas) with Naan",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-05-05",
+        "image": "/images/foodpics-almond-rice-balls.webp",
+        "title": "Almond-rice balls on a bed of kohlrabi",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-04-30",
+        "image": "/images/foodpics-asparagus-casserole.webp",
+        "title": "Asparagus and zucchini casserole",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-04-24",
+        "image": "/images/foodpics-tempeh-with-quinoa.webp",
+        "title": "Sesame-garlic tempeh with brokkoli and Qunioa",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-04-21",
+        "image": "/images/foodpics-vegan-bolognese.webp",
+        "title": "Vegan tagliatelle á la Bolognese",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-04-19",
+        "image": "/images/foodpics-zucchini-on-semolina-porridge.webp",
+        "title": "Herb-flavored zucchini with peas on semolina porridge",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-04-17",
+        "image": "/images/foodpics-black-beans-with-potatoes.webp",
+        "title": "Black beans with fried potatoes, spinach, and an egg",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-04-11",
+        "image": "/images/foodpics-steamed-dumplings.webp",
+        "title": "Steamed dumplings with homemade vanilla sauce",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-04-05",
+        "image": "/images/foodpics-biga-pizza.webp",
+        "title": "Homemade Neapolitanian pizza with biga dough",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-04-03",
+        "image": "/images/foodpics-frikadellen.webp",
+        "title": "Veggie meatballs with bell pepper sauce and Spätzle",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-03-29",
+        "image": "/images/foodpics-ramen-napa-cabbage.webp",
+        "title": "Ramen with tofu, napa cabbage and an egg",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-03-28",
+        "image": "/images/foodpics-spicy-gochujang-tofu.webp",
+        "title": "Spicy gochujang tofu with napa cabbage and brown rice",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-03-28",
+        "image": "/images/foodpics-leftovers-quiche.webp",
+        "title": "Leftovers quiche",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-03-24",
+        "image": "/images/foodpics-vegan-mini-chocolate-cake.webp",
+        "title": "Vegan mini chocolate cake",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-03-23",
+        "image": "/images/foodpics-quiche-1.webp",
+        "title": "Raclette quiche with beets, peas, and smoked tofu",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-03-18",
+        "image": "/images/foodpics-crusty-tofu.webp",
+        "title": "Breaded tofu in a herb and Parmesan crust with red lentil pasta and zucchini",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-03-15",
+        "image": "/images/foodpics-tagliatelle-pesto.webp",
+        "title": "Homemade tagliatelle with ramson pesto",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-03-11",
+        "image": "/images/foodpics-chaos-bowl.webp",
+        "title": "Chaos Bowl with ramen noodles, tofu, red cabbage, spinach, chickpeas, carrots, and tahini dressing",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-03-08",
+        "image": "/images/foodpics-falafel-with-hummus-and-vegetables.webp",
+        "title": "Falafel with hummus and fried vegetables",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-03-07",
+        "image": "/images/foodpics-goat-cheese-malfatti.webp",
+        "title": "Goat cheese malfatti in tomato sauce",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-03-05",
+        "image": "/images/foodpics-spicy-tofu-scramble.webp",
+        "title": "Spicy tofu scramble",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-03-02",
+        "image": "/images/foodpics-spicy-khritaraki.webp",
+        "title": "Spicy khritaraki zoodles with baked cream cheese, pesto and cashew-sesame crunch",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-03-01",
+        "image": "/images/foodpics-handmade-ravioli.webp",
+        "title": "Hand-made ravioli with king oyster mushroom and ricotta filling",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-02-25",
+        "image": "/images/foodpics-beetroots-soup.webp",
+        "title": "Beetroot soup with semolina dumplings and lamb's lettuce",
+        "type": "veggie"
+    },
+    {
+        "date": "2026-02-24",
+        "image": "/images/foodpics-mie-noodles-tofu.webp",
+        "title": "Mie noodles with tofu and mixed vegetables in spicy coconut sauce",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-02-23",
+        "image": "/images/foodpics-tempeh-broccoli-rice.webp",
+        "title": "Air-fried lupin tempeh with coconut rice, broccoli and dip",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-02-22",
+        "image": "/images/foodpics-spaetzle-soy-mince-vegetables.webp",
+        "title": "Spätzle with soy mince and vegetables in cream sauce",
+        "type": "veggie"
+    }
+]

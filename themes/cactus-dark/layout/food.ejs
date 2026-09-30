@@ -1,0 +1,119 @@
+<article class="h-entry post" itemscope itemtype="http://schema.org/BlogPosting" vocab="http://schema.org/" typeof="BlogPosting">
+  <div class="content" itemprop="articleBody" property="articleBody">
+    <%- page.content %>
+
+    <% if (site.data.food) { %>
+      <section id="food-grid">
+        <% site.data.food.forEach(function (dish, i) { %>
+          <figure class="food-card">
+            <div class="food-card-frame">
+              <a href="<%- url_for(dish.image) %>" target="_blank" rel="noopener" title="View full size">
+                <img src="<%- url_for(dish.image) %>" alt="<%= dish.title %>" loading="lazy">
+              </a>
+            </div>
+            <figcaption class="food-card-caption">
+              <div class="food-card-title">
+                <span><%= dish.title %></span>
+                <span class="food-card-type" title="<%= dish.type %>"><%= dish.type === 'vegan' ? '🌱' : '🧀' %></span>
+              </div>
+              <% if (dish.date) { %>
+                <div class="food-card-date"><%= date(dish.date, 'MMM D, YYYY') %></div>
+              <% } %>
+              <% if (dish.description) { %>
+                <div class="food-card-desc">
+                  <input type="checkbox" id="food-desc-<%= i %>" class="food-desc-expander">
+                  <label class="food-desc-content" for="food-desc-<%= i %>"><%- markdown(dish.description) %></label>
+                </div>
+              <% } %>
+            </figcaption>
+          </figure>
+        <% }); %>
+      </section>
+
+      <style>
+        #food-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 24px;
+          margin-top: 32px;
+        }
+        #food-grid figure {
+          margin: 0;
+        }
+        #food-grid .food-card-frame {
+          aspect-ratio: 4 / 3;
+          overflow: hidden;
+          border-radius: 6px;
+        }
+        #food-grid .food-card-frame a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          cursor: zoom-in;
+        }
+        #food-grid .food-card-frame img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+          transition: transform 0.2s ease;
+        }
+        #food-grid .food-card-frame img:hover {
+          transform: scale(1.05);
+        }
+        #food-grid .food-card-title {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          gap: 8px;
+          margin-top: 10px;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 1.4;
+        }
+        #food-grid .food-card-type {
+          flex-shrink: 0;
+        }
+        #food-grid .food-card-date {
+          font-size: 12px;
+          opacity: 0.6;
+          margin-top: 2px;
+        }
+        #food-grid .food-card-desc {
+          font-size: 12px;
+          margin-top: 8px;
+          opacity: 0.85;
+        }
+        #food-grid .food-desc-expander {
+          display: none;
+        }
+        #food-grid .food-desc-content {
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          line-height: 1.5;
+          cursor: pointer;
+        }
+        #food-grid .food-desc-expander:checked + .food-desc-content {
+          display: block;
+          overflow: visible;
+        }
+        #food-grid .food-card-desc ul {
+          margin: 4px 0;
+          padding-left: 18px;
+        }
+        @media (max-width: 900px) {
+          #food-grid {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+        @media (max-width: 600px) {
+          #food-grid {
+            grid-template-columns: 1fr;
+          }
+        }
+      </style>
+    <% } %>
+  </div>
+</article>
