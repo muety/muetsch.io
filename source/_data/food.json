@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-10-04",
+        "image": "/images/foodpics-cauliflower-pumpkin-hummus.webp",
+        "title": "Baked cauliflower on pumpkin hummus",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-10-03",
+        "image": "/images/foodpics-apple-strudel.webp",
+        "title": "Vegan apple strudel",
+        "type": "vegan"
+    },
+    {
         "date": "2026-09-29",
         "image": "/images/foodpics-miso-ramen.webp",
         "title": "Miso Ramen",
