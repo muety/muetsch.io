@@ -1,5 +1,11 @@
 [
     {
+        "date": "2026-10-12",
+        "image": "/images/foodpics-lentils-moussaka.webp",
+        "title": "Lentils Moussaka",
+        "type": "veggie"
+    },
+    {
         "date": "2026-10-09",
         "image": "/images/potato-roesti-with-mushrooms.webp",
         "title": "Rösti with creamy champignon sauce",
