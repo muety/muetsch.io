@@ -1,12 +1,18 @@
 [
     {
         "date": "2026-10-13",
+        "image": "/images/foodpics-fleischkaese-rice.webp",
+        "title": "Vegan \"Fleischkäse\" and rice stir-fry with black beans and peas",
+        "type": "vegan"
+    },
+    {
+        "date": "2026-10-12",
         "image": "/images/foodpics-gnocchi-in-walnut-sage-sauce.webp",
         "title": "Gnocchi in walnut and sage sauce",
         "type": "vegan"
     },
     {
-        "date": "2026-10-12",
+        "date": "2026-10-11",
         "image": "/images/foodpics-lentils-moussaka.webp",
         "title": "Lentils Moussaka",
         "type": "veggie"
