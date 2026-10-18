@@ -1,5 +1,11 @@
 [
     {
+        "date": "2026-10-15",
+        "image": "/images/foodpics-roasted-pumpkin.webp",
+        "title": "Roasted pumpkin with beets and goat-milk Camembert",
+        "type": "veggie"
+    },
+    {
         "date": "2026-10-13",
         "image": "/images/foodpics-fleischkaese-rice.webp",
         "title": "Vegan \"Fleischkäse\" and rice stir-fry with black beans and peas",
