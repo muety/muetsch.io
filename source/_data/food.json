@@ -1,5 +1,11 @@
 [
     {
+        "date": "2026-10-25",
+        "image": "/images/foodpics-apple-cinnamon-focaccia.webp",
+        "title": "Apple cinnamon foccacia with sourdough",
+        "type": "vegan"
+    },
+    {
         "date": "2026-10-21",
         "image": "/images/foodpics-lentil-stew.webp",
         "title": "Lentil stew with vegan saussages and tempeh (leftovers)",
