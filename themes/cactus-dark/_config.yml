@@ -77,5 +77,5 @@ miscellaneous:
         google_plus:
 
 cusdis:
-    host: https://cusdis.muetsch.io
-    app_id: 9214cf84-1074-447a-89b8-3297964fb652
+    host:
+    app_id:
