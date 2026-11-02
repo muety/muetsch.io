@@ -56,7 +56,7 @@ mysqlsh -uwakapi_user -p --js -e "util.dumpSchemas(['wakapi'], '/backup/wakapi.d
 
 # restore database
 mysql -u wakapi_user -p -e "set global local_infile = 'on';"  # see https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_local_infile
-mysqlsh -uwakapi_user -p --js -e "util.loadDump('/backup/wakapi.dump', {schema: 'wakapi', threads: 8, resetProgress: true, skipBinlog: true, deferTableIndexes: 'all'}"
+mysqlsh -uwakapi_user -p --js -e "util.loadDump('/backup/wakapi.dump', {schema: 'wakapi', threads: 8, resetProgress: true, skipBinlog: true, deferTableIndexes: 'all'})"
 ```
 
 The `skipBinlog` parameter prevents the target MySQL server from writing [binary logs](https://dev.mysql.com/doc/refman/8.4/en/binary-log.html) for all queries (which would pointlessly "duplicate" all data already included in the dump once again) and `deferTableIndexes` instruct the server to not update table indexes "line by line", but in a batch-wise fashion _after_ the import itself had run.
