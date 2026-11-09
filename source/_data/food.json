@@ -1,5 +1,11 @@
 [
     {
+        "date": "2026-11-08",
+        "image": "/images/foodpics-manchurian.webp",
+        "title": "Indian Manchurian in spciy sauce with bulgur",
+        "type": "vegan"
+    },
+    {
         "date": "2026-11-07",
         "image": "/images/foodpics-kässpätzle.webp",
         "title": "Kässpätzle with lamb's lettuce",
