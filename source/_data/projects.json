@@ -1,5 +1,10 @@
 [
     {
+        "name": "🎙️ DiktiererAI",
+        "url": "https://diktiererai.de",
+        "desc": "Automatic transcriptions of proprietary dictaphone recordings to Markdown, PDF or Word"
+    },
+    {
         "name": "⛺️ Server.Camp",
         "url": "https://server.camp",
         "desc": "Friendly SaaS hosting of popular open-source software tools for startups and small companies, built by developers."
