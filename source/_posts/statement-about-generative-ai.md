@@ -6,6 +6,22 @@ tags: [ai, machine-learning]
 
 ---
 
+## Update 2026-11-09
+This recently published article – [The future of Software Engineering is boring](https://packagemain.tech/p/the-future-of-software-engineering) – really speaks to me in every single way. It's exactly what I was thinking and how I'm feeling as a developer. 
+
+Coding used to be about really trying to wrap your head around some problem, reading documentation, searching the web for potential solutions (and learning a lot of remotely related stuff on the way) and diving so deep into the code that you'd know it like the back of your hand. Sometimes, reading a book was the only way to figure out how to solve a specific problem. _"You had a database scaling challenge? Go and read the Designing Data-Intensive Applications by Martin Kleppmann."_ (great book btw.!)
+
+* **Before:** Problem → Research / Reading / Brain → Solution
+* **Now:** Problem → Solution
+
+> [...] there were only a handful of us who would truly understand how to write good and performant programs. That’s why it felt prestigious."
+
+Today, everyone can generate code by prompting an LLM and – to be fair - often times it's arguably even better. I agree with the author of that article to say that, in a way, the programmer profession has ended.
+
+I don't want to be so pessimistic and negative. Of course, AI-coding comes with amazing new opportunities (like the chance of ever finishing my endlessly long list of potential coding side projects growing a little bit higher now). But still, I've somewhat lost joy in building software as a "hobby".
+
+---
+
 ## Update 2026-03-09
 **I've changed my mind.** At least for the coding part. I came to the realization the software engineering will inevitably change and ignoring this fact wouldn't probably be the smartest move. As AI-assisted coding and – especially – the tooling around it is evolving, I can quite clearly see where things are moving towards now. 
 

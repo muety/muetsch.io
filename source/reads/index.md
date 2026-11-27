@@ -21,6 +21,11 @@ In my opinion, another must-have for every software engineer and probably one of
 
 **Topics:** Software design.
 
+### [The future of Software Engineering is boring](https://packagemain.tech/p/the-future-of-software-engineering)
+This article perfectly describes what I've been thinking recently and how I'm feeling as a developer (one of that kind who found less satisfaction in the actual result than in the process of building it) in the era of vibe coding. Read more about my take on this in my [Statement about generative AI](statement-about-generative-ai.html).
+
+**Topics:** Software, AI.
+
 ### [Working in Public – Nadia Eghbal](https://books.google.de/books/about/Working_in_Public.html?id=zxjBEAAAQBAJ&redir_esc=y)
 This book is a great deep dive into the world of open source software. It covers everything from the history of open source (from the early "free software" movement at Berkely to a "sharing is the default" culture nowadays), its economical meaning, the intrinsic motivation of contributors and maintainers, different organizational concepts and styles behind big projects to philosophical aspects like increasing inequalities between the value provided by FOSS and the financial funding it receives. On the one hand, the author does great at printing the "bigger picture", while, on the other hand, some parts of the book go super technical. What I particularly liked are the many very specific, in-depth examples from various well-known projects (including Linux, Rust, Node.js, Webpack, the npm ecosystem, ...).
 
@@ -32,6 +37,7 @@ Not a book, but: Stephan Schmidt - the interviewee in this podcast episode - mad
 **Topics:** Tech culture.
 
 ### More (unordered, non-comprehensive)
+* [Protecting our FLOSS commons from LLMs](https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html)
 * [The Maintainer's Dilemma](https://spf13.com/p/the-maintainers-dilemma/)
 * [AI 2027](https://ai-2027.com/)
 * [Why Self-host?](https://romanzipp.com/blog/why-a-homelab-why-self-host)
